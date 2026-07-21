@@ -1,65 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Products | MATNEO</title>
-
-<meta name="description" content="Browse digital products from MATNEO.">
-
-<link rel="stylesheet" href="../css/style.css">
-
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse MATNEO digital planners, AI resources and practical templates.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0d1b2a">
+  <title>Products | MATNEO</title>
+  <link rel="icon" href="../favcon.ico" sizes="any">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
-
-<header>
-
-<div class="logo">
-<a href="../index.html">MATNEO</a>
-</div>
-
-<nav>
-
-<a href="../index.html">Home</a>
-<a href="index.html">Products</a>
-<a href="../blog/">Blog</a>
-<a href="../downloads/">Free</a>
-<a href="#">About</a>
-
-</nav>
-
-</header>
-
-<main>
-
-<section>
-
-<h1>Products</h1>
-
-<p>
-Browse our growing collection of digital products.
-</p>
-
-<div id="product-list"></div>
-
-</section>
-
-</main>
-
-<footer>
-
-<p>© 2026 MATNEO</p>
-
-</footer>
-
-<script src="../js/products.js"></script>
-
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <a class="logo" href="../index.html" aria-label="MATNEO home"><img src="../Images/logo2.png" alt="MATNEO" class="site-logo" width="147" height="32"></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="menu-toggle__label">Menu</span></button>
+    <nav id="primary-navigation" aria-label="Primary navigation">
+      <a href="../index.html">Home</a><a href="index.html" aria-current="page">Products</a><a href="../blog/">Blog</a><a href="../downloads/">Free resources</a><a href="../index.html#about">About</a>
+    </nav>
+  </header>
+  <main id="main-content"><section aria-labelledby="products-title"><p class="eyebrow">MATNEO collection</p><h1 id="products-title">Products</h1><p class="intro">Browse our growing collection of practical digital products.</p><div id="product-list" class="product-grid" aria-live="polite"></div></section></main>
+  <footer><p>&copy; <span data-current-year>2026</span> MATNEO</p></footer>
+  <script src="../js/products.js" defer></script>
 </body>
-
 </html>
