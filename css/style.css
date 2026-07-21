@@ -1,4 +1,4 @@
-:root { --primary:#0d1b2a; --primary-light:#18324b; --accent:#078b7a; --accent-dark:#056b5e; --background:#fff; --surface:#f4f7fa; --text:#263544; --muted:#536374; --border:#dbe4ec; --radius:12px; --container:1100px; --transition:180ms ease; --shadow:0 8px 24px rgb(13 27 42 / 8%); --font:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+:root { --primary:#0d1b2a; --primary-light:#18324b; --header:#344a59; --header-border:#4a6475; --accent:#078b7a; --accent-dark:#056b5e; --background:#fff; --surface:#f4f7fa; --text:#263544; --muted:#536374; --border:#dbe4ec; --radius:12px; --container:1100px; --transition:180ms ease; --shadow:0 8px 24px rgb(13 27 42 / 8%); --font:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { min-width:320px; margin:0; font-family:var(--font); background:var(--surface); color:var(--text); line-height:1.6; }
@@ -7,7 +7,7 @@ a { color:inherit; }
 a:focus-visible, button:focus-visible { outline:3px solid #f5b700; outline-offset:3px; }
 .skip-link { position:fixed; top:0; left:1rem; z-index:2000; padding:.6rem 1rem; background:#fff; color:var(--primary); transform:translateY(-120%); transition:transform var(--transition); }
 .skip-link:focus { transform:translateY(0); }
-.site-header { display:flex; align-items:center; justify-content:space-between; gap:1rem; min-height:68px; padding:12px clamp(1rem,4vw,2.25rem); background:var(--primary); border-bottom:1px solid var(--primary-light); position:sticky; top:0; z-index:1000; box-shadow:0 2px 12px rgb(13 27 42 / 18%); }
+.site-header { display:flex; align-items:center; justify-content:space-between; gap:1rem; min-height:68px; padding:12px clamp(1rem,4vw,2.25rem); background:var(--header); border-bottom:1px solid var(--header-border); position:sticky; top:0; z-index:1000; box-shadow:0 2px 12px rgb(13 27 42 / 18%); }
 .logo { display:inline-flex; flex-shrink:0; align-items:center; border-radius:4px; }
 .site-logo { display:block; width:auto; height:32px; }
 nav { display:flex; align-items:center; gap:clamp(.75rem,2.5vw,1.5rem); }

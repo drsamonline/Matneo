@@ -1,20 +1,5 @@
 [
-  {
-    "title": "Ultimate Daily Planner",
-    "category": "Printables",
-    "price": "₹199",
-    "link": "#"
-  },
-  {
-    "title": "AI Prompt Pack",
-    "category": "AI Resources",
-    "price": "₹299",
-    "link": "#"
-  },
-  {
-    "title": "Business Template Bundle",
-    "category": "Templates",
-    "price": "₹499",
-    "link": "#"
-  }
+  { "title": "Ultimate Daily Planner", "category": "Printables", "price": "\u20b9199", "link": "#" },
+  { "title": "AI Prompt Pack", "category": "AI Resources", "price": "\u20b9299", "link": "#" },
+  { "title": "Business Template Bundle", "category": "Templates", "price": "\u20b9499", "link": "#" }
 ]
