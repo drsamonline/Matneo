@@ -155,3 +155,14 @@ grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
 margin-top:30px;
 }
+
+.site-logo{
+    height:52px;
+    width:auto;
+    display:block;
+    transition:.3s;
+}
+
+.site-logo:hover{
+    transform:scale(1.03);
+}
