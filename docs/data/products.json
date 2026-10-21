@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ultimate-daily-planner",
+    "title": "Ultimate Daily Planner",
+    "category": "Printables",
+    "price": "₹199",
+    "link": "#",
+    "badge": "Bestseller",
+    "tagline": "Plan every day with clarity and focus.",
+    "description": "A printable daily planner that helps you map out your day, set clear priorities and keep your habits on track. Print it, fill it in, and start each day with a plan.",
+    "features": [
+      "Daily schedule, priorities and to-do sections",
+      "Habit and water trackers",
+      "Print at home — A4 and US Letter friendly"
+    ],
+    "tags": [
+      "Planner",
+      "Printable",
+      "Productivity"
+    ]
+  },
+  {
+    "id": "ai-prompt-pack",
+    "title": "AI Prompt Pack",
+    "category": "AI Resources",
+    "price": "₹299",
+    "link": "#",
+    "badge": "New",
+    "tagline": "Ready-to-use prompts for everyday work.",
+    "description": "A curated pack of AI prompts to help you write, plan, summarise and organise your work faster. Copy a prompt, drop in your context and go.",
+    "features": [
+      "Organised prompt categories for work and life",
+      "Copy-and-paste ready, works with popular AI tools",
+      "Includes workflow tips to get better results"
+    ],
+    "tags": [
+      "AI",
+      "Prompts",
+      "Workflow"
+    ]
+  },
+  {
+    "id": "business-template-bundle",
+    "title": "Business Template Bundle",
+    "category": "Templates",
+    "price": "₹499",
+    "link": "#",
+    "badge": "Bundle",
+    "tagline": "Professional documents, ready to use.",
+    "description": "A bundle of professional business templates — documents and resources you can drop straight into your workflow and adapt to your brand.",
+    "features": [
+      "Multiple editable business documents",
+      "Consistent, professional layout",
+      "Ready to customise for your own brand"
+    ],
+    "tags": [
+      "Templates",
+      "Business",
+      "Documents"
+    ]
+  }
+]

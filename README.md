@@ -4,7 +4,7 @@
 Practical planners, templates, AI resources and offline browser-based tools for better work and life.</p>
 
 <p align="center">
-  <a href="https://drsamonline.github.io/Matneo/"><img src="https://img.shields.io/website" alt="Landing page"></a>
+  <a href="https://drsamonline.github.io/Matneo/"><img src="https://img.shields.io/website" alt="Live shop"></a>
   <a href="https://github.com/drsamonline/Matneo/stargazers"><img src="https://img.shields.io/github/stars/drsamonline/Matneo" alt="Stars"></a>
   <a href="https://github.com/drsamonline/Matneo/commits/main"><img src="https://img.shields.io/github/last-commit/drsamonline/Matneo" alt="Last commit"></a>
   <a href="https://github.com/drsamonline/Matneo/issues"><img src="https://img.shields.io/github/issues/drsamonline/Matneo" alt="Issues"></a>
@@ -12,8 +12,8 @@ Practical planners, templates, AI resources and offline browser-based tools for 
 </p>
 
 <p align="center">
-  🌐 <b>Landing page:</b> <a href="https://drsamonline.github.io/Matneo/">drsamonline.github.io/Matneo</a>
-  &nbsp;·&nbsp; ▶️ <b>Live demo:</b> <a href="https://drsamonline.github.io/Matneo/play/">/Matneo/play/</a>
+  🛍️ <b>Live shop:</b> <a href="https://drsamonline.github.io/Matneo/">drsamonline.github.io/Matneo</a>
+  &nbsp;·&nbsp; 🧾 <b>Products:</b> <a href="https://drsamonline.github.io/Matneo/products/">/Matneo/products/</a>
   &nbsp;·&nbsp; 📦 <b>Source:</b> <a href="https://github.com/drsamonline/Matneo">github.com/drsamonline/Matneo</a>
 </p>
 
@@ -22,3 +22,5 @@ Practical planners, templates, AI resources and offline browser-based tools for 
 ---
 
 AI-powered digital products and automation platform.
+
+The whole site is the shop — a static storefront (plain HTML, CSS and JavaScript, no build step) served from <code>docs/</code> via GitHub Pages. Browse products, open a product page, read the blog and grab free resources. The catalogue is driven by a single data file, <code>docs/data/products.json</code>, so new products are added by editing that file.

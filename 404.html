@@ -1,5 +1,53 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Page not found | MATNEO</title><link rel="icon" href="favcon.ico" sizes="any"><link rel="stylesheet" href="css/style.css"></head>
-<body><main id="main-content"><section id="hero" aria-labelledby="not-found-title"><p class="eyebrow">Error 404</p><h1 id="not-found-title">This page could not be found</h1><p>It may have moved, or the address may be incorrect.</p><a class="btn" href="index.html">Return home</a></section></main><footer><p>&copy; <span data-current-year>2026</span> MATNEO</p></footer><script src="js/app.js" defer></script></body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, follow">
+<title>Page not found — MATNEO</title>
+<meta name="theme-color" content="#7c3aed">
+<link rel="icon" href="/Matneo/assets/favicon.svg" type="image/svg+xml">
+<style>
+  :root{--violet:#7c3aed;--blue:#2563eb;--grad:linear-gradient(135deg,#7c3aed,#2563eb);--ink:#0f172a;--muted:#5a6b85;
+    --font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;padding:2rem;font-family:var(--font);color:var(--ink);
+    background:#fbfbff;
+    background-image:radial-gradient(55rem 38rem at 10% -10%,rgba(124,58,237,.16),transparent 60%),
+      radial-gradient(48rem 36rem at 100% 0%,rgba(37,99,235,.14),transparent 58%)}
+  .card{max-width:560px;width:100%;text-align:center;padding:clamp(2rem,5vw,3.2rem);border-radius:22px;
+    background:rgba(255,255,255,.72);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+    border:1px solid rgba(255,255,255,.75);box-shadow:0 24px 60px -20px rgba(76,29,149,.32)}
+  .mark{width:64px;height:64px;margin:0 auto 1.2rem;display:block}
+  .code{font-size:.8rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
+    background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  h1{margin:.6rem 0 0;font-size:clamp(1.7rem,5vw,2.4rem);letter-spacing:-.02em}
+  p{color:var(--muted);margin:1rem 0 1.8rem}
+  .actions{display:flex;flex-wrap:wrap;gap:.8rem;justify-content:center}
+  a.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.8rem 1.3rem;border-radius:14px;font-weight:700;
+    text-decoration:none;transition:transform .18s ease}
+  a.primary{background:var(--grad);color:#fff;box-shadow:0 18px 36px -16px rgba(124,58,237,.85)}
+  a.primary:hover{transform:translateY(-2px)}
+  a.ghost{background:rgba(255,255,255,.7);color:var(--ink);border:1px solid rgba(124,58,237,.16)}
+  a.ghost:hover{transform:translateY(-2px)}
+  @media (prefers-reduced-motion:reduce){a.btn{transition:none}}
+</style>
+</head>
+<body>
+  <main class="card">
+    <svg class="mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+      <defs><linearGradient id="g" x1="0" y1="0" x2="48" y2="48"><stop stop-color="#7c3aed"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
+      <rect x="2" y="2" width="44" height="44" rx="13" fill="url(#g)"/>
+      <circle cx="16" cy="18" r="3" fill="#fff"/><circle cx="32" cy="16" r="2.4" fill="#fff" opacity=".85"/>
+      <circle cx="24" cy="31" r="3.2" fill="#fff"/><path d="M16 18 24 31M32 16 24 31M16 18 32 16" stroke="#fff" stroke-width="1.6" opacity=".8"/>
+    </svg>
+    <p class="code">Error 404</p>
+    <h1>This page could not be found</h1>
+    <p>The page may have moved, or the address may be incorrect. Let's get you back on track.</p>
+    <div class="actions">
+      <a class="btn primary" href="/Matneo/">Go to the shop</a>
+      <a class="btn ghost" href="/Matneo/products/">Browse products</a>
+    </div>
+  </main>
+</body>
 </html>
