@@ -21,5 +21,4 @@ Practical planners, templates, AI resources and offline browser-based tools for 
 
 ---
 
-# Matneo
 AI-powered digital products and automation platform.
