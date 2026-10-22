@@ -105,6 +105,21 @@ window.MATNEO = (function () {
     foot.append(price, cta);
 
     body.appendChild(foot);
+
+    // A rating on EVERY card (aggregate + your own), via the shared ratings module.
+    var ratingRow = document.createElement('div');
+    ratingRow.className = 'product-card__rating';
+    if (window.MATNEO_RATINGS && window.MATNEO_RATINGS.mount) {
+      window.MATNEO_RATINGS.mount(ratingRow, product);
+    } else {
+      var agg = product.rating || {};
+      var avg = document.createElement('span');
+      avg.className = 'rating__avg';
+      avg.textContent = agg.count ? (agg.avg + '/5 from ' + agg.count) : 'Not rated yet';
+      ratingRow.appendChild(avg);
+    }
+    body.appendChild(ratingRow);
+
     card.append(thumb, body);
     return card;
   }
