@@ -1,6 +1,7 @@
 /* MATNEO — catalogue controller
    Powers two pages from the same data file:
-     - products/index.html  (the full product listing + category filter)
+     - products/index.html  (paid products; body[data-scope="paid"])
+     - free/index.html      (free & open-source; body[data-scope="free"])
      - product.html?id=...  (a single product detail page)
    Everything is driven by data/products.json, so new products are added
    by editing that one file. */
@@ -72,7 +73,9 @@
         var price = document.createElement('strong');
         price.textContent = product.price || 'Coming soon';
         var priceNote = document.createElement('span');
-        priceNote.textContent = 'one-time · instant digital delivery';
+        priceNote.textContent = product.type === 'open-source'
+          ? 'free · open source · direct download'
+          : 'one-time · instant digital delivery';
         priceRow.append(price, priceNote);
         info.appendChild(priceRow);
 
@@ -85,15 +88,41 @@
 
         var actions = document.createElement('div');
         actions.className = 'pd__actions';
-        var buy = document.createElement('a');
-        buy.className = 'btn btn--primary';
-        buy.href = (product.link && product.link !== '#') ? product.link : '#';
-        buy.textContent = 'Get this product';
+
+        var buyLinks = (product.buyLinks || []).filter(function (l) { return l && l.url; });
+        if (buyLinks.length) {
+          buyLinks.forEach(function (l) {
+            var a = document.createElement('a');
+            a.className = 'btn btn--primary';
+            a.href = l.url;
+            a.target = '_blank';
+            a.rel = 'noopener';
+            a.textContent = 'Buy on ' + (l.store || 'store');
+            actions.appendChild(a);
+          });
+        } else {
+          var buy = document.createElement('a');
+          buy.className = 'btn btn--primary';
+          buy.href = (product.link && product.link !== '#') ? product.link : '#';
+          buy.textContent = product.type === 'open-source' ? 'Open the app' : 'Get this product';
+          actions.appendChild(buy);
+        }
+
+        if (product.sourceRepo) {
+          var src = document.createElement('a');
+          src.className = 'btn btn--ghost';
+          src.href = 'https://github.com/' + product.sourceRepo;
+          src.target = '_blank';
+          src.rel = 'noopener';
+          src.textContent = 'View source';
+          actions.appendChild(src);
+        }
+
         var back = document.createElement('a');
         back.className = 'btn btn--ghost';
-        back.href = 'products/';
-        back.textContent = 'Browse all products';
-        actions.append(buy, back);
+        back.href = product.type === 'open-source' ? 'free/' : 'products/';
+        back.textContent = product.type === 'open-source' ? 'All free apps' : 'Browse all products';
+        actions.appendChild(back);
         info.appendChild(actions);
 
         if (product.features && product.features.length) {
@@ -122,9 +151,15 @@
           info.appendChild(tags);
         }
 
+        if (window.MATNEO_RATINGS) {
+          window.MATNEO_RATINGS.mount(info, product);
+        }
+
         var note = document.createElement('p');
         note.className = 'pd__note';
-        note.textContent = 'This is a digital product. You get access as soon as your order is confirmed.';
+        note.textContent = product.type === 'open-source'
+          ? 'Free and open source. Runs offline — no accounts, no telemetry.'
+          : 'This is a digital product. You get access as soon as your order is confirmed.';
         info.appendChild(note);
 
         detail.replaceChildren(gallery, info);
@@ -151,8 +186,16 @@
     return;
   }
 
-  /* ---------------- Product listing page ---------------- */
+  /* ---------------- Listing pages (paid + free) ---------------- */
   if (!listing) return;
+
+  var scope = document.body.getAttribute('data-scope') || 'all';
+  function inScope(p) {
+    if (scope === 'all') return true;
+    if (scope === 'free') return p.type === 'open-source';
+    if (scope === 'paid') return p.type !== 'open-source';
+    return true;
+  }
 
   var filterWrap = document.getElementById('category-filter');
   var countEl = document.getElementById('result-count');
@@ -162,14 +205,14 @@
   function render() {
     var items = active === 'All' ? all : all.filter(function (p) { return p.category === active; });
     if (!items.length) {
-      listing.innerHTML = '<p class="product-status">No products in this category yet. Check back soon.</p>';
+      listing.innerHTML = '<p class="product-status">Nothing in this category yet. Check back soon.</p>';
     } else {
       listing.replaceChildren.apply(listing, items.map(function (p) {
         return M.productCard(p, '../product.html');
       }));
     }
     if (countEl) {
-      countEl.textContent = items.length === 1 ? '1 product' : items.length + ' products';
+      countEl.textContent = items.length === 1 ? '1 item' : items.length + ' items';
     }
     if (filterWrap) {
       filterWrap.querySelectorAll('button').forEach(function (b) {
@@ -183,10 +226,10 @@
 
   M.fetchProducts('../data/products.json')
     .then(function (products) {
-      all = products;
+      all = products.filter(inScope);
       if (filterWrap) {
         var cats = ['All'];
-        products.forEach(function (p) {
+        all.forEach(function (p) {
           if (p.category && cats.indexOf(p.category) === -1) cats.push(p.category);
         });
         cats.forEach(function (c) {

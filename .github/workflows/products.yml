@@ -1,0 +1,44 @@
+# Validate the Matneo catalogue on every change.
+#
+# Checks that data/products.json is well-formed, that every product has a unique
+# id and the required fields, and that each product is typed paid or open-source.
+# The Forge agent regenerates the open-source catalogue from the registry and
+# appends ratings; this workflow guards the result.
+name: products
+on:
+  push:
+    paths:
+      - "docs/data/products.json"
+      - "data/products.json"
+      - ".github/workflows/products.yml"
+  workflow_dispatch: {}
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate data/products.json
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          path = "docs/data/products.json"
+          data = json.load(open(path, encoding="utf-8"))
+          assert isinstance(data, list), "catalogue must be a JSON array"
+          ids, problems = set(), []
+          for p in data:
+              pid = p.get("id")
+              if not pid: problems.append(f"product without id: {p.get('title')}")
+              elif pid in ids: problems.append(f"duplicate id: {pid}")
+              ids.add(pid)
+              if not p.get("title"): problems.append(f"{pid}: missing title")
+              if p.get("type") not in ("paid", "open-source"):
+                  problems.append(f"{pid}: type must be 'paid' or 'open-source'")
+              for l in (p.get("buyLinks") or []):
+                  if not l.get("url"): problems.append(f"{pid}: buyLink without url")
+          print(f"products: {len(data)} | paid: {sum(1 for p in data if p.get('type')=='paid')} | open-source: {sum(1 for p in data if p.get('type')=='open-source')}")
+          if problems:
+              print("PROBLEMS:")
+              for x in problems: print(" -", x)
+              sys.exit(1)
+          print("catalogue OK")
+          PY
