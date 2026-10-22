@@ -1,0 +1,39 @@
+# Refresh the blog from the repo list.
+#
+# Writes docs/data/posts.json (one post per recently updated app) so the blog
+# posts new and updated apps automatically - with a link and an image. No PAT.
+
+name: Refresh blog posts
+
+on:
+  schedule:
+    - cron: "12 4 * * *"   # daily, 04:12 UTC
+  push:
+    branches: [ main ]
+    paths: [ build_posts.py ]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-blog
+  cancel-in-progress: true
+
+jobs:
+  posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Regenerate posts.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 build_posts.py
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then echo "no change"; exit 0; fi
+          git config user.name  "forge-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/data/posts.json
+          git commit -m "chore: refresh blog posts [skip ci]"
+          git push

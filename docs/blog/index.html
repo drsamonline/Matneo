@@ -64,27 +64,11 @@
     <section style="padding-top:1.6rem" aria-labelledby="blog-title">
       <span class="eyebrow">MATNEO journal</span>
       <h1 id="blog-title" style="font-size:clamp(1.9rem,4vw,2.8rem)">Blog</h1>
-      <p class="section__lead">Practical ideas, product updates and focused workflows. New articles are on the way — here is a taste of what is coming.</p>
+      <p class="section__lead">Product updates from the workshop — new and updated apps, as they ship.</p>
 
-      <div class="grid-3">
-        <article class="article-card reveal">
-          <span class="meta">Planners · Coming soon</span>
-          <h3>Building a daily planning habit that sticks</h3>
-          <p>A simple, repeatable routine for planning your day without overcomplicating it.</p>
-        </article>
-        <article class="article-card reveal">
-          <span class="meta">AI Resources · Coming soon</span>
-          <h3>Getting better output from AI prompts</h3>
-          <p>How to frame a prompt so you spend less time editing and more time finishing.</p>
-        </article>
-        <article class="article-card reveal">
-          <span class="meta">Templates · Coming soon</span>
-          <h3>Turning templates into your own system</h3>
-          <p>Adapting ready-made documents so they fit how you actually work.</p>
-        </article>
-      </div>
+      <div class="grid-3" id="post-list" aria-live="polite"></div>
 
-      <div class="product-status" style="margin-top:2rem">Articles are being prepared. <a class="text-link" href="../products/">Browse the shop</a> in the meantime.</div>
+      <div class="product-status" id="post-empty" style="margin-top:2rem" hidden>Posts are being prepared. <a class="text-link" href="../products/">Browse the shop</a> in the meantime.</div>
     </section>
   </div>
 </main>
@@ -134,5 +118,39 @@
 </footer>
 
 <script src="../js/store.js" defer></script>
+<script>
+/* Render posts from ../data/posts.json — refreshed by the blog workflow, so new
+   and updated apps appear automatically, each with a link and an image. */
+(function () {
+  var list = document.getElementById('post-list');
+  var empty = document.getElementById('post-empty');
+  if (!list) return;
+  fetch('../data/posts.json', { cache: 'no-cache' })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var posts = (data && data.posts) || [];
+      if (!posts.length) { if (empty) empty.hidden = false; return; }
+      posts.forEach(function (p) {
+        var a = document.createElement('a');
+        a.href = p.url || p.source || '#';
+        a.className = 'article-card reveal';
+        a.style.cssText = 'display:block;text-decoration:none;color:inherit';
+        var img = document.createElement('img');
+        img.src = p.image; img.alt = p.repo || p.title || '';
+        img.loading = 'lazy';
+        img.style.cssText = 'width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-bottom:10px;background:#eee';
+        img.onerror = function () { img.remove(); };
+        var meta = document.createElement('span'); meta.className = 'meta';
+        meta.textContent = (p.category || 'App update') + ' · ' + (p.date || '');
+        var h = document.createElement('h3'); h.textContent = p.title || p.repo;
+        var d = document.createElement('p'); d.textContent = p.summary || '';
+        a.appendChild(img); a.appendChild(meta); a.appendChild(h); a.appendChild(d);
+        list.appendChild(a);
+      });
+      if (window.MATNEO && window.MATNEO.initReveal) window.MATNEO.initReveal();
+    })
+    .catch(function () { if (empty) empty.hidden = false; });
+})();
+</script>
 </body>
 </html>

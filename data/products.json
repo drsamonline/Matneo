@@ -460,29 +460,6 @@
     "featured": false
   },
   {
-    "id": "matneo",
-    "title": "Matneo",
-    "category": "HTML Apps",
-    "type": "open-source",
-    "price": "Free",
-    "link": "https://drsamonline.github.io/Matneo/",
-    "landingPage": "https://drsamonline.github.io/Matneo/",
-    "image": "https://drsamonline.github.io/assets/shots/Matneo.webp",
-    "sourceRepo": "drsamonline/Matneo",
-    "license": "MIT",
-    "tagline": "AI-powered digital products and automation platform.",
-    "description": "AI-powered digital products and automation platform.",
-    "tags": [
-      "HTML Apps"
-    ],
-    "buyLinks": [],
-    "rating": {
-      "avg": 0,
-      "count": 0
-    },
-    "featured": false
-  },
-  {
     "id": "mnemosyne-companion",
     "title": "mnemosyne-companion",
     "category": "Homeopathy",
