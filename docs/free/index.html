@@ -97,9 +97,10 @@
   </div>
 </footer>
 
-<script src="../js/store.js" defer></script>
-<script src="../js/ratings.js" defer></script>
-<script defer>
+<!-- no defer: these must execute in order (defer is ignored on the inline script, which would run before store.js and find no MATNEO) -->
+<script src="../js/store.js"></script>
+<script src="../js/ratings.js"></script>
+<script>
 /* Free & open-source catalogue: direct landing links + inline ratings. */
 (function () {
   var M = window.MATNEO, R = window.MATNEO_RATINGS;
