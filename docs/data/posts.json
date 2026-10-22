@@ -1,6 +1,105 @@
 {
-  "generated": "2026-10-22",
+  "generated": "2026-10-23",
   "posts": [
+    {
+      "title": "One app, two optical transports \u2014 send a file with light over QR or a colour matrix.",
+      "repo": "helioprism",
+      "category": "App update",
+      "date": "2026-10-22",
+      "summary": "One app, two optical transports \u2014 send a file with light over QR or a colour matrix. Offline, no network.",
+      "url": "https://drsamonline.github.io/helioprism/",
+      "source": "https://github.com/drsamonline/helioprism",
+      "image": "https://drsamonline.github.io/assets/shots/helioprism.webp",
+      "kind": "update"
+    },
+    {
+      "title": "BlinkCode AI \u2014 single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
+      "repo": "blinkcode-ai",
+      "category": "App update",
+      "date": "2026-10-22",
+      "summary": "BlinkCode AI \u2014 single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
+      "url": "https://drsamonline.github.io/blinkcode-ai/",
+      "source": "https://github.com/drsamonline/blinkcode-ai",
+      "image": "https://drsamonline.github.io/assets/shots/blinkcode-ai.webp",
+      "kind": "update"
+    },
+    {
+      "title": "DATA TRANSFER IN BLINK OF EYE",
+      "repo": "BLINKTRANSFER",
+      "category": "App update",
+      "date": "2026-10-22",
+      "summary": "DATA TRANSFER IN BLINK OF EYE",
+      "url": "https://drsamonline.github.io/BLINKTRANSFER/",
+      "source": "https://github.com/drsamonline/BLINKTRANSFER",
+      "image": "https://drsamonline.github.io/assets/shots/BLINKTRANSFER.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Companion Forge - an offline pocket console for the drsamonline Forge system: the build queue, state, kit graph and repo fleet.",
+      "repo": "app-companion-forge",
+      "category": "App update",
+      "date": "2026-10-22",
+      "summary": "Companion Forge - an offline pocket console for the drsamonline Forge system: the build queue, state, kit graph and repo fleet. Built with Forge on web-kit.",
+      "url": "https://drsamonline.github.io/app-companion-forge/",
+      "source": "https://github.com/drsamonline/app-companion-forge",
+      "image": "https://drsamonline.github.io/assets/shots/app-companion-forge.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Clinical case tracking: sections, dated symptoms, follow-ups, a timeline and a summary.",
+      "repo": "case-kit",
+      "category": "App update",
+      "date": "2026-10-22",
+      "summary": "Clinical case tracking: sections, dated symptoms, follow-ups, a timeline and a summary. Zero dependencies, MIT.",
+      "url": "https://drsamonline.github.io/case-kit/",
+      "source": "https://github.com/drsamonline/case-kit",
+      "image": "https://drsamonline.github.io/assets/shots/case-kit.webp",
+      "kind": "update"
+    },
+    {
+      "title": "The companion-app-from-a-book pattern: chapters, key points, practices, flashcards, search and reading progress.",
+      "repo": "book-kit",
+      "category": "App update",
+      "date": "2026-10-22",
+      "summary": "The companion-app-from-a-book pattern: chapters, key points, practices, flashcards, search and reading progress. Zero dependencies, MIT.",
+      "url": "https://drsamonline.github.io/book-kit/",
+      "source": "https://github.com/drsamonline/book-kit",
+      "image": "https://drsamonline.github.io/assets/shots/book-kit.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Spaced repetition (SM-2) for flashcards: scheduling, lapses, due cards and stats.",
+      "repo": "srs-kit",
+      "category": "App update",
+      "date": "2026-10-22",
+      "summary": "Spaced repetition (SM-2) for flashcards: scheduling, lapses, due cards and stats. Zero dependencies, MIT.",
+      "url": "https://drsamonline.github.io/srs-kit/",
+      "source": "https://github.com/drsamonline/srs-kit",
+      "image": "https://drsamonline.github.io/assets/shots/srs-kit.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Ranked search over big corpora: an inverted index with prefix and fuzzy matching.",
+      "repo": "search-kit",
+      "category": "App update",
+      "date": "2026-10-22",
+      "summary": "Ranked search over big corpora: an inverted index with prefix and fuzzy matching. Zero dependencies, MIT.",
+      "url": "https://drsamonline.github.io/search-kit/",
+      "source": "https://github.com/drsamonline/search-kit",
+      "image": "https://drsamonline.github.io/assets/shots/search-kit.webp",
+      "kind": "update"
+    },
+    {
+      "title": "The homeopathic repertorisation core: rubric grading and grade-weighted remedy scoring.",
+      "repo": "repertory-kit",
+      "category": "App update",
+      "date": "2026-10-22",
+      "summary": "The homeopathic repertorisation core: rubric grading and grade-weighted remedy scoring. Zero dependencies, MIT.",
+      "url": "https://drsamonline.github.io/repertory-kit/",
+      "source": "https://github.com/drsamonline/repertory-kit",
+      "image": "https://drsamonline.github.io/assets/shots/repertory-kit.webp",
+      "kind": "update"
+    },
     {
       "title": "A daily Indian almanac \u2014 tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
       "repo": "app-panchang",
@@ -76,39 +175,6 @@
       "url": "https://drsamonline.github.io/whispering-body-first-aid/",
       "source": "https://github.com/drsamonline/whispering-body-first-aid",
       "image": "https://drsamonline.github.io/assets/shots/whispering-body-first-aid.webp",
-      "kind": "update"
-    },
-    {
-      "title": "DATA TRANSFER IN BLINK OF EYE",
-      "repo": "BLINKTRANSFER",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "DATA TRANSFER IN BLINK OF EYE",
-      "url": "https://drsamonline.github.io/BLINKTRANSFER/",
-      "source": "https://github.com/drsamonline/BLINKTRANSFER",
-      "image": "https://drsamonline.github.io/assets/shots/BLINKTRANSFER.webp",
-      "kind": "update"
-    },
-    {
-      "title": "BlinkCode AI \u2014 single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
-      "repo": "blinkcode-ai",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "BlinkCode AI \u2014 single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
-      "url": "https://drsamonline.github.io/blinkcode-ai/",
-      "source": "https://github.com/drsamonline/blinkcode-ai",
-      "image": "https://drsamonline.github.io/assets/shots/blinkcode-ai.webp",
-      "kind": "update"
-    },
-    {
-      "title": "One app, two optical transports \u2014 send a file with light over QR or a colour matrix.",
-      "repo": "helioprism",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "One app, two optical transports \u2014 send a file with light over QR or a colour matrix. Offline, no network.",
-      "url": "https://drsamonline.github.io/helioprism/",
-      "source": "https://github.com/drsamonline/helioprism",
-      "image": "https://drsamonline.github.io/assets/shots/helioprism.webp",
       "kind": "update"
     },
     {
@@ -197,72 +263,6 @@
       "url": "https://drsamonline.github.io/NEO/",
       "source": "https://github.com/drsamonline/NEO",
       "image": "https://drsamonline.github.io/assets/shots/NEO.webp",
-      "kind": "update"
-    },
-    {
-      "title": "Two free open-world browser games on the Neon Engine \u2014 Dead Zone (zombie survival) and Neon Police.",
-      "repo": "neon-games",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "Two free open-world browser games on the Neon Engine \u2014 Dead Zone (zombie survival) and Neon Police. Playable in the browser, no install. CC BY-NC-SA 4.0.",
-      "url": "https://drsamonline.github.io/neon-games/",
-      "source": "https://github.com/drsamonline/neon-games",
-      "image": "https://drsamonline.github.io/assets/shots/neon-games.webp",
-      "kind": "update"
-    },
-    {
-      "title": "Retro auto-fire side-scrolling shooter.",
-      "repo": "neon-runner",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "Retro auto-fire side-scrolling shooter. Move, jump, duck \u2014 your gun fires itself. One self-contained HTML file, zero dependencies, fully offline.",
-      "url": "https://drsamonline.github.io/neon-runner/",
-      "source": "https://github.com/drsamonline/neon-runner",
-      "image": "https://drsamonline.github.io/assets/shots/neon-runner.webp",
-      "kind": "update"
-    },
-    {
-      "title": "Open Materia Medica \u2014 the classical homeopathic materia medica in plain language: 344 remedy portraits.",
-      "repo": "open-materia-medica",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "Open Materia Medica \u2014 the classical homeopathic materia medica in plain language: 344 remedy portraits. Free web edition and offline Android companion app to the book by Dr. Sohil Momin, BHMS. (c) 2026, all rights reserved.",
-      "url": "https://drsamonline.github.io/open-materia-medica/",
-      "source": "https://github.com/drsamonline/open-materia-medica",
-      "image": "https://drsamonline.github.io/assets/shots/open-materia-medica.webp",
-      "kind": "update"
-    },
-    {
-      "title": "A private, offline ambient sound mixer that lives in a single HTML file.",
-      "repo": "ambient-sound-studio",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "A private, offline ambient sound mixer that lives in a single HTML file. 25 synthesised layers, 36 presets, English/Hindi/Gujarati, WAV & Opus export, installable PWA. Free for personal use.",
-      "url": "https://drsamonline.github.io/ambient-sound-studio/",
-      "source": "https://github.com/drsamonline/ambient-sound-studio",
-      "image": "https://drsamonline.github.io/assets/shots/ambient-sound-studio.webp",
-      "kind": "update"
-    },
-    {
-      "title": "\ud83c\udfae A complete retro 3rd-person shooter in a single HTML file \u2014 custom software 3D renderer, chiptune audio, zero dependencies.",
-      "repo": "retro-strike",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "\ud83c\udfae A complete retro 3rd-person shooter in a single HTML file \u2014 custom software 3D renderer, chiptune audio, zero dependencies.",
-      "url": "https://drsamonline.github.io/retro-strike/",
-      "source": "https://github.com/drsamonline/retro-strike",
-      "image": "https://drsamonline.github.io/assets/shots/retro-strike.webp",
-      "kind": "update"
-    },
-    {
-      "title": "PIN-protect and one-time-view any HTML file with AES-256-GCM.",
-      "repo": "lockhtml",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "PIN-protect and one-time-view any HTML file with AES-256-GCM. Cross-platform CLI plus a browser-based GUI that runs on any OS.",
-      "url": "https://drsamonline.github.io/lockhtml/",
-      "source": "https://github.com/drsamonline/lockhtml",
-      "image": "https://drsamonline.github.io/assets/shots/lockhtml.webp",
       "kind": "update"
     }
   ]
