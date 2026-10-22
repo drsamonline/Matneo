@@ -726,6 +726,31 @@
     "featured": false
   },
   {
+    "id": "seance",
+    "title": "seance",
+    "category": "HTML Apps",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/seance/",
+    "landingPage": "https://drsamonline.github.io/seance/",
+    "sourceRepo": "drsamonline/seance",
+    "license": "MIT",
+    "tagline": "Sealed notes, opened once. Seal a note with a passphrase; it opens once, offline.",
+    "description": "Seance - sealed notes, opened once. Write a note, seal it with a passphrase, share the text. Offline, no accounts. Built with crypto-kit + web-kit.",
+    "tags": [
+      "privacy",
+      "notes",
+      "crypto",
+      "offline"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
     "id": "skin-case-tracker",
     "title": "skin-case-tracker",
     "category": "Homeopathy",
