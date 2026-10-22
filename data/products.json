@@ -195,6 +195,98 @@
     "featured": false
   },
   {
+    "id": "app-companion-forge",
+    "title": "app-companion-forge",
+    "category": "Utilities",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/app-companion-forge/",
+    "landingPage": "https://drsamonline.github.io/app-companion-forge/",
+    "image": "https://drsamonline.github.io/assets/shots/app-companion-forge.webp",
+    "sourceRepo": "drsamonline/app-companion-forge",
+    "license": "MIT",
+    "tagline": "Companion Forge - an offline pocket console for the drsamonline Forge system: the build queue, state, kit graph and repo fleet.",
+    "description": "Companion Forge - an offline pocket console for the drsamonline Forge system: the build queue, state, kit graph and repo fleet. Built with Forge on web-kit.",
+    "tags": [
+      "Utilities"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
+    "id": "app-panchang",
+    "title": "app-panchang",
+    "category": "Utilities",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/app-panchang/",
+    "landingPage": "https://drsamonline.github.io/app-panchang/",
+    "image": "https://drsamonline.github.io/assets/shots/app-panchang.webp",
+    "sourceRepo": "drsamonline/app-panchang",
+    "license": "MIT",
+    "tagline": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
+    "description": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline. Built with Forge.",
+    "tags": [
+      "Utilities"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
+    "id": "blinkcode-ai",
+    "title": "blinkcode-ai",
+    "category": "Utilities",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/blinkcode-ai/",
+    "landingPage": "https://drsamonline.github.io/blinkcode-ai/",
+    "image": "https://drsamonline.github.io/assets/shots/blinkcode-ai.webp",
+    "sourceRepo": "drsamonline/blinkcode-ai",
+    "license": "NOASSERTION",
+    "tagline": "BlinkCode AI — single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
+    "description": "BlinkCode AI — single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
+    "tags": [
+      "Utilities"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
+    "id": "blinktransfer",
+    "title": "BLINKTRANSFER",
+    "category": "Utilities",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/BLINKTRANSFER/",
+    "landingPage": "https://drsamonline.github.io/BLINKTRANSFER/",
+    "image": "https://drsamonline.github.io/assets/shots/BLINKTRANSFER.webp",
+    "sourceRepo": "drsamonline/BLINKTRANSFER",
+    "license": "NOASSERTION",
+    "tagline": "DATA TRANSFER IN BLINK OF EYE",
+    "description": "DATA TRANSFER IN BLINK OF EYE",
+    "tags": [
+      "Utilities"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
     "id": "boericke-repertory",
     "title": "boericke-repertory",
     "category": "Homeopathy",
@@ -304,6 +396,29 @@
     "description": "A triage-first home companion app for a sick child, built from the book Gentle Pediatrics by Dr. Sohil Momin. Free to use; copyright retained.",
     "tags": [
       "Homeopathy"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
+    "id": "helioprism",
+    "title": "helioprism",
+    "category": "Utilities",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/helioprism/",
+    "landingPage": "https://drsamonline.github.io/helioprism/",
+    "image": "https://drsamonline.github.io/assets/shots/helioprism.webp",
+    "sourceRepo": "drsamonline/helioprism",
+    "license": "NOASSERTION",
+    "tagline": "One app, two optical transports — send a file with light over QR or a colour matrix.",
+    "description": "One app, two optical transports — send a file with light over QR or a colour matrix. Offline, no network.",
+    "tags": [
+      "Utilities"
     ],
     "buyLinks": [],
     "rating": {
