@@ -8,7 +8,7 @@
     "link": "#",
     "badge": "Bestseller",
     "tagline": "Plan every day with clarity and focus.",
-    "description": "A printable daily planner that helps you map out your day, set clear priorities and keep your habits on track. Print it, fill it in, and start each day with a plan.",
+    "description": "A printable daily planner that helps you map out your day, set clear priorities and keep your habits on track.",
     "features": [
       "Daily schedule, priorities and to-do sections",
       "Habit and water trackers",
@@ -34,11 +34,11 @@
     "link": "#",
     "badge": "New",
     "tagline": "Ready-to-use prompts for everyday work.",
-    "description": "A curated pack of AI prompts to help you write, plan, summarise and organise your work faster. Copy a prompt, drop in your context and go.",
+    "description": "A curated pack of AI prompts to help you write, plan, summarise and organise your work faster.",
     "features": [
       "Organised prompt categories for work and life",
-      "Copy-and-paste ready, works with popular AI tools",
-      "Includes workflow tips to get better results"
+      "Copy-and-paste ready",
+      "Includes workflow tips"
     ],
     "tags": [
       "AI",
@@ -60,11 +60,10 @@
     "link": "#",
     "badge": "Bundle",
     "tagline": "Professional documents, ready to use.",
-    "description": "A bundle of professional business templates — documents and resources you can drop straight into your workflow and adapt to your brand.",
+    "description": "A bundle of professional business templates you can adapt to your brand.",
     "features": [
       "Multiple editable business documents",
-      "Consistent, professional layout",
-      "Ready to customise for your own brand"
+      "Consistent, professional layout"
     ],
     "tags": [
       "Templates",
@@ -940,6 +939,29 @@
       "first-aid",
       "first-aid-box",
       "gujarati"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    }
+  },
+  {
+    "id": "today-card",
+    "title": "today-card",
+    "category": "HTML Apps",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/today-card/",
+    "landingPage": "https://drsamonline.github.io/today-card/",
+    "sourceRepo": "drsamonline/today-card",
+    "license": "MIT",
+    "tagline": "One card for the day: your date, one intention, one task, and a streak.",
+    "description": "Today Card - one card for the day: your date, one intention, one task, and a streak. Offline, no accounts. Built with web-kit.",
+    "tags": [
+      "offline",
+      "daily",
+      "productivity"
     ],
     "buyLinks": [],
     "rating": {
