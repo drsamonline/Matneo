@@ -62,9 +62,12 @@ window.MATNEO = (function () {
       img.src = product.image;
       img.alt = product.title || 'MATNEO product';
       img.loading = 'lazy';
+      // If the image is missing (a new repo the hub has not captured yet),
+      // fall back to the category icon instead of a broken image.
+      img.onerror = function () { img.remove(); thumb.innerHTML += meta.icon; };
       thumb.appendChild(img);
     } else {
-      thumb.innerHTML += meta.icon;
+      thumb.innerHTML = meta.icon;
     }
 
     var body = document.createElement('div');
