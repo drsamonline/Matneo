@@ -5,6 +5,7 @@ Practical planners, templates, AI resources and offline browser-based tools for 
 
 <p align="center">
   <a href="https://drsamonline.github.io/Matneo/"><img src="https://img.shields.io/badge/live%20shop-online-22c55e" alt="Live shop"></a>
+  <a href="https://drsamonline.github.io/"><img src="https://img.shields.io/badge/All%20projects-hub-22c55e" alt="All projects"></a>
   <a href="https://github.com/drsamonline/Matneo/stargazers"><img src="https://img.shields.io/github/stars/drsamonline/Matneo" alt="Stars"></a>
   <a href="https://github.com/drsamonline/Matneo/commits/main"><img src="https://img.shields.io/github/last-commit/drsamonline/Matneo" alt="Last commit"></a>
   <a href="https://github.com/drsamonline/Matneo/issues"><img src="https://img.shields.io/github/issues/drsamonline/Matneo" alt="Issues"></a>
