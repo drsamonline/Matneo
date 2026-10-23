@@ -133,7 +133,7 @@
       posts.forEach(function (p) {
         var a = document.createElement('a');
         a.href = p.url || p.source || '#';
-        a.className = 'article-card reveal';
+        a.className = 'article-card reveal in';
         a.style.cssText = 'display:block;text-decoration:none;color:inherit';
         var img = document.createElement('img');
         img.src = p.image; img.alt = p.repo || p.title || '';
