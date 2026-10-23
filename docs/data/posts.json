@@ -42,7 +42,7 @@
       "summary": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived). Not production-ready.",
       "url": "https://drsamonline.github.io/The_Browser/",
       "source": "https://github.com/drsamonline/The_Browser",
-      "image": "https://raw.githubusercontent.com/drsamonline/The_Browser/HEAD/Tests/LibWeb/Screenshot/data/car.png",
+      "image": "https://raw.githubusercontent.com/drsamonline/The_Browser/HEAD/Documentation/Images/classes.png",
       "kind": "update"
     },
     {
