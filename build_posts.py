@@ -13,7 +13,9 @@ OWNER = "drsamonline"
 EXCLUDE = {
     "drsamonline", "drsamonline.github.io", "app-builder", "skills", "profile-kit",
     "forge", "registry", "knowledge", "dashboard", "Matneo",
+    # every kit is infrastructure, never a "post" (keep in sync with registry/deps.json)
     "web-kit", "optical-kit", "crypto-kit", "compress-kit", "lan-kit", "game-kit", "astro-kit",
+    "repertory-kit", "search-kit", "srs-kit", "book-kit", "case-kit", "frame-kit", "export-kit",
 }
 MAX_POSTS = 24
 
@@ -39,7 +41,7 @@ def first_sentence(s):
 
 
 def main():
-    repos = fetch("https://api.github.com/users/%s/repos?per_page=100&sort=pushed" % OWNER)
+    repos = fetch("https://api.github.com/users/%s/repos" % OWNER)
     posts = []
     for r in repos:
         n = r["name"]
