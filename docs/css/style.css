@@ -322,6 +322,6 @@ footer{border-top:1px solid var(--line);background:rgba(255,255,255,.6);backdrop
 }
 
 /* Blog link kept visible in the header on small screens (the nav collapses there) */
-.nav__blog{display:none;align-items:center;margin-left:.5rem;padding:.5rem .95rem;border:1px solid var(--line);border-radius:999px;font-weight:700;font-size:.9rem;color:#33415c;text-decoration:none}
+.nav__blog{display:inline-flex;align-items:center;margin-left:.5rem;padding:.5rem .95rem;border:1px solid var(--line);border-radius:999px;font-weight:700;font-size:.9rem;color:#33415c;text-decoration:none}
 .nav__blog:hover{color:var(--violet)}
 @media (max-width:900px){.nav__blog{display:inline-flex}}
