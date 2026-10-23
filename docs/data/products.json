@@ -1,79 +1,5 @@
 [
   {
-    "id": "bmi-bmr-tdee-macros-fluid-calculator",
-    "title": "bmi-bmr-tdee-macros-fluid-calculator",
-    "category": "Health Tools",
-    "type": "open-source",
-    "price": "Free",
-    "link": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
-    "landingPage": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
-    "image": "https://drsamonline.github.io/assets/shots/bmi-bmr-tdee-macros-fluid-calculator.webp",
-    "sourceRepo": "drsamonline/bmi-bmr-tdee-macros-fluid-calculator",
-    "license": "MIT",
-    "tagline": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI.",
-    "description": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI. Offline-capable. By Dr. Sohil Momin.",
-    "tags": [
-      "bmi",
-      "bmr",
-      "calculator",
-      "clinical"
-    ],
-    "buyLinks": [],
-    "rating": {
-      "avg": 0,
-      "count": 0
-    },
-    "featured": true
-  },
-  {
-    "id": "kent-repertory-explorer",
-    "title": "kent-repertory-explorer",
-    "category": "Homeopathy",
-    "type": "open-source",
-    "price": "Free",
-    "link": "https://drsamonline.github.io/kent-repertory-explorer/",
-    "landingPage": "https://drsamonline.github.io/kent-repertory-explorer/",
-    "image": "https://drsamonline.github.io/assets/shots/kent-repertory-explorer.webp",
-    "sourceRepo": "drsamonline/kent-repertory-explorer",
-    "license": "NOASSERTION",
-    "tagline": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation.",
-    "description": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation. No server, no backend.",
-    "tags": [
-      "Homeopathy"
-    ],
-    "buyLinks": [],
-    "rating": {
-      "avg": 0,
-      "count": 0
-    },
-    "featured": true
-  },
-  {
-    "id": "today-card",
-    "title": "today-card",
-    "category": "HTML Apps",
-    "type": "open-source",
-    "price": "Free",
-    "link": "https://drsamonline.github.io/today-card/",
-    "landingPage": "https://drsamonline.github.io/today-card/",
-    "image": "https://drsamonline.github.io/assets/shots/today-card.webp",
-    "sourceRepo": "drsamonline/today-card",
-    "license": "MIT",
-    "tagline": "One card for the day: your date, one intention, one task, and a streak.",
-    "description": "Today Card - one card for the day. Offline, no accounts. Built with web-kit.",
-    "tags": [
-      "offline",
-      "daily",
-      "productivity"
-    ],
-    "buyLinks": [],
-    "rating": {
-      "avg": 0,
-      "count": 0
-    },
-    "featured": true
-  },
-  {
     "id": "aethelgard-engine",
     "title": "Aethelgard-Engine",
     "category": "HTML Apps",
@@ -287,6 +213,32 @@
     "featured": false
   },
   {
+    "id": "bmi-bmr-tdee-macros-fluid-calculator",
+    "title": "bmi-bmr-tdee-macros-fluid-calculator",
+    "category": "Health Tools",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
+    "landingPage": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
+    "image": "https://drsamonline.github.io/assets/shots/bmi-bmr-tdee-macros-fluid-calculator.webp",
+    "sourceRepo": "drsamonline/bmi-bmr-tdee-macros-fluid-calculator",
+    "license": "MIT",
+    "tagline": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI.",
+    "description": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI. Offline-capable. By Dr. Sohil Momin.",
+    "tags": [
+      "bmi",
+      "bmr",
+      "calculator",
+      "clinical"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": true
+  },
+  {
     "id": "boericke-repertory",
     "title": "boericke-repertory",
     "category": "Homeopathy",
@@ -302,6 +254,48 @@
     "tags": [
       "Homeopathy"
     ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
+    "id": "canteen-lan",
+    "title": "canteen-lan",
+    "category": "Apps",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/canteen-lan/",
+    "landingPage": "https://drsamonline.github.io/canteen-lan/",
+    "image": "https://drsamonline.github.io/assets/shots/canteen-lan.webp",
+    "sourceRepo": "drsamonline/canteen-lan",
+    "license": "MIT",
+    "tagline": "Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge",
+    "description": "Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge",
+    "tags": [],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
+    "id": "chalk-lan",
+    "title": "chalk-lan",
+    "category": "Apps",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/chalk-lan/",
+    "landingPage": "https://drsamonline.github.io/chalk-lan/",
+    "image": "https://drsamonline.github.io/assets/shots/chalk-lan.webp",
+    "sourceRepo": "drsamonline/chalk-lan",
+    "license": "MIT",
+    "tagline": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live. Offline, no accounts. Built with Forge on web-kit + lan-kit.",
+    "description": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live. Offline, no accounts. Built with Forge on web-kit + lan-kit.",
+    "tags": [],
     "buyLinks": [],
     "rating": {
       "avg": 0,
@@ -501,6 +495,29 @@
       "count": 0
     },
     "featured": false
+  },
+  {
+    "id": "kent-repertory-explorer",
+    "title": "kent-repertory-explorer",
+    "category": "Homeopathy",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/kent-repertory-explorer/",
+    "landingPage": "https://drsamonline.github.io/kent-repertory-explorer/",
+    "image": "https://drsamonline.github.io/assets/shots/kent-repertory-explorer.webp",
+    "sourceRepo": "drsamonline/kent-repertory-explorer",
+    "license": "NOASSERTION",
+    "tagline": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation.",
+    "description": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation. No server, no backend.",
+    "tags": [
+      "Homeopathy"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": true
   },
   {
     "id": "lexora",
@@ -991,6 +1008,31 @@
       "count": 0
     },
     "featured": false
+  },
+  {
+    "id": "today-card",
+    "title": "today-card",
+    "category": "HTML Apps",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/today-card/",
+    "landingPage": "https://drsamonline.github.io/today-card/",
+    "image": "https://drsamonline.github.io/assets/shots/today-card.webp",
+    "sourceRepo": "drsamonline/today-card",
+    "license": "MIT",
+    "tagline": "One card for the day: your date, one intention, one task, and a streak.",
+    "description": "Today Card - one card for the day: your date, one intention, one task, and a streak. Offline, no accounts. Built with web-kit and Forge.",
+    "tags": [
+      "offline",
+      "daily",
+      "productivity"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": true
   },
   {
     "id": "ttb",
