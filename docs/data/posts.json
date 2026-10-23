@@ -9,7 +9,7 @@
       "summary": "Two free browser games by Dr. Sohil Momin — Aethelgard: The Books (visual novel) and Aethelgard: Chronicles of Fate (RPG). Playable on GitHub Pages.",
       "url": "https://drsamonline.github.io/aethelgard-games/",
       "source": "https://github.com/drsamonline/aethelgard-games",
-      "image": "https://drsamonline.github.io/assets/shots/aethelgard-games.webp",
+      "image": "https://raw.githubusercontent.com/drsamonline/aethelgard-games/HEAD/chronicles/mods/overhaul-vector/hd/class_archer.png",
       "kind": "update"
     },
     {
@@ -20,7 +20,7 @@
       "summary": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs. Engine only — ships a small generic sample world; the games it powers live in drsamonline/aethelgard-games.",
       "url": "https://drsamonline.github.io/aethelgard-rpg-engine/",
       "source": "https://github.com/drsamonline/aethelgard-rpg-engine",
-      "image": "https://drsamonline.github.io/assets/shots/aethelgard-rpg-engine.webp",
+      "image": "https://raw.githubusercontent.com/drsamonline/aethelgard-rpg-engine/HEAD/docs/assets/shot-atlas.jpg",
       "kind": "update"
     },
     {
@@ -31,7 +31,7 @@
       "summary": "Saga — a small, dependency-free visual-novel engine for the browser. Plain JavaScript, one stylesheet, no build step. Engine only; the games it powers live in drsamonline/aethelgard-games.",
       "url": "https://drsamonline.github.io/saga-vn-engine/",
       "source": "https://github.com/drsamonline/saga-vn-engine",
-      "image": "https://drsamonline.github.io/assets/shots/saga-vn-engine.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/saga-vn-engine",
       "kind": "update"
     },
     {
@@ -42,7 +42,7 @@
       "summary": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived). Not production-ready.",
       "url": "https://drsamonline.github.io/The_Browser/",
       "source": "https://github.com/drsamonline/The_Browser",
-      "image": "https://drsamonline.github.io/assets/shots/The_Browser.webp",
+      "image": "https://raw.githubusercontent.com/drsamonline/The_Browser/HEAD/Tests/LibWeb/Screenshot/data/angled-stripes.png",
       "kind": "update"
     },
     {
@@ -53,7 +53,7 @@
       "summary": "NOVA — a statically-typed, compiled systems programming language: C, JavaScript, Rust and WebAssembly backends, with a runtime, package manager, language server and debugger.",
       "url": "https://drsamonline.github.io/NEO/",
       "source": "https://github.com/drsamonline/NEO",
-      "image": "https://drsamonline.github.io/assets/shots/NEO.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/NEO",
       "kind": "update"
     },
     {
@@ -64,7 +64,7 @@
       "summary": "A code-only open-world game engine for the browser. No assets, no build step, no dependencies — every texture, mesh and sound is generated at runtime. MIT licensed.",
       "url": "https://drsamonline.github.io/neon-engine/",
       "source": "https://github.com/drsamonline/neon-engine",
-      "image": "https://drsamonline.github.io/assets/shots/neon-engine.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/neon-engine",
       "kind": "update"
     },
     {
@@ -75,7 +75,7 @@
       "summary": "The companion app to the book \"Read. Live. Transform.: A Practical Reading of the Qur'an\" by Dr Sohil Momin. Read the verse, live the practice, keep the change. Offline PWA, no dependencies. © Dr Sohil Momin — all rights reserved; permission required to reuse.",
       "url": "https://drsamonline.github.io/read-live-transform-app/",
       "source": "https://github.com/drsamonline/read-live-transform-app",
-      "image": "https://drsamonline.github.io/assets/shots/read-live-transform-app.webp",
+      "image": "https://raw.githubusercontent.com/drsamonline/read-live-transform-app/HEAD/docs/play/screenshots/level-up.png",
       "kind": "update"
     },
     {
@@ -86,7 +86,7 @@
       "summary": "Save text, JSON, CSV and binary to the user's device, and bundle files into a store-only ZIP. One file, no dependencies. Built with Forge.",
       "url": "https://drsamonline.github.io/export-kit/",
       "source": "https://github.com/drsamonline/export-kit",
-      "image": "https://drsamonline.github.io/assets/shots/export-kit.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/export-kit",
       "kind": "update"
     },
     {
@@ -97,7 +97,7 @@
       "summary": "BlinkCode AI — single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
       "url": "https://drsamonline.github.io/blinkcode-ai/",
       "source": "https://github.com/drsamonline/blinkcode-ai",
-      "image": "https://drsamonline.github.io/assets/shots/blinkcode-ai.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/blinkcode-ai",
       "kind": "update"
     },
     {
@@ -108,7 +108,7 @@
       "summary": "DATA TRANSFER IN BLINK OF EYE",
       "url": "https://drsamonline.github.io/BLINKTRANSFER/",
       "source": "https://github.com/drsamonline/BLINKTRANSFER",
-      "image": "https://drsamonline.github.io/assets/shots/BLINKTRANSFER.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/BLINKTRANSFER",
       "kind": "update"
     },
     {
@@ -119,7 +119,7 @@
       "summary": "One app, two optical transports — send a file with light over QR or a colour matrix. Offline, no network.",
       "url": "https://drsamonline.github.io/helioprism/",
       "source": "https://github.com/drsamonline/helioprism",
-      "image": "https://drsamonline.github.io/assets/shots/helioprism.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/helioprism",
       "kind": "update"
     },
     {
@@ -130,7 +130,7 @@
       "summary": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline. Built with Forge.",
       "url": "https://drsamonline.github.io/app-panchang/",
       "source": "https://github.com/drsamonline/app-panchang",
-      "image": "https://drsamonline.github.io/assets/shots/app-panchang.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/app-panchang",
       "kind": "update"
     },
     {
@@ -141,7 +141,7 @@
       "summary": "The shared transfer-frame core for drsamonline apps: a self-describing frame, a rateless collector and byte/checksum utilities. One file, no dependencies. MIT.",
       "url": "https://drsamonline.github.io/frame-kit/",
       "source": "https://github.com/drsamonline/frame-kit",
-      "image": "https://drsamonline.github.io/assets/shots/frame-kit.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/frame-kit",
       "kind": "update"
     },
     {
@@ -152,7 +152,7 @@
       "summary": "Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge",
       "url": "https://drsamonline.github.io/canteen-lan/",
       "source": "https://github.com/drsamonline/canteen-lan",
-      "image": "https://drsamonline.github.io/assets/shots/canteen-lan.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/canteen-lan",
       "kind": "update"
     },
     {
@@ -163,7 +163,7 @@
       "summary": "Companion study app for Mnemosyne Materia Medica — 100 polycrest homoeopathic remedies as poetic pearls, keynotes and spaced-repetition drills. Single offline HTML file. Proprietary, all rights reserved.",
       "url": "https://drsamonline.github.io/mnemosyne-companion/",
       "source": "https://github.com/drsamonline/mnemosyne-companion",
-      "image": "https://drsamonline.github.io/assets/shots/mnemosyne-companion.webp",
+      "image": "https://raw.githubusercontent.com/drsamonline/mnemosyne-companion/HEAD/assets/screenshot-card.png",
       "kind": "update"
     },
     {
@@ -174,7 +174,7 @@
       "summary": "Companion app to the book \"The Skin Is a Liar\" by Dr. Sohil Momin — a private, offline HHMS skin-case tracker (History, Habits, Mapping, Symptoms) with a 90-day pattern engine. Free to use; all rights reserved.",
       "url": "https://drsamonline.github.io/skin-case-tracker/",
       "source": "https://github.com/drsamonline/skin-case-tracker",
-      "image": "https://drsamonline.github.io/assets/shots/skin-case-tracker.webp",
+      "image": "https://raw.githubusercontent.com/drsamonline/skin-case-tracker/HEAD/docs/screenshot.png",
       "kind": "update"
     },
     {
@@ -185,7 +185,7 @@
       "summary": "Offline companion app to the book The Unstoppable Mind by Dr. Sohil Momin - key points, exercises, a 7-day challenge and flashcards. Free to use.",
       "url": "https://drsamonline.github.io/unstoppable-mind-companion/",
       "source": "https://github.com/drsamonline/unstoppable-mind-companion",
-      "image": "https://drsamonline.github.io/assets/shots/unstoppable-mind-companion.webp",
+      "image": "https://raw.githubusercontent.com/drsamonline/unstoppable-mind-companion/HEAD/docs/assets/preview.png",
       "kind": "update"
     },
     {
@@ -196,7 +196,7 @@
       "summary": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live. Offline, no accounts. Built with Forge on web-kit + lan-kit.",
       "url": "https://drsamonline.github.io/chalk-lan/",
       "source": "https://github.com/drsamonline/chalk-lan",
-      "image": "https://drsamonline.github.io/assets/shots/chalk-lan.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/chalk-lan",
       "kind": "update"
     },
     {
@@ -207,7 +207,7 @@
       "summary": "Forge tooling (not a product app): an offline pocket console for the Forge system.",
       "url": "https://drsamonline.github.io/app-companion-forge/",
       "source": "https://github.com/drsamonline/app-companion-forge",
-      "image": "https://drsamonline.github.io/assets/shots/app-companion-forge.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/app-companion-forge",
       "kind": "update"
     },
     {
@@ -218,7 +218,7 @@
       "summary": "Strongbox (master-list app) - sealed notes, opened once: seal a note with a passphrase, it opens once. Offline, no accounts. Built with crypto-kit + web-kit. (Fold-in of the working name 'seance'.)",
       "url": "https://drsamonline.github.io/seance/",
       "source": "https://github.com/drsamonline/seance",
-      "image": "https://drsamonline.github.io/assets/shots/seance.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/seance",
       "kind": "update"
     },
     {
@@ -229,7 +229,7 @@
       "summary": "Today Card - one card for the day: your date, one intention, one task, and a streak. Offline, no accounts. Built with web-kit and Forge.",
       "url": "https://drsamonline.github.io/today-card/",
       "source": "https://github.com/drsamonline/today-card",
-      "image": "https://drsamonline.github.io/assets/shots/today-card.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/today-card",
       "kind": "update"
     },
     {
@@ -240,7 +240,7 @@
       "summary": "Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in your browser. No upload, no account, no server — works offline. Single self-contained HTML file.",
       "url": "https://drsamonline.github.io/offline-pdf-toolkit/",
       "source": "https://github.com/drsamonline/offline-pdf-toolkit",
-      "image": "https://drsamonline.github.io/assets/shots/offline-pdf-toolkit.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/offline-pdf-toolkit",
       "kind": "update"
     },
     {
@@ -251,7 +251,7 @@
       "summary": "Offline, single-file explorer for homeopathic remedy relationships — built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879). No server, no backend.",
       "url": "https://drsamonline.github.io/remedy-relationship-explorer/",
       "source": "https://github.com/drsamonline/remedy-relationship-explorer",
-      "image": "https://drsamonline.github.io/assets/shots/remedy-relationship-explorer.webp",
+      "image": "https://raw.githubusercontent.com/drsamonline/remedy-relationship-explorer/HEAD/docs/assets/focus-1440.png",
       "kind": "update"
     },
     {
@@ -262,7 +262,7 @@
       "summary": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation. No server, no backend.",
       "url": "https://drsamonline.github.io/kent-repertory-explorer/",
       "source": "https://github.com/drsamonline/kent-repertory-explorer",
-      "image": "https://drsamonline.github.io/assets/shots/kent-repertory-explorer.webp",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/kent-repertory-explorer",
       "kind": "update"
     }
   ]
