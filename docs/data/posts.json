@@ -2,6 +2,28 @@
   "generated": "2026-10-23",
   "posts": [
     {
+      "title": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs.",
+      "repo": "aethelgard-rpg-engine",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs. Engine only — ships a small generic sample world; the games it powers live in drsamonline/aethelgard-games.",
+      "url": "https://drsamonline.github.io/aethelgard-rpg-engine/",
+      "source": "https://github.com/drsamonline/aethelgard-rpg-engine",
+      "image": "https://drsamonline.github.io/assets/shots/aethelgard-rpg-engine.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Companion app to the book \"The Skin Is a Liar\" by Dr.",
+      "repo": "skin-case-tracker",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "Companion app to the book \"The Skin Is a Liar\" by Dr. Sohil Momin — a private, offline HHMS skin-case tracker (History, Habits, Mapping, Symptoms) with a 90-day pattern engine. Free to use; all rights reserved.",
+      "url": "https://drsamonline.github.io/skin-case-tracker/",
+      "source": "https://github.com/drsamonline/skin-case-tracker",
+      "image": "https://drsamonline.github.io/assets/shots/skin-case-tracker.webp",
+      "kind": "update"
+    },
+    {
       "title": "A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review.",
       "repo": "conqueror-os",
       "category": "App update",
@@ -57,17 +79,6 @@
       "kind": "update"
     },
     {
-      "title": "Companion app to the book \"The Skin Is a Liar\" by Dr.",
-      "repo": "skin-case-tracker",
-      "category": "App update",
-      "date": "2026-10-23",
-      "summary": "Companion app to the book \"The Skin Is a Liar\" by Dr. Sohil Momin — a private, offline HHMS skin-case tracker (History, Habits, Mapping, Symptoms) with a 90-day pattern engine. Free to use; all rights reserved.",
-      "url": "https://drsamonline.github.io/skin-case-tracker/",
-      "source": "https://github.com/drsamonline/skin-case-tracker",
-      "image": "https://drsamonline.github.io/assets/shots/skin-case-tracker.webp",
-      "kind": "update"
-    },
-    {
       "title": "The companion app to the book \"Read.",
       "repo": "read-live-transform-app",
       "category": "App update",
@@ -98,17 +109,6 @@
       "url": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
       "source": "https://github.com/drsamonline/bmi-bmr-tdee-macros-fluid-calculator",
       "image": "https://drsamonline.github.io/assets/shots/bmi-bmr-tdee-macros-fluid-calculator.webp",
-      "kind": "update"
-    },
-    {
-      "title": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs.",
-      "repo": "aethelgard-rpg-engine",
-      "category": "App update",
-      "date": "2026-10-23",
-      "summary": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs. Engine only — ships a small generic sample world; the games it powers live in drsamonline/aethelgard-games.",
-      "url": "https://drsamonline.github.io/aethelgard-rpg-engine/",
-      "source": "https://github.com/drsamonline/aethelgard-rpg-engine",
-      "image": "https://drsamonline.github.io/assets/shots/aethelgard-rpg-engine.webp",
       "kind": "update"
     },
     {
