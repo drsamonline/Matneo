@@ -2,47 +2,25 @@
   "generated": "2026-10-23",
   "posts": [
     {
-      "title": "Companion app for the book 'The Whispering Body' by Dr.",
-      "repo": "whispering-body-first-aid",
+      "title": "A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review.",
+      "repo": "conqueror-os",
       "category": "App update",
       "date": "2026-10-23",
-      "summary": "Companion app for the book 'The Whispering Body' by Dr. Sohil Momin — a home homeopathic first-aid box (30 remedies). Free to use; source code and book content are copyrighted.",
-      "url": "https://drsamonline.github.io/whispering-body-first-aid/",
-      "source": "https://github.com/drsamonline/whispering-body-first-aid",
-      "image": "https://drsamonline.github.io/assets/shots/whispering-body-first-aid.webp",
+      "summary": "A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review. No server, no account, no dependencies.",
+      "url": "https://drsamonline.github.io/conqueror-os/",
+      "source": "https://github.com/drsamonline/conqueror-os",
+      "image": "https://drsamonline.github.io/assets/shots/conqueror-os.webp",
       "kind": "update"
     },
     {
-      "title": "DATA TRANSFER IN BLINK OF EYE",
-      "repo": "BLINKTRANSFER",
+      "title": "One app, two optical transports — send a file with light over QR or a colour matrix.",
+      "repo": "helioprism",
       "category": "App update",
       "date": "2026-10-23",
-      "summary": "DATA TRANSFER IN BLINK OF EYE",
-      "url": "https://drsamonline.github.io/BLINKTRANSFER/",
-      "source": "https://github.com/drsamonline/BLINKTRANSFER",
-      "image": "https://drsamonline.github.io/assets/shots/BLINKTRANSFER.webp",
-      "kind": "update"
-    },
-    {
-      "title": "The companion app to the book \"Read.",
-      "repo": "read-live-transform-app",
-      "category": "App update",
-      "date": "2026-10-23",
-      "summary": "The companion app to the book \"Read. Live. Transform.: A Practical Reading of the Qur'an\" by Dr Sohil Momin. Read the verse, live the practice, keep the change. Offline PWA, no dependencies. © Dr Sohil Momin — all rights reserved; permission required to reuse.",
-      "url": "https://drsamonline.github.io/read-live-transform-app/",
-      "source": "https://github.com/drsamonline/read-live-transform-app",
-      "image": "https://drsamonline.github.io/assets/shots/read-live-transform-app.webp",
-      "kind": "update"
-    },
-    {
-      "title": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI.",
-      "repo": "bmi-bmr-tdee-macros-fluid-calculator",
-      "category": "App update",
-      "date": "2026-10-23",
-      "summary": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI. Offline-capable. By Dr. Sohil Momin.",
-      "url": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
-      "source": "https://github.com/drsamonline/bmi-bmr-tdee-macros-fluid-calculator",
-      "image": "https://drsamonline.github.io/assets/shots/bmi-bmr-tdee-macros-fluid-calculator.webp",
+      "summary": "One app, two optical transports — send a file with light over QR or a colour matrix. Offline, no network.",
+      "url": "https://drsamonline.github.io/helioprism/",
+      "source": "https://github.com/drsamonline/helioprism",
+      "image": "https://drsamonline.github.io/assets/shots/helioprism.webp",
       "kind": "update"
     },
     {
@@ -57,14 +35,14 @@
       "kind": "update"
     },
     {
-      "title": "A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review.",
-      "repo": "conqueror-os",
+      "title": "DATA TRANSFER IN BLINK OF EYE",
+      "repo": "BLINKTRANSFER",
       "category": "App update",
       "date": "2026-10-23",
-      "summary": "A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review. No server, no account, no dependencies.",
-      "url": "https://drsamonline.github.io/conqueror-os/",
-      "source": "https://github.com/drsamonline/conqueror-os",
-      "image": "https://drsamonline.github.io/assets/shots/conqueror-os.webp",
+      "summary": "DATA TRANSFER IN BLINK OF EYE",
+      "url": "https://drsamonline.github.io/BLINKTRANSFER/",
+      "source": "https://github.com/drsamonline/BLINKTRANSFER",
+      "image": "https://drsamonline.github.io/assets/shots/BLINKTRANSFER.webp",
       "kind": "update"
     },
     {
@@ -79,14 +57,47 @@
       "kind": "update"
     },
     {
-      "title": "One app, two optical transports — send a file with light over QR or a colour matrix.",
-      "repo": "helioprism",
+      "title": "The companion app to the book \"Read.",
+      "repo": "read-live-transform-app",
       "category": "App update",
       "date": "2026-10-23",
-      "summary": "One app, two optical transports — send a file with light over QR or a colour matrix. Offline, no network.",
-      "url": "https://drsamonline.github.io/helioprism/",
-      "source": "https://github.com/drsamonline/helioprism",
-      "image": "https://drsamonline.github.io/assets/shots/helioprism.webp",
+      "summary": "The companion app to the book \"Read. Live. Transform.: A Practical Reading of the Qur'an\" by Dr Sohil Momin. Read the verse, live the practice, keep the change. Offline PWA, no dependencies. © Dr Sohil Momin — all rights reserved; permission required to reuse.",
+      "url": "https://drsamonline.github.io/read-live-transform-app/",
+      "source": "https://github.com/drsamonline/read-live-transform-app",
+      "image": "https://drsamonline.github.io/assets/shots/read-live-transform-app.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Companion app for the book 'The Whispering Body' by Dr.",
+      "repo": "whispering-body-first-aid",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "Companion app for the book 'The Whispering Body' by Dr. Sohil Momin — a home homeopathic first-aid box (30 remedies). Free to use; source code and book content are copyrighted.",
+      "url": "https://drsamonline.github.io/whispering-body-first-aid/",
+      "source": "https://github.com/drsamonline/whispering-body-first-aid",
+      "image": "https://drsamonline.github.io/assets/shots/whispering-body-first-aid.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI.",
+      "repo": "bmi-bmr-tdee-macros-fluid-calculator",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI. Offline-capable. By Dr. Sohil Momin.",
+      "url": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
+      "source": "https://github.com/drsamonline/bmi-bmr-tdee-macros-fluid-calculator",
+      "image": "https://drsamonline.github.io/assets/shots/bmi-bmr-tdee-macros-fluid-calculator.webp",
+      "kind": "update"
+    },
+    {
+      "title": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs.",
+      "repo": "aethelgard-rpg-engine",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs. Engine only — ships a small generic sample world; the games it powers live in drsamonline/aethelgard-games.",
+      "url": "https://drsamonline.github.io/aethelgard-rpg-engine/",
+      "source": "https://github.com/drsamonline/aethelgard-rpg-engine",
+      "image": "https://drsamonline.github.io/assets/shots/aethelgard-rpg-engine.webp",
       "kind": "update"
     },
     {
@@ -252,17 +263,6 @@
       "url": "https://drsamonline.github.io/saga-vn-engine/",
       "source": "https://github.com/drsamonline/saga-vn-engine",
       "image": "https://drsamonline.github.io/assets/shots/saga-vn-engine.webp",
-      "kind": "update"
-    },
-    {
-      "title": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs.",
-      "repo": "aethelgard-rpg-engine",
-      "category": "App update",
-      "date": "2026-10-23",
-      "summary": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs. Engine only — ships a small generic sample world; the games it powers live in drsamonline/aethelgard-games.",
-      "url": "https://drsamonline.github.io/aethelgard-rpg-engine/",
-      "source": "https://github.com/drsamonline/aethelgard-rpg-engine",
-      "image": "https://drsamonline.github.io/assets/shots/aethelgard-rpg-engine.webp",
       "kind": "update"
     }
   ]
