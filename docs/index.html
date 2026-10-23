@@ -72,7 +72,7 @@
       "mainEntity": [
         { "@type": "Question", "name": "What does MATNEO sell?", "acceptedAnswer": { "@type": "Answer", "text": "MATNEO sells practical digital products: printable planners, business templates, AI prompt packs, books and offline browser-based tools." } },
         { "@type": "Question", "name": "How are products delivered?", "acceptedAnswer": { "@type": "Answer", "text": "Every product is digital and delivered instantly — there is nothing to install and no build step. HTML apps run directly in your browser." } },
-        { "@type": "Question", "name": "What categories are available?", "acceptedAnswer": { "@type": "Answer", "text": "The shop is organised into Templates, Books, AI Resources, HTML Apps and Printables, plus a Free Resources section." } },
+        { "@type": "Question", "name": "What categories are available?", "acceptedAnswer": { "@type": "Answer", "text": "The shop is organised into HTML Apps, Homeopathy, Health Tools, Games, Utilities and Data, plus a Free Resources section." } },
         { "@type": "Question", "name": "Are there free resources?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. A Free Resources section collects tools and downloads created to help you get started at no cost." } },
         { "@type": "Question", "name": "How much do products cost?", "acceptedAnswer": { "@type": "Answer", "text": "Featured products currently range from about ₹199 to ₹499, and free resources are also available." } },
         { "@type": "Question", "name": "How do I add new products?", "acceptedAnswer": { "@type": "Answer", "text": "The catalogue is driven by a single data file, data/products.json, so new products are added by editing that file." } }
@@ -114,7 +114,14 @@
     <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">
       <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
-  </div>
+  
+      <a class="cat-card reveal" href="products/?category=Data" data-category="Data">
+        <span class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></span>
+        <h3>Data</h3>
+        <p>Datasets, JSON and reference material.</p>
+        <span class="cat-card__count">0 products</span>
+      </a>
+    </div>
 </header>
 
 <main id="main">
@@ -153,7 +160,7 @@
         </a>
       </div>
       <div class="hero__stats">
-        <div><strong>9</strong><span>Product categories</span></div>
+        <div><strong>6</strong><span>Product categories</span></div>
         <div><strong>0</strong><span>Build steps</span></div>
         <div><strong>100%</strong><span>Instant delivery</span></div>
       </div>
@@ -194,34 +201,10 @@
     </div>
 
     <div class="cat-grid" id="category-grid">
-      <a class="cat-card reveal" href="products/?category=Templates" data-category="Templates">
-        <span class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
-        <h3>Templates</h3>
-        <p>Professional documents and ready-to-use resources.</p>
-        <span class="cat-card__count">0 products</span>
-      </a>
-      <a class="cat-card reveal" href="products/?category=Books" data-category="Books">
-        <span class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
-        <h3>Books</h3>
-        <p>Guides, journals, workbooks and reference material.</p>
-        <span class="cat-card__count">0 products</span>
-      </a>
-      <a class="cat-card reveal" href="products/?category=AI%20Resources" data-category="AI Resources">
-        <span class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/><circle cx="12" cy="12" r="3.2"/></svg></span>
-        <h3>AI Resources</h3>
-        <p>Prompt packs, workflows and automation resources.</p>
-        <span class="cat-card__count">0 products</span>
-      </a>
       <a class="cat-card reveal" href="products/?category=HTML%20Apps" data-category="HTML Apps">
         <span class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>
         <h3>HTML Apps</h3>
         <p>Offline tools that work directly in your browser.</p>
-        <span class="cat-card__count">0 products</span>
-      </a>
-      <a class="cat-card reveal" href="products/?category=Printables" data-category="Printables">
-        <span class="cat-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6"/><rect x="6" y="13" width="12" height="8" rx="1.5"/><path d="M6 13H4.5A1.5 1.5 0 0 1 3 11.5v-1A1.5 1.5 0 0 1 4.5 9h15A1.5 1.5 0 0 1 21 10.5v1A1.5 1.5 0 0 1 19.5 13H18"/></svg></span>
-        <h3>Printables</h3>
-        <p>Printable planners, trackers and worksheets.</p>
         <span class="cat-card__count">0 products</span>
       </a>
       <a class="cat-card reveal" href="products/?category=Homeopathy" data-category="Homeopathy">
@@ -278,7 +261,7 @@
       <div class="step reveal">
         <div class="step__num">1</div>
         <h3>Browse the shop</h3>
-        <p>Explore categories — Templates, Books, AI Resources, HTML Apps and Printables — on a clean, responsive storefront.</p>
+        <p>Explore categories — HTML Apps, Homeopathy, Health Tools, Games, Utilities and Data — on a clean, responsive storefront.</p>
         <span class="step__line" aria-hidden="true"></span>
       </div>
       <div class="step reveal">
@@ -376,7 +359,7 @@
       </details>
       <details class="q">
         <summary>What categories are available? <span class="plus" aria-hidden="true"></span></summary>
-        <p>The shop is organised into Templates, Books, AI Resources, HTML Apps and Printables, plus a Free Resources section.</p>
+        <p>The shop is organised into HTML Apps, Homeopathy, Health Tools, Games, Utilities and Data, plus a Free Resources section.</p>
       </details>
       <details class="q">
         <summary>Are there free resources? <span class="plus" aria-hidden="true"></span></summary>
