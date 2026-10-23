@@ -122,6 +122,22 @@
 /* Render posts from ../data/posts.json — refreshed by the blog workflow, so new
    and updated apps appear automatically, each with a link and an image. */
 (function () {
+  function coverEl(p){
+    var wrap = document.createElement('div');
+    wrap.style.cssText = 'position:relative;width:100%;aspect-ratio:16/9;border-radius:10px;margin-bottom:10px;overflow:hidden;background:linear-gradient(135deg,#7c3aed,#2563eb)';
+    var lab = document.createElement('span');
+    lab.textContent = (p.repo || p.title || '').replace(/[-_]+/g, ' ').slice(0, 44);
+    lab.style.cssText = 'position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:1.05rem;text-align:center;padding:1rem;line-height:1.3';
+    wrap.appendChild(lab);
+    if (p.image) {
+      var img = document.createElement('img');
+      img.src = p.image; img.alt = p.repo || p.title || ''; img.loading = 'lazy';
+      img.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover';
+      img.onerror = function () { img.remove(); };
+      wrap.appendChild(img);
+    }
+    return wrap;
+  }
   var list = document.getElementById('post-list');
   var empty = document.getElementById('post-empty');
   if (!list) return;
@@ -135,16 +151,11 @@
         a.href = p.url || p.source || '#';
         a.className = 'article-card reveal in';
         a.style.cssText = 'display:block;text-decoration:none;color:inherit';
-        var img = document.createElement('img');
-        img.src = p.image; img.alt = p.repo || p.title || '';
-        img.loading = 'lazy';
-        img.style.cssText = 'width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;margin-bottom:10px;background:#eee';
-        img.onerror = function () { img.remove(); };
         var meta = document.createElement('span'); meta.className = 'meta';
         meta.textContent = (p.category || 'App update') + ' · ' + (p.date || '');
         var h = document.createElement('h3'); h.textContent = p.title || p.repo;
         var d = document.createElement('p'); d.textContent = p.summary || '';
-        a.appendChild(img); a.appendChild(meta); a.appendChild(h); a.appendChild(d);
+        a.appendChild(coverEl(p)); a.appendChild(meta); a.appendChild(h); a.appendChild(d);
         list.appendChild(a);
       });
       if (window.MATNEO && window.MATNEO.initReveal) window.MATNEO.initReveal();
