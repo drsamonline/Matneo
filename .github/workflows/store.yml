@@ -1,0 +1,41 @@
+name: Refresh store catalogue
+
+# Regenerates from the SHARED module drsoam.py (app-builder), so every output
+# uses one exclusion list and cannot drift.
+
+on:
+  schedule:
+    - cron: "22 4 * * *"
+  push:
+    branches: [ main ]
+    paths: [ .github/workflows/catalogue.yml ]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-store-catalogue
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: drsamonline/app-builder
+          path: .drsoam
+      - name: Regenerate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .drsoam/drsoam.py store
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then echo "no change"; exit 0; fi
+          git config user.name  "forge-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/data/products.json data/products.json
+          git commit -m "chore: refresh store catalogue [skip ci]"
+          git push
