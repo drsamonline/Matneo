@@ -95,6 +95,29 @@
     "featured": false
   },
   {
+    "id": "aethelgard-rpg-engine",
+    "title": "aethelgard-rpg-engine",
+    "category": "HTML Apps",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/aethelgard-rpg-engine/",
+    "landingPage": "https://drsamonline.github.io/aethelgard-rpg-engine/",
+    "image": "https://drsamonline.github.io/assets/shots/aethelgard-rpg-engine.webp",
+    "sourceRepo": "drsamonline/aethelgard-rpg-engine",
+    "license": "MIT",
+    "tagline": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs.",
+    "description": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs. Engine only — ships a small generic sample world; the games it powers live in drsamonline/aethelgard-games.",
+    "tags": [
+      "HTML Apps"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
     "id": "all4one",
     "title": "All4ONE",
     "category": "Utilities",
@@ -861,6 +884,29 @@
       "chiptune",
       "game",
       "html5"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
+    "id": "saga-vn-engine",
+    "title": "saga-vn-engine",
+    "category": "HTML Apps",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/saga-vn-engine/",
+    "landingPage": "https://drsamonline.github.io/saga-vn-engine/",
+    "image": "https://drsamonline.github.io/assets/shots/saga-vn-engine.webp",
+    "sourceRepo": "drsamonline/saga-vn-engine",
+    "license": "NOASSERTION",
+    "tagline": "Saga — a small, dependency-free visual-novel engine for the browser.",
+    "description": "Saga — a small, dependency-free visual-novel engine for the browser. Plain JavaScript, one stylesheet, no build step. Engine only; the games it powers live in drsamonline/aethelgard-games.",
+    "tags": [
+      "HTML Apps"
     ],
     "buyLinks": [],
     "rating": {
