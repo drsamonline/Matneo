@@ -2,21 +2,10 @@
   "generated": "2026-10-23",
   "posts": [
     {
-      "title": "One app, two optical transports \u2014 send a file with light over QR or a colour matrix.",
-      "repo": "helioprism",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "One app, two optical transports \u2014 send a file with light over QR or a colour matrix. Offline, no network.",
-      "url": "https://drsamonline.github.io/helioprism/",
-      "source": "https://github.com/drsamonline/helioprism",
-      "image": "https://drsamonline.github.io/assets/shots/helioprism.webp",
-      "kind": "update"
-    },
-    {
       "title": "BlinkCode AI \u2014 single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
       "repo": "blinkcode-ai",
       "category": "App update",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "summary": "BlinkCode AI \u2014 single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
       "url": "https://drsamonline.github.io/blinkcode-ai/",
       "source": "https://github.com/drsamonline/blinkcode-ai",
@@ -27,11 +16,88 @@
       "title": "DATA TRANSFER IN BLINK OF EYE",
       "repo": "BLINKTRANSFER",
       "category": "App update",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "summary": "DATA TRANSFER IN BLINK OF EYE",
       "url": "https://drsamonline.github.io/BLINKTRANSFER/",
       "source": "https://github.com/drsamonline/BLINKTRANSFER",
       "image": "https://drsamonline.github.io/assets/shots/BLINKTRANSFER.webp",
+      "kind": "update"
+    },
+    {
+      "title": "One app, two optical transports \u2014 send a file with light over QR or a colour matrix.",
+      "repo": "helioprism",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "One app, two optical transports \u2014 send a file with light over QR or a colour matrix. Offline, no network.",
+      "url": "https://drsamonline.github.io/helioprism/",
+      "source": "https://github.com/drsamonline/helioprism",
+      "image": "https://drsamonline.github.io/assets/shots/helioprism.webp",
+      "kind": "update"
+    },
+    {
+      "title": "A daily Indian almanac \u2014 tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
+      "repo": "app-panchang",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "A daily Indian almanac \u2014 tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline. Built with Forge.",
+      "url": "https://drsamonline.github.io/app-panchang/",
+      "source": "https://github.com/drsamonline/app-panchang",
+      "image": "https://drsamonline.github.io/assets/shots/app-panchang.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge",
+      "repo": "canteen-lan",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge",
+      "url": "https://drsamonline.github.io/canteen-lan/",
+      "source": "https://github.com/drsamonline/canteen-lan",
+      "image": "https://drsamonline.github.io/assets/shots/canteen-lan.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Companion study app for Mnemosyne Materia Medica \u2014 100 polycrest homoeopathic remedies as poetic pearls, keynotes and spaced-repetition drills.",
+      "repo": "mnemosyne-companion",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "Companion study app for Mnemosyne Materia Medica \u2014 100 polycrest homoeopathic remedies as poetic pearls, keynotes and spaced-repetition drills. Single offline HTML file. Proprietary, all rights reserved.",
+      "url": "https://drsamonline.github.io/mnemosyne-companion/",
+      "source": "https://github.com/drsamonline/mnemosyne-companion",
+      "image": "https://drsamonline.github.io/assets/shots/mnemosyne-companion.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Companion app to the book \"The Skin Is a Liar\" by Dr.",
+      "repo": "skin-case-tracker",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "Companion app to the book \"The Skin Is a Liar\" by Dr. Sohil Momin \u2014 a private, offline HHMS skin-case tracker (History, Habits, Mapping, Symptoms) with a 90-day pattern engine. Free to use; all rights reserved.",
+      "url": "https://drsamonline.github.io/skin-case-tracker/",
+      "source": "https://github.com/drsamonline/skin-case-tracker",
+      "image": "https://drsamonline.github.io/assets/shots/skin-case-tracker.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Offline companion app to the book The Unstoppable Mind by Dr.",
+      "repo": "unstoppable-mind-companion",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "Offline companion app to the book The Unstoppable Mind by Dr. Sohil Momin - key points, exercises, a 7-day challenge and flashcards. Free to use.",
+      "url": "https://drsamonline.github.io/unstoppable-mind-companion/",
+      "source": "https://github.com/drsamonline/unstoppable-mind-companion",
+      "image": "https://drsamonline.github.io/assets/shots/unstoppable-mind-companion.webp",
+      "kind": "update"
+    },
+    {
+      "title": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live.",
+      "repo": "chalk-lan",
+      "category": "App update",
+      "date": "2026-10-22",
+      "summary": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live. Offline, no accounts. Built with Forge on web-kit + lan-kit.",
+      "url": "https://drsamonline.github.io/chalk-lan/",
+      "source": "https://github.com/drsamonline/chalk-lan",
+      "image": "https://drsamonline.github.io/assets/shots/chalk-lan.webp",
       "kind": "update"
     },
     {
@@ -43,72 +109,6 @@
       "url": "https://drsamonline.github.io/app-companion-forge/",
       "source": "https://github.com/drsamonline/app-companion-forge",
       "image": "https://drsamonline.github.io/assets/shots/app-companion-forge.webp",
-      "kind": "update"
-    },
-    {
-      "title": "Clinical case tracking: sections, dated symptoms, follow-ups, a timeline and a summary.",
-      "repo": "case-kit",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "Clinical case tracking: sections, dated symptoms, follow-ups, a timeline and a summary. Zero dependencies, MIT.",
-      "url": "https://drsamonline.github.io/case-kit/",
-      "source": "https://github.com/drsamonline/case-kit",
-      "image": "https://drsamonline.github.io/assets/shots/case-kit.webp",
-      "kind": "update"
-    },
-    {
-      "title": "The companion-app-from-a-book pattern: chapters, key points, practices, flashcards, search and reading progress.",
-      "repo": "book-kit",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "The companion-app-from-a-book pattern: chapters, key points, practices, flashcards, search and reading progress. Zero dependencies, MIT.",
-      "url": "https://drsamonline.github.io/book-kit/",
-      "source": "https://github.com/drsamonline/book-kit",
-      "image": "https://drsamonline.github.io/assets/shots/book-kit.webp",
-      "kind": "update"
-    },
-    {
-      "title": "Spaced repetition (SM-2) for flashcards: scheduling, lapses, due cards and stats.",
-      "repo": "srs-kit",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "Spaced repetition (SM-2) for flashcards: scheduling, lapses, due cards and stats. Zero dependencies, MIT.",
-      "url": "https://drsamonline.github.io/srs-kit/",
-      "source": "https://github.com/drsamonline/srs-kit",
-      "image": "https://drsamonline.github.io/assets/shots/srs-kit.webp",
-      "kind": "update"
-    },
-    {
-      "title": "Ranked search over big corpora: an inverted index with prefix and fuzzy matching.",
-      "repo": "search-kit",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "Ranked search over big corpora: an inverted index with prefix and fuzzy matching. Zero dependencies, MIT.",
-      "url": "https://drsamonline.github.io/search-kit/",
-      "source": "https://github.com/drsamonline/search-kit",
-      "image": "https://drsamonline.github.io/assets/shots/search-kit.webp",
-      "kind": "update"
-    },
-    {
-      "title": "The homeopathic repertorisation core: rubric grading and grade-weighted remedy scoring.",
-      "repo": "repertory-kit",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "The homeopathic repertorisation core: rubric grading and grade-weighted remedy scoring. Zero dependencies, MIT.",
-      "url": "https://drsamonline.github.io/repertory-kit/",
-      "source": "https://github.com/drsamonline/repertory-kit",
-      "image": "https://drsamonline.github.io/assets/shots/repertory-kit.webp",
-      "kind": "update"
-    },
-    {
-      "title": "A daily Indian almanac \u2014 tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
-      "repo": "app-panchang",
-      "category": "App update",
-      "date": "2026-10-22",
-      "summary": "A daily Indian almanac \u2014 tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline. Built with Forge.",
-      "url": "https://drsamonline.github.io/app-panchang/",
-      "source": "https://github.com/drsamonline/app-panchang",
-      "image": "https://drsamonline.github.io/assets/shots/app-panchang.webp",
       "kind": "update"
     },
     {
