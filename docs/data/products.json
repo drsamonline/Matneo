@@ -1,17 +1,66 @@
 [
   {
-    "id": "aethelgard-engine",
-    "title": "Aethelgard-Engine",
+    "id": "bmi-bmr-tdee-macros-fluid-calculator",
+    "title": "bmi-bmr-tdee-macros-fluid-calculator",
+    "category": "Health Tools",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
+    "landingPage": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
+    "image": "https://drsamonline.github.io/assets/shots/bmi-bmr-tdee-macros-fluid-calculator.webp",
+    "sourceRepo": "drsamonline/bmi-bmr-tdee-macros-fluid-calculator",
+    "license": "MIT",
+    "tagline": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI.",
+    "description": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI. Offline-capable. By Dr. Sohil Momin.",
+    "tags": [
+      "bmi",
+      "bmr",
+      "calculator",
+      "clinical"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": true
+  },
+  {
+    "id": "kent-repertory-explorer",
+    "title": "kent-repertory-explorer",
+    "category": "Homeopathy",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/kent-repertory-explorer/",
+    "landingPage": "https://drsamonline.github.io/kent-repertory-explorer/",
+    "image": "https://drsamonline.github.io/assets/shots/kent-repertory-explorer.webp",
+    "sourceRepo": "drsamonline/kent-repertory-explorer",
+    "license": "NOASSERTION",
+    "tagline": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation.",
+    "description": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation. No server, no backend.",
+    "tags": [
+      "Homeopathy"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": true
+  },
+  {
+    "id": "today-card",
+    "title": "today-card",
     "category": "HTML Apps",
     "type": "open-source",
     "price": "Free",
-    "link": "https://drsamonline.github.io/Aethelgard-Engine/",
-    "landingPage": "https://drsamonline.github.io/Aethelgard-Engine/",
-    "image": "https://drsamonline.github.io/assets/shots/Aethelgard-Engine.webp",
-    "sourceRepo": "drsamonline/Aethelgard-Engine",
-    "license": "NOASSERTION",
-    "tagline": "Aethelgard-Engine base Engine for Aethlgard RPG Game",
-    "description": "Aethelgard-Engine base Engine for Aethlgard RPG Game",
+    "link": "https://drsamonline.github.io/today-card/",
+    "landingPage": "https://drsamonline.github.io/today-card/",
+    "image": "https://drsamonline.github.io/assets/shots/today-card.webp",
+    "sourceRepo": "drsamonline/today-card",
+    "license": "MIT",
+    "tagline": "Today Card - one card for the day: your date, one intention, one task, and a streak.",
+    "description": "Today Card - one card for the day: your date, one intention, one task, and a streak. Offline, no accounts. Built with web-kit and Forge.",
     "tags": [
       "HTML Apps"
     ],
@@ -20,7 +69,7 @@
       "avg": 0,
       "count": 0
     },
-    "featured": false
+    "featured": true
   },
   {
     "id": "aethelgard-games",
@@ -32,32 +81,9 @@
     "landingPage": "https://drsamonline.github.io/aethelgard-games/",
     "image": "https://drsamonline.github.io/assets/shots/aethelgard-games.webp",
     "sourceRepo": "drsamonline/aethelgard-games",
-    "license": "MIT",
+    "license": "NOASSERTION",
     "tagline": "Two free browser games by Dr.",
     "description": "Two free browser games by Dr. Sohil Momin — Aethelgard: The Books (visual novel) and Aethelgard: Chronicles of Fate (RPG). Playable on GitHub Pages.",
-    "tags": [
-      "Games"
-    ],
-    "buyLinks": [],
-    "rating": {
-      "avg": 0,
-      "count": 0
-    },
-    "featured": false
-  },
-  {
-    "id": "aethelgardvn",
-    "title": "AethelgardVN",
-    "category": "Games",
-    "type": "open-source",
-    "price": "Free",
-    "link": "https://drsamonline.github.io/AethelgardVN/",
-    "landingPage": "https://drsamonline.github.io/AethelgardVN/",
-    "image": "https://drsamonline.github.io/assets/shots/AethelgardVN.webp",
-    "sourceRepo": "drsamonline/AethelgardVN",
-    "license": "NOASSERTION",
-    "tagline": "Visual Novel based on Aethelgard: Chronicles of Fate RPG with Base Engine",
-    "description": "Visual Novel based on Aethelgard: Chronicles of Fate RPG with Base Engine",
     "tags": [
       "Games"
     ],
@@ -123,7 +149,7 @@
   {
     "id": "app-companion-forge",
     "title": "app-companion-forge",
-    "category": "Utilities",
+    "category": "HTML Apps",
     "type": "open-source",
     "price": "Free",
     "link": "https://drsamonline.github.io/app-companion-forge/",
@@ -131,10 +157,10 @@
     "image": "https://drsamonline.github.io/assets/shots/app-companion-forge.webp",
     "sourceRepo": "drsamonline/app-companion-forge",
     "license": "MIT",
-    "tagline": "Companion Forge - an offline pocket console for the drsamonline Forge system: the build queue, state, kit graph and repo fleet.",
-    "description": "Companion Forge - an offline pocket console for the drsamonline Forge system: the build queue, state, kit graph and repo fleet. Built with Forge on web-kit.",
+    "tagline": "Forge tooling (not a product app): an offline pocket console for the Forge system.",
+    "description": "Forge tooling (not a product app): an offline pocket console for the Forge system.",
     "tags": [
-      "Utilities"
+      "HTML Apps"
     ],
     "buyLinks": [],
     "rating": {
@@ -146,7 +172,7 @@
   {
     "id": "app-panchang",
     "title": "app-panchang",
-    "category": "Utilities",
+    "category": "HTML Apps",
     "type": "open-source",
     "price": "Free",
     "link": "https://drsamonline.github.io/app-panchang/",
@@ -157,7 +183,7 @@
     "tagline": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
     "description": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline. Built with Forge.",
     "tags": [
-      "Utilities"
+      "HTML Apps"
     ],
     "buyLinks": [],
     "rating": {
@@ -169,7 +195,7 @@
   {
     "id": "blinkcode-ai",
     "title": "blinkcode-ai",
-    "category": "Utilities",
+    "category": "HTML Apps",
     "type": "open-source",
     "price": "Free",
     "link": "https://drsamonline.github.io/blinkcode-ai/",
@@ -180,7 +206,7 @@
     "tagline": "BlinkCode AI — single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
     "description": "BlinkCode AI — single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
     "tags": [
-      "Utilities"
+      "HTML Apps"
     ],
     "buyLinks": [],
     "rating": {
@@ -192,7 +218,7 @@
   {
     "id": "blinktransfer",
     "title": "BLINKTRANSFER",
-    "category": "Utilities",
+    "category": "HTML Apps",
     "type": "open-source",
     "price": "Free",
     "link": "https://drsamonline.github.io/BLINKTRANSFER/",
@@ -203,7 +229,7 @@
     "tagline": "DATA TRANSFER IN BLINK OF EYE",
     "description": "DATA TRANSFER IN BLINK OF EYE",
     "tags": [
-      "Utilities"
+      "HTML Apps"
     ],
     "buyLinks": [],
     "rating": {
@@ -211,32 +237,6 @@
       "count": 0
     },
     "featured": false
-  },
-  {
-    "id": "bmi-bmr-tdee-macros-fluid-calculator",
-    "title": "bmi-bmr-tdee-macros-fluid-calculator",
-    "category": "Health Tools",
-    "type": "open-source",
-    "price": "Free",
-    "link": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
-    "landingPage": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
-    "image": "https://drsamonline.github.io/assets/shots/bmi-bmr-tdee-macros-fluid-calculator.webp",
-    "sourceRepo": "drsamonline/bmi-bmr-tdee-macros-fluid-calculator",
-    "license": "MIT",
-    "tagline": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI.",
-    "description": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI. Offline-capable. By Dr. Sohil Momin.",
-    "tags": [
-      "bmi",
-      "bmr",
-      "calculator",
-      "clinical"
-    ],
-    "buyLinks": [],
-    "rating": {
-      "avg": 0,
-      "count": 0
-    },
-    "featured": true
   },
   {
     "id": "boericke-repertory",
@@ -264,7 +264,7 @@
   {
     "id": "canteen-lan",
     "title": "canteen-lan",
-    "category": "Apps",
+    "category": "HTML Apps",
     "type": "open-source",
     "price": "Free",
     "link": "https://drsamonline.github.io/canteen-lan/",
@@ -274,7 +274,9 @@
     "license": "MIT",
     "tagline": "Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge",
     "description": "Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge",
-    "tags": [],
+    "tags": [
+      "HTML Apps"
+    ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
@@ -285,7 +287,7 @@
   {
     "id": "chalk-lan",
     "title": "chalk-lan",
-    "category": "Apps",
+    "category": "HTML Apps",
     "type": "open-source",
     "price": "Free",
     "link": "https://drsamonline.github.io/chalk-lan/",
@@ -293,9 +295,11 @@
     "image": "https://drsamonline.github.io/assets/shots/chalk-lan.webp",
     "sourceRepo": "drsamonline/chalk-lan",
     "license": "MIT",
-    "tagline": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live. Offline, no accounts. Built with Forge on web-kit + lan-kit.",
+    "tagline": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live.",
     "description": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live. Offline, no accounts. Built with Forge on web-kit + lan-kit.",
-    "tags": [],
+    "tags": [
+      "HTML Apps"
+    ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
@@ -376,6 +380,52 @@
     "featured": false
   },
   {
+    "id": "export-kit",
+    "title": "export-kit",
+    "category": "HTML Apps",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/export-kit/",
+    "landingPage": "https://drsamonline.github.io/export-kit/",
+    "image": "https://drsamonline.github.io/assets/shots/export-kit.webp",
+    "sourceRepo": "drsamonline/export-kit",
+    "license": "MIT",
+    "tagline": "Save text, JSON, CSV and binary to the user's device, and bundle files into a store-only ZIP.",
+    "description": "Save text, JSON, CSV and binary to the user's device, and bundle files into a store-only ZIP. One file, no dependencies. Built with Forge.",
+    "tags": [
+      "HTML Apps"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
+    "id": "frame-kit",
+    "title": "frame-kit",
+    "category": "HTML Apps",
+    "type": "open-source",
+    "price": "Free",
+    "link": "https://drsamonline.github.io/frame-kit/",
+    "landingPage": "https://drsamonline.github.io/frame-kit/",
+    "image": "https://drsamonline.github.io/assets/shots/frame-kit.webp",
+    "sourceRepo": "drsamonline/frame-kit",
+    "license": "MIT",
+    "tagline": "The shared transfer-frame core for drsamonline apps: a self-describing frame, a rateless collector and byte/checksum utilities.",
+    "description": "The shared transfer-frame core for drsamonline apps: a self-describing frame, a rateless collector and byte/checksum utilities. One file, no dependencies. MIT.",
+    "tags": [
+      "HTML Apps"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": false
+  },
+  {
     "id": "gentle-pediatrics-companion",
     "title": "gentle-pediatrics-companion",
     "category": "Homeopathy",
@@ -401,7 +451,7 @@
   {
     "id": "helioprism",
     "title": "helioprism",
-    "category": "Utilities",
+    "category": "HTML Apps",
     "type": "open-source",
     "price": "Free",
     "link": "https://drsamonline.github.io/helioprism/",
@@ -412,7 +462,7 @@
     "tagline": "One app, two optical transports — send a file with light over QR or a colour matrix.",
     "description": "One app, two optical transports — send a file with light over QR or a colour matrix. Offline, no network.",
     "tags": [
-      "Utilities"
+      "HTML Apps"
     ],
     "buyLinks": [],
     "rating": {
@@ -495,29 +545,6 @@
       "count": 0
     },
     "featured": false
-  },
-  {
-    "id": "kent-repertory-explorer",
-    "title": "kent-repertory-explorer",
-    "category": "Homeopathy",
-    "type": "open-source",
-    "price": "Free",
-    "link": "https://drsamonline.github.io/kent-repertory-explorer/",
-    "landingPage": "https://drsamonline.github.io/kent-repertory-explorer/",
-    "image": "https://drsamonline.github.io/assets/shots/kent-repertory-explorer.webp",
-    "sourceRepo": "drsamonline/kent-repertory-explorer",
-    "license": "NOASSERTION",
-    "tagline": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation.",
-    "description": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation. No server, no backend.",
-    "tags": [
-      "Homeopathy"
-    ],
-    "buyLinks": [],
-    "rating": {
-      "avg": 0,
-      "count": 0
-    },
-    "featured": true
   },
   {
     "id": "lexora",
@@ -628,8 +655,8 @@
     "image": "https://drsamonline.github.io/assets/shots/NEO.webp",
     "sourceRepo": "drsamonline/NEO",
     "license": "NOASSERTION",
-    "tagline": "",
-    "description": "",
+    "tagline": "NOVA — a statically-typed, compiled systems programming language: C, JavaScript, Rust and WebAssembly backends, with a runtime, package manager, language server and debugger.",
+    "description": "NOVA — a statically-typed, compiled systems programming language: C, JavaScript, Rust and WebAssembly backends, with a runtime, package manager, language server and debugger.",
     "tags": [
       "Utilities"
     ],
@@ -733,29 +760,6 @@
     "description": "Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in your browser. No upload, no account, no server — works offline. Single self-contained HTML file.",
     "tags": [
       "Utilities"
-    ],
-    "buyLinks": [],
-    "rating": {
-      "avg": 0,
-      "count": 0
-    },
-    "featured": false
-  },
-  {
-    "id": "omm",
-    "title": "OMM",
-    "category": "Data",
-    "type": "open-source",
-    "price": "Free",
-    "link": "https://drsamonline.github.io/OMM/",
-    "landingPage": "https://drsamonline.github.io/OMM/",
-    "image": "https://drsamonline.github.io/assets/shots/OMM.webp",
-    "sourceRepo": "drsamonline/OMM",
-    "license": "MIT",
-    "tagline": "OPEN MATERIA MEDICA JSON FILES TO BE USED IN APPS MAKING IT EASY TO BUILD THME",
-    "description": "OPEN MATERIA MEDICA JSON FILES TO BE USED IN APPS MAKING IT EASY TO BUILD THME",
-    "tags": [
-      "Data"
     ],
     "buyLinks": [],
     "rating": {
@@ -876,13 +880,10 @@
     "image": "https://drsamonline.github.io/assets/shots/seance.webp",
     "sourceRepo": "drsamonline/seance",
     "license": "MIT",
-    "tagline": "Sealed notes, opened once. Seal a note with a passphrase; it opens once, offline.",
-    "description": "Seance - sealed notes, opened once. Write a note, seal it with a passphrase, share the text. Offline, no accounts. Built with crypto-kit + web-kit.",
+    "tagline": "Strongbox (master-list app) - sealed notes, opened once: seal a note with a passphrase, it opens once.",
+    "description": "Strongbox (master-list app) - sealed notes, opened once: seal a note with a passphrase, it opens once. Offline, no accounts. Built with crypto-kit + web-kit. (Fold-in of the working name 'seance'.)",
     "tags": [
-      "privacy",
-      "notes",
-      "crypto",
-      "offline"
+      "HTML Apps"
     ],
     "buyLinks": [],
     "rating": {
@@ -997,8 +998,8 @@
     "image": "https://drsamonline.github.io/assets/shots/The_Browser.webp",
     "sourceRepo": "drsamonline/The_Browser",
     "license": "NOASSERTION",
-    "tagline": "",
-    "description": "",
+    "tagline": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived).",
+    "description": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived). Not production-ready.",
     "tags": [
       "Utilities"
     ],
@@ -1008,31 +1009,6 @@
       "count": 0
     },
     "featured": false
-  },
-  {
-    "id": "today-card",
-    "title": "today-card",
-    "category": "HTML Apps",
-    "type": "open-source",
-    "price": "Free",
-    "link": "https://drsamonline.github.io/today-card/",
-    "landingPage": "https://drsamonline.github.io/today-card/",
-    "image": "https://drsamonline.github.io/assets/shots/today-card.webp",
-    "sourceRepo": "drsamonline/today-card",
-    "license": "MIT",
-    "tagline": "One card for the day: your date, one intention, one task, and a streak.",
-    "description": "Today Card - one card for the day: your date, one intention, one task, and a streak. Offline, no accounts. Built with web-kit and Forge.",
-    "tags": [
-      "offline",
-      "daily",
-      "productivity"
-    ],
-    "buyLinks": [],
-    "rating": {
-      "avg": 0,
-      "count": 0
-    },
-    "featured": true
   },
   {
     "id": "ttb",
