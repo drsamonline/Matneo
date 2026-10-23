@@ -9,7 +9,7 @@
       "summary": "Two free browser games by Dr. Sohil Momin — Aethelgard: The Books (visual novel) and Aethelgard: Chronicles of Fate (RPG). Playable on GitHub Pages.",
       "url": "https://drsamonline.github.io/aethelgard-games/",
       "source": "https://github.com/drsamonline/aethelgard-games",
-      "image": "https://raw.githubusercontent.com/drsamonline/aethelgard-games/HEAD/chronicles/mods/overhaul-vector/hd/class_archer.png",
+      "image": "https://opengraph.githubassets.com/1/drsamonline/aethelgard-games",
       "kind": "update"
     },
     {
@@ -42,7 +42,7 @@
       "summary": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived). Not production-ready.",
       "url": "https://drsamonline.github.io/The_Browser/",
       "source": "https://github.com/drsamonline/The_Browser",
-      "image": "https://raw.githubusercontent.com/drsamonline/The_Browser/HEAD/Tests/LibWeb/Screenshot/data/angled-stripes.png",
+      "image": "https://raw.githubusercontent.com/drsamonline/The_Browser/HEAD/Tests/LibWeb/Screenshot/data/car.png",
       "kind": "update"
     },
     {
@@ -75,7 +75,7 @@
       "summary": "The companion app to the book \"Read. Live. Transform.: A Practical Reading of the Qur'an\" by Dr Sohil Momin. Read the verse, live the practice, keep the change. Offline PWA, no dependencies. © Dr Sohil Momin — all rights reserved; permission required to reuse.",
       "url": "https://drsamonline.github.io/read-live-transform-app/",
       "source": "https://github.com/drsamonline/read-live-transform-app",
-      "image": "https://raw.githubusercontent.com/drsamonline/read-live-transform-app/HEAD/docs/play/screenshots/level-up.png",
+      "image": "https://raw.githubusercontent.com/drsamonline/read-live-transform-app/HEAD/screenshots/you.png",
       "kind": "update"
     },
     {
@@ -185,7 +185,7 @@
       "summary": "Offline companion app to the book The Unstoppable Mind by Dr. Sohil Momin - key points, exercises, a 7-day challenge and flashcards. Free to use.",
       "url": "https://drsamonline.github.io/unstoppable-mind-companion/",
       "source": "https://github.com/drsamonline/unstoppable-mind-companion",
-      "image": "https://raw.githubusercontent.com/drsamonline/unstoppable-mind-companion/HEAD/docs/assets/preview.png",
+      "image": "https://raw.githubusercontent.com/drsamonline/unstoppable-mind-companion/HEAD/preview.png",
       "kind": "update"
     },
     {
@@ -251,7 +251,7 @@
       "summary": "Offline, single-file explorer for homeopathic remedy relationships — built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879). No server, no backend.",
       "url": "https://drsamonline.github.io/remedy-relationship-explorer/",
       "source": "https://github.com/drsamonline/remedy-relationship-explorer",
-      "image": "https://raw.githubusercontent.com/drsamonline/remedy-relationship-explorer/HEAD/docs/assets/focus-1440.png",
+      "image": "https://raw.githubusercontent.com/drsamonline/remedy-relationship-explorer/HEAD/docs/assets/focus-390.png",
       "kind": "update"
     },
     {
