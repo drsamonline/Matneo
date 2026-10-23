@@ -13,6 +13,17 @@
       "kind": "update"
     },
     {
+      "title": "A code-only open-world game engine for the browser.",
+      "repo": "neon-engine",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "A code-only open-world game engine for the browser. No assets, no build step, no dependencies — every texture, mesh and sound is generated at runtime. MIT licensed.",
+      "url": "https://drsamonline.github.io/neon-engine/",
+      "source": "https://github.com/drsamonline/neon-engine",
+      "image": "https://drsamonline.github.io/assets/shots/neon-engine.webp",
+      "kind": "update"
+    },
+    {
       "title": "One app, two optical transports — send a file with light over QR or a colour matrix.",
       "repo": "helioprism",
       "category": "App update",
@@ -252,17 +263,6 @@
       "url": "https://drsamonline.github.io/aethelgard-games/",
       "source": "https://github.com/drsamonline/aethelgard-games",
       "image": "https://drsamonline.github.io/assets/shots/aethelgard-games.webp",
-      "kind": "update"
-    },
-    {
-      "title": "Saga — a small, dependency-free visual-novel engine for the browser.",
-      "repo": "saga-vn-engine",
-      "category": "App update",
-      "date": "2026-10-23",
-      "summary": "Saga — a small, dependency-free visual-novel engine for the browser. Plain JavaScript, one stylesheet, no build step. Engine only; the games it powers live in drsamonline/aethelgard-games.",
-      "url": "https://drsamonline.github.io/saga-vn-engine/",
-      "source": "https://github.com/drsamonline/saga-vn-engine",
-      "image": "https://drsamonline.github.io/assets/shots/saga-vn-engine.webp",
       "kind": "update"
     }
   ]
