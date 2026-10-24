@@ -7,28 +7,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
     "landingPage": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
-    "image": "images/bmi-bmr-tdee-macros-fluid-calculator.webp",
+    "image": "https://drsamonline.github.io/assets/shots/bmi-bmr-tdee-macros-fluid-calculator.webp",
     "sourceRepo": "drsamonline/bmi-bmr-tdee-macros-fluid-calculator",
     "license": "MIT",
     "tagline": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI.",
     "description": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI. Offline-capable. By Dr. Sohil Momin.",
     "tags": [
-      "bmi",
-      "bmr",
       "calculator",
-      "clinical"
+      "clinical",
+      "health",
+      "nutrition"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": true,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": true
   },
   {
     "id": "kent-repertory-explorer",
@@ -38,25 +33,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/kent-repertory-explorer/",
     "landingPage": "https://drsamonline.github.io/kent-repertory-explorer/",
-    "image": "images/kent-repertory-explorer.webp",
+    "image": "https://drsamonline.github.io/assets/shots/kent-repertory-explorer.webp",
     "sourceRepo": "drsamonline/kent-repertory-explorer",
     "license": "NOASSERTION",
     "tagline": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation.",
     "description": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation. No server, no backend.",
     "tags": [
-      "Homeopathy"
+      "homeopathy",
+      "offline-first",
+      "repertory",
+      "single-file"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": true,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": true
   },
   {
     "id": "today-card",
@@ -66,25 +59,22 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/today-card/",
     "landingPage": "https://drsamonline.github.io/today-card/",
-    "image": "images/today-card.webp",
+    "image": "https://drsamonline.github.io/assets/shots/today-card.webp",
     "sourceRepo": "drsamonline/today-card",
     "license": "MIT",
     "tagline": "Today Card - one card for the day: your date, one intention, one task, and a streak.",
     "description": "Today Card - one card for the day: your date, one intention, one task, and a streak. Offline, no accounts. Built with web-kit and Forge.",
     "tags": [
-      "HTML Apps"
+      "offline-first",
+      "productivity",
+      "single-file"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": true,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Today Card - one card for the day: your date, one intention, one task, and a streak.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": true
   },
   {
     "id": "aethelgard-games",
@@ -94,25 +84,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/aethelgard-games/",
     "landingPage": "https://drsamonline.github.io/aethelgard-games/",
-    "image": "images/aethelgard-games.webp",
+    "image": "https://drsamonline.github.io/assets/shots/aethelgard-games.webp",
     "sourceRepo": "drsamonline/aethelgard-games",
     "license": "NOASSERTION",
     "tagline": "Two free browser games by Dr.",
     "description": "Two free browser games by Dr. Sohil Momin — Aethelgard: The Books (visual novel) and Aethelgard: Chronicles of Fate (RPG). Playable on GitHub Pages.",
     "tags": [
-      "Games"
+      "browser-game",
+      "games",
+      "github-pages",
+      "offline-first"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Two free browser games by Dr.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "aethelgard-rpg-engine",
@@ -122,25 +110,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/aethelgard-rpg-engine/",
     "landingPage": "https://drsamonline.github.io/aethelgard-rpg-engine/",
-    "image": "images/aethelgard-rpg-engine.webp",
+    "image": "https://drsamonline.github.io/assets/shots/aethelgard-rpg-engine.webp",
     "sourceRepo": "drsamonline/aethelgard-rpg-engine",
     "license": "MIT",
     "tagline": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs.",
     "description": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs. Engine only — ships a small generic sample world; the games it powers live in drsamonline/aethelgard-games.",
     "tags": [
-      "HTML Apps"
+      "game-engine",
+      "games",
+      "javascript",
+      "zero-dependency"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "all4one",
@@ -150,28 +136,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/All4ONE/",
     "landingPage": "https://drsamonline.github.io/All4ONE/",
-    "image": "images/all4one.webp",
+    "image": "https://drsamonline.github.io/assets/shots/All4ONE.webp",
     "sourceRepo": "drsamonline/All4ONE",
     "license": "MIT",
     "tagline": "🧰 551 portable Windows tools in ONE free .exe — file ops, hashing, PDF/Office batch, image/video/audio, network diagnostics, registry helpers, disk cleaner, security audits.",
     "description": "🧰 551 portable Windows tools in ONE free .exe — file ops, hashing, PDF/Office batch, image/video/audio, network diagnostics, registry helpers, disk cleaner, security audits. Zero installs, zero telemetry, MIT licensed. CLI + GUI.",
     "tags": [
-      "batch-processing",
       "cli-tool",
-      "disk-cleaner",
-      "ffmpeg"
+      "offline-tools",
+      "portable-app",
+      "productivity"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "🧰 551 portable Windows tools in ONE free .exe — file ops, hashing, PDF/Office batch, image/video/audio, network diagnostics, registry helpers, disk cleaner, security audits.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "ambient-sound-studio",
@@ -181,28 +162,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/ambient-sound-studio/",
     "landingPage": "https://drsamonline.github.io/ambient-sound-studio/",
-    "image": "images/ambient-sound-studio.webp",
+    "image": "https://drsamonline.github.io/assets/shots/ambient-sound-studio.webp",
     "sourceRepo": "drsamonline/ambient-sound-studio",
     "license": "NOASSERTION",
     "tagline": "A private, offline ambient sound mixer that lives in a single HTML file.",
     "description": "A private, offline ambient sound mixer that lives in a single HTML file. 25 synthesised layers, 36 presets, English/Hindi/Gujarati, WAV & Opus export, installable PWA. Free for personal use.",
     "tags": [
       "ambient",
-      "focus",
-      "html5",
-      "no-tracking"
+      "music",
+      "no-tracking",
+      "offline-first"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "A private, offline ambient sound mixer that lives in a single HTML file.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "app-companion-forge",
@@ -212,25 +188,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/app-companion-forge/",
     "landingPage": "https://drsamonline.github.io/app-companion-forge/",
-    "image": "images/app-companion-forge.webp",
+    "image": "https://drsamonline.github.io/assets/shots/app-companion-forge.webp",
     "sourceRepo": "drsamonline/app-companion-forge",
     "license": "MIT",
     "tagline": "Forge tooling (not a product app): an offline pocket console for the Forge system.",
     "description": "Forge tooling (not a product app): an offline pocket console for the Forge system.",
     "tags": [
-      "HTML Apps"
+      "offline-first",
+      "productivity",
+      "single-file",
+      "tooling"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Forge tooling (not a product app): an offline pocket console for the Forge system.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "app-panchang",
@@ -240,25 +214,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/app-panchang/",
     "landingPage": "https://drsamonline.github.io/app-panchang/",
-    "image": "images/app-panchang.webp",
+    "image": "https://drsamonline.github.io/assets/shots/app-panchang.webp",
     "sourceRepo": "drsamonline/app-panchang",
     "license": "MIT",
     "tagline": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
     "description": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline. Built with Forge.",
     "tags": [
-      "HTML Apps"
+      "india",
+      "offline-first",
+      "panchang",
+      "pwa"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "blinkcode-ai",
@@ -268,25 +240,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/blinkcode-ai/",
     "landingPage": "https://drsamonline.github.io/blinkcode-ai/",
-    "image": "images/blinkcode-ai.webp",
+    "image": "https://drsamonline.github.io/assets/shots/blinkcode-ai.webp",
     "sourceRepo": "drsamonline/blinkcode-ai",
     "license": "NOASSERTION",
     "tagline": "BlinkCode AI — single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
     "description": "BlinkCode AI — single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
     "tags": [
-      "HTML Apps"
+      "compression",
+      "offline-first",
+      "pwa",
+      "single-file"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "BlinkCode AI — single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "blinktransfer",
@@ -296,25 +266,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/BLINKTRANSFER/",
     "landingPage": "https://drsamonline.github.io/BLINKTRANSFER/",
-    "image": "images/blinktransfer.webp",
+    "image": "https://drsamonline.github.io/assets/shots/BLINKTRANSFER.webp",
     "sourceRepo": "drsamonline/BLINKTRANSFER",
     "license": "NOASSERTION",
     "tagline": "DATA TRANSFER IN BLINK OF EYE",
     "description": "DATA TRANSFER IN BLINK OF EYE",
     "tags": [
-      "HTML Apps"
+      "file-transfer",
+      "offline-first",
+      "single-file",
+      "transfer"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "DATA TRANSFER IN BLINK OF EYE",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "boericke-repertory",
@@ -324,25 +292,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/boericke-repertory/",
     "landingPage": "https://drsamonline.github.io/boericke-repertory/",
-    "image": "images/boericke-repertory.webp",
+    "image": "https://drsamonline.github.io/assets/shots/boericke-repertory.webp",
     "sourceRepo": "drsamonline/boericke-repertory",
     "license": "NOASSERTION",
     "tagline": "Boericke's Repertory — a free, offline digital edition (single-file web app).",
     "description": "Boericke's Repertory — a free, offline digital edition (single-file web app). Content by Oscar E. Boericke, M.D.; design & app by Dr. Sohil Momin. Free to use with compulsory attribution.",
     "tags": [
-      "Homeopathy"
+      "homeopathy",
+      "materia-medica",
+      "offline-first",
+      "repertory"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Boericke's Repertory — a free, offline digital edition (single-file web app).",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "canteen-lan",
@@ -352,25 +318,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/canteen-lan/",
     "landingPage": "https://drsamonline.github.io/canteen-lan/",
-    "image": "images/canteen-lan.webp",
+    "image": "https://drsamonline.github.io/assets/shots/canteen-lan.webp",
     "sourceRepo": "drsamonline/canteen-lan",
     "license": "MIT",
     "tagline": "Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge",
     "description": "Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge",
     "tags": [
-      "HTML Apps"
+      "lan",
+      "offline-first",
+      "restaurant",
+      "single-file"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "chalk-lan",
@@ -380,25 +344,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/chalk-lan/",
     "landingPage": "https://drsamonline.github.io/chalk-lan/",
-    "image": "images/chalk-lan.webp",
+    "image": "https://drsamonline.github.io/assets/shots/chalk-lan.webp",
     "sourceRepo": "drsamonline/chalk-lan",
     "license": "MIT",
     "tagline": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live.",
     "description": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live. Offline, no accounts. Built with Forge on web-kit + lan-kit.",
     "tags": [
-      "HTML Apps"
+      "collaboration",
+      "lan",
+      "offline-first",
+      "whiteboard"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "cldr",
@@ -408,25 +370,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/CLDR/",
     "landingPage": "https://drsamonline.github.io/CLDR/",
-    "image": "images/cldr.webp",
+    "image": "https://drsamonline.github.io/assets/shots/CLDR.webp",
     "sourceRepo": "drsamonline/CLDR",
     "license": "NOASSERTION",
     "tagline": "Command Run Utility - Performance over Bloat",
     "description": "Command Run Utility - Performance over Bloat",
     "tags": [
-      "Utilities"
+      "cli",
+      "launcher",
+      "productivity",
+      "rust"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Command Run Utility - Performance over Bloat",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "conqueror-os",
@@ -436,7 +396,7 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/conqueror-os/",
     "landingPage": "https://drsamonline.github.io/conqueror-os/",
-    "image": "images/conqueror-os.webp",
+    "image": "https://drsamonline.github.io/assets/shots/conqueror-os.webp",
     "sourceRepo": "drsamonline/conqueror-os",
     "license": "MIT",
     "tagline": "A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review.",
@@ -444,20 +404,15 @@
     "tags": [
       "habits",
       "journal",
-      "local-first",
-      "no-dependencies"
+      "offline-first",
+      "privacy-first"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "dance-fight",
@@ -467,25 +422,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/dance-fight/",
     "landingPage": "https://drsamonline.github.io/dance-fight/",
-    "image": "images/dance-fight.webp",
+    "image": "https://drsamonline.github.io/assets/shots/dance-fight.webp",
     "sourceRepo": "drsamonline/dance-fight",
     "license": "MIT",
     "tagline": "A browser dance-fighting game where every fight move is a dance move.",
     "description": "A browser dance-fighting game where every fight move is a dance move. Load your own track and the character dances to its actual beat grid. Single HTML file, no dependencies, no build step.",
     "tags": [
-      "Games"
+      "browser-game",
+      "games",
+      "offline-first",
+      "single-file"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "A browser dance-fighting game where every fight move is a dance move.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "gentle-pediatrics-companion",
@@ -495,25 +448,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/gentle-pediatrics-companion/",
     "landingPage": "https://drsamonline.github.io/gentle-pediatrics-companion/",
-    "image": "images/gentle-pediatrics-companion.webp",
+    "image": "https://drsamonline.github.io/assets/shots/gentle-pediatrics-companion.webp",
     "sourceRepo": "drsamonline/gentle-pediatrics-companion",
     "license": "NOASSERTION",
     "tagline": "A triage-first home companion app for a sick child, built from the book Gentle Pediatrics by Dr.",
     "description": "A triage-first home companion app for a sick child, built from the book Gentle Pediatrics by Dr. Sohil Momin. Free to use; copyright retained.",
     "tags": [
-      "Homeopathy"
+      "clinical",
+      "homeopathy",
+      "offline-first",
+      "pediatrics"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "A triage-first home companion app for a sick child, built from the book Gentle Pediatrics by Dr.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "helioprism",
@@ -523,25 +474,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/helioprism/",
     "landingPage": "https://drsamonline.github.io/helioprism/",
-    "image": "images/helioprism.webp",
+    "image": "https://drsamonline.github.io/assets/shots/helioprism.webp",
     "sourceRepo": "drsamonline/helioprism",
     "license": "NOASSERTION",
     "tagline": "One app, two optical transports — send a file with light over QR or a colour matrix.",
     "description": "One app, two optical transports — send a file with light over QR or a colour matrix. Offline, no network.",
     "tags": [
-      "HTML Apps"
+      "offline-first",
+      "optical",
+      "single-file",
+      "transfer"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "One app, two optical transports — send a file with light over QR or a colour matrix.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "hms",
@@ -551,25 +500,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/HMS/",
     "landingPage": "https://drsamonline.github.io/HMS/",
-    "image": "images/hms.webp",
+    "image": "https://drsamonline.github.io/assets/shots/HMS.webp",
     "sourceRepo": "drsamonline/HMS",
     "license": "NOASSERTION",
     "tagline": "HHMS — Homeopathic Hospital Management System A LAN-based hospital management system purpose-built for homeopathic hospitals and clinics.",
     "description": "HHMS — Homeopathic Hospital Management System A LAN-based hospital management system purpose-built for homeopathic hospitals and clinics.  Runs entirely on the local network with a server-owned database — no internet dependency, no cloud lock-in.",
     "tags": [
-      "Utilities"
+      "clinical",
+      "homeopathy",
+      "hospital",
+      "lan"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "HHMS — Homeopathic Hospital Management System A LAN-based hospital management system purpose-built for homeopathic hospitals and clinics.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "homoeopathic-materia-medica-repertory-json",
@@ -579,28 +526,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/homoeopathic-materia-medica-repertory-json/",
     "landingPage": "https://drsamonline.github.io/homoeopathic-materia-medica-repertory-json/",
-    "image": "images/homoeopathic-materia-medica-repertory-json.webp",
+    "image": "https://drsamonline.github.io/assets/shots/homoeopathic-materia-medica-repertory-json.webp",
     "sourceRepo": "drsamonline/homoeopathic-materia-medica-repertory-json",
     "license": "NOASSERTION",
     "tagline": "Open-domain homoeopathic Materia Medica and Repertory texts as app-ready JSON (13 books, ~108k rubrics).",
     "description": "Open-domain homoeopathic Materia Medica and Repertory texts as app-ready JSON (13 books, ~108k rubrics). Free to use; credit the book authors and the JSON compiler.",
     "tags": [
-      "classical-homeopathy",
       "dataset",
       "homeopathy",
-      "homoeopathy"
+      "json",
+      "materia-medica"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Open-domain homoeopathic Materia Medica and Repertory texts as app-ready JSON (13 books, ~108k rubrics).",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "idle-city-ages-of-growth",
@@ -610,28 +552,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/idle-city-ages-of-growth/",
     "landingPage": "https://drsamonline.github.io/idle-city-ages-of-growth/",
-    "image": "images/idle-city-ages-of-growth.webp",
+    "image": "https://drsamonline.github.io/assets/shots/idle-city-ages-of-growth.webp",
     "sourceRepo": "drsamonline/idle-city-ages-of-growth",
     "license": "NOASSERTION",
     "tagline": "A single-file idle city-builder that grows from a Stone Age village into a Fusion Age world-city.",
     "description": "A single-file idle city-builder that grows from a Stone Age village into a Fusion Age world-city. Zero dependencies, fully offline, mobile-ready. By Dr. Sohil Momin. Source-available: free for non-commercial use with attribution; commercial use requires a licence.",
     "tags": [
-      "canvas",
       "city-builder",
-      "game",
-      "github-pages"
+      "games",
+      "idle-game",
+      "offline-first"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "A single-file idle city-builder that grows from a Stone Age village into a Fusion Age world-city.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "lexora",
@@ -641,25 +578,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/lexora/",
     "landingPage": "https://drsamonline.github.io/lexora/",
-    "image": "images/lexora.webp",
+    "image": "https://drsamonline.github.io/assets/shots/lexora.webp",
     "sourceRepo": "drsamonline/lexora",
     "license": "MIT",
     "tagline": "LEXORA — Layered Exact-text Repository & Adaptive Compression Architecture",
     "description": "LEXORA — Layered Exact-text Repository & Adaptive Compression Architecture",
     "tags": [
-      "Utilities"
+      "codec",
+      "compression",
+      "offline-first",
+      "python"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "LEXORA — Layered Exact-text Repository & Adaptive Compression Architecture",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "lockhtml",
@@ -669,28 +604,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/lockhtml/",
     "landingPage": "https://drsamonline.github.io/lockhtml/",
-    "image": "images/lockhtml.webp",
+    "image": "https://drsamonline.github.io/assets/shots/lockhtml.webp",
     "sourceRepo": "drsamonline/lockhtml",
     "license": "MIT",
     "tagline": "PIN-protect and one-time-view any HTML file with AES-256-GCM.",
     "description": "PIN-protect and one-time-view any HTML file with AES-256-GCM. Cross-platform CLI plus a browser-based GUI that runs on any OS.",
     "tags": [
-      "aes-256",
       "cli",
-      "cross-platform",
-      "encryption"
+      "encryption",
+      "offline-first",
+      "privacy-first"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "PIN-protect and one-time-view any HTML file with AES-256-GCM.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "materia-medica-builder",
@@ -700,25 +630,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/MATERIA-MEDICA-BUILDER/",
     "landingPage": "https://drsamonline.github.io/MATERIA-MEDICA-BUILDER/",
-    "image": "images/materia-medica-builder.webp",
+    "image": "https://drsamonline.github.io/assets/shots/MATERIA-MEDICA-BUILDER.webp",
     "sourceRepo": "drsamonline/MATERIA-MEDICA-BUILDER",
     "license": "NOASSERTION",
     "tagline": "Materia Medica Builder",
     "description": "Materia Medica Builder",
     "tags": [
-      "Homeopathy"
+      "homeopathy",
+      "materia-medica",
+      "offline-first",
+      "tooling"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Materia Medica Builder",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "mnemosyne-companion",
@@ -728,28 +656,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/mnemosyne-companion/",
     "landingPage": "https://drsamonline.github.io/mnemosyne-companion/",
-    "image": "images/mnemosyne-companion.webp",
+    "image": "https://drsamonline.github.io/assets/shots/mnemosyne-companion.webp",
     "sourceRepo": "drsamonline/mnemosyne-companion",
     "license": "NOASSERTION",
     "tagline": "Companion study app for Mnemosyne Materia Medica — 100 polycrest homoeopathic remedies as poetic pearls, keynotes and spaced-repetition drills.",
     "description": "Companion study app for Mnemosyne Materia Medica — 100 polycrest homoeopathic remedies as poetic pearls, keynotes and spaced-repetition drills. Single offline HTML file. Proprietary, all rights reserved.",
     "tags": [
+      "education",
       "flashcards",
       "homeopathy",
-      "homoeopathy",
-      "html"
+      "offline-first"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Companion study app for Mnemosyne Materia Medica — 100 polycrest homoeopathic remedies as poetic pearls, keynotes and spaced-repetition drills.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "neo",
@@ -759,25 +682,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/NEO/",
     "landingPage": "https://drsamonline.github.io/NEO/",
-    "image": "images/neo.webp",
+    "image": "https://drsamonline.github.io/assets/shots/NEO.webp",
     "sourceRepo": "drsamonline/NEO",
     "license": "NOASSERTION",
     "tagline": "NOVA — a statically-typed, compiled systems programming language: C, JavaScript, Rust and WebAssembly backends, with a runtime, package manager, language server and debugger.",
     "description": "NOVA — a statically-typed, compiled systems programming language: C, JavaScript, Rust and WebAssembly backends, with a runtime, package manager, language server and debugger.",
     "tags": [
-      "Utilities"
+      "compiler",
+      "programming-language",
+      "rust",
+      "systems-programming"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "NOVA — a statically-typed, compiled systems programming language: C, JavaScript, Rust and WebAssembly backends, with a runtime, package manager, language server and debugger.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "neon-engine",
@@ -787,28 +708,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/neon-engine/",
     "landingPage": "https://drsamonline.github.io/neon-engine/",
-    "image": "images/neon-engine.webp",
+    "image": "https://drsamonline.github.io/assets/shots/neon-engine.webp",
     "sourceRepo": "drsamonline/neon-engine",
     "license": "MIT",
     "tagline": "A code-only open-world game engine for the browser.",
     "description": "A code-only open-world game engine for the browser. No assets, no build step, no dependencies — every texture, mesh and sound is generated at runtime. MIT licensed.",
     "tags": [
-      "browser-game",
-      "es-modules",
       "game-engine",
-      "javascript"
+      "games",
+      "offline-first",
+      "pwa"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "A code-only open-world game engine for the browser.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "neon-games",
@@ -818,28 +734,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/neon-games/",
     "landingPage": "https://drsamonline.github.io/neon-games/",
-    "image": "images/neon-games.webp",
+    "image": "https://drsamonline.github.io/assets/shots/neon-games.webp",
     "sourceRepo": "drsamonline/neon-games",
     "license": "NOASSERTION",
     "tagline": "Two free open-world browser games on the Neon Engine — Dead Zone (zombie survival) and Neon Police.",
     "description": "Two free open-world browser games on the Neon Engine — Dead Zone (zombie survival) and Neon Police. Playable in the browser, no install. CC BY-NC-SA 4.0.",
     "tags": [
       "browser-game",
-      "cc-by-nc-sa",
-      "game",
-      "github-pages"
+      "games",
+      "github-pages",
+      "offline-first"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Two free open-world browser games on the Neon Engine — Dead Zone (zombie survival) and Neon Police.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "neon-runner",
@@ -849,28 +760,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/neon-runner/",
     "landingPage": "https://drsamonline.github.io/neon-runner/",
-    "image": "images/neon-runner.webp",
+    "image": "https://drsamonline.github.io/assets/shots/neon-runner.webp",
     "sourceRepo": "drsamonline/neon-runner",
     "license": "MIT",
     "tagline": "Retro auto-fire side-scrolling shooter.",
     "description": "Retro auto-fire side-scrolling shooter. Move, jump, duck — your gun fires itself. One self-contained HTML file, zero dependencies, fully offline.",
     "tags": [
-      "canvas",
-      "game",
-      "html5-game",
-      "javascript"
+      "games",
+      "offline-first",
+      "pixel-art",
+      "single-file"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Retro auto-fire side-scrolling shooter.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "offline-pdf-toolkit",
@@ -880,25 +786,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/offline-pdf-toolkit/",
     "landingPage": "https://drsamonline.github.io/offline-pdf-toolkit/",
-    "image": "images/offline-pdf-toolkit.webp",
+    "image": "https://drsamonline.github.io/assets/shots/offline-pdf-toolkit.webp",
     "sourceRepo": "drsamonline/offline-pdf-toolkit",
     "license": "NOASSERTION",
     "tagline": "Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in your browser.",
     "description": "Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in your browser. No upload, no account, no server — works offline. Single self-contained HTML file.",
     "tags": [
-      "Utilities"
+      "offline-first",
+      "pdf",
+      "privacy-first",
+      "single-file"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in your browser.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "open-materia-medica",
@@ -908,25 +812,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/open-materia-medica/",
     "landingPage": "https://drsamonline.github.io/open-materia-medica/",
-    "image": "images/open-materia-medica.webp",
+    "image": "https://drsamonline.github.io/assets/shots/open-materia-medica.webp",
     "sourceRepo": "drsamonline/open-materia-medica",
     "license": "NOASSERTION",
     "tagline": "Open Materia Medica — the classical homeopathic materia medica in plain language: 344 remedy portraits.",
     "description": "Open Materia Medica — the classical homeopathic materia medica in plain language: 344 remedy portraits. Free web edition and offline Android companion app to the book by Dr. Sohil Momin, BHMS. (c) 2026, all rights reserved.",
     "tags": [
-      "Homeopathy"
+      "education",
+      "homeopathy",
+      "materia-medica",
+      "offline-first"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Open Materia Medica — the classical homeopathic materia medica in plain language: 344 remedy portraits.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "read-live-transform-app",
@@ -936,28 +838,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/read-live-transform-app/",
     "landingPage": "https://drsamonline.github.io/read-live-transform-app/",
-    "image": "images/read-live-transform-app.avif",
+    "image": "https://drsamonline.github.io/assets/shots/read-live-transform-app.webp",
     "sourceRepo": "drsamonline/read-live-transform-app",
     "license": "NOASSERTION",
     "tagline": "The companion app to the book \"Read.",
     "description": "The companion app to the book \"Read. Live. Transform.: A Practical Reading of the Qur'an\" by Dr Sohil Momin. Read the verse, live the practice, keep the change. Offline PWA, no dependencies. © Dr Sohil Momin — all rights reserved; permission required to reuse.",
     "tags": [
-      "all-rights-reserved",
-      "islam",
-      "islamic-books",
-      "no-dependencies"
+      "education",
+      "offline-first",
+      "pwa",
+      "reading"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "The companion app to the book \"Read.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "remedy-relationship-explorer",
@@ -967,28 +864,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/remedy-relationship-explorer/",
     "landingPage": "https://drsamonline.github.io/remedy-relationship-explorer/",
-    "image": "images/remedy-relationship-explorer.webp",
+    "image": "https://drsamonline.github.io/assets/shots/remedy-relationship-explorer.webp",
     "sourceRepo": "drsamonline/remedy-relationship-explorer",
     "license": "NOASSERTION",
     "tagline": "Offline, single-file explorer for homeopathic remedy relationships — built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879).",
     "description": "Offline, single-file explorer for homeopathic remedy relationships — built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879). No server, no backend.",
     "tags": [
-      "boericke",
-      "clarke",
       "data-visualisation",
-      "graph"
+      "homeopathy",
+      "materia-medica",
+      "offline-first"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Offline, single-file explorer for homeopathic remedy relationships — built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879).",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "retro-strike",
@@ -998,28 +890,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/retro-strike/",
     "landingPage": "https://drsamonline.github.io/retro-strike/",
-    "image": "images/retro-strike.webp",
+    "image": "https://drsamonline.github.io/assets/shots/retro-strike.webp",
     "sourceRepo": "drsamonline/retro-strike",
     "license": "MIT",
     "tagline": "🎮 A complete retro 3rd-person shooter in a single HTML file — custom software 3D renderer, chiptune audio, zero dependencies.",
     "description": "🎮 A complete retro 3rd-person shooter in a single HTML file — custom software 3D renderer, chiptune audio, zero dependencies.",
     "tags": [
-      "canvas",
-      "chiptune",
-      "game",
-      "html5"
+      "games",
+      "offline-first",
+      "pixel-art",
+      "retro"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "🎮 A complete retro 3rd-person shooter in a single HTML file — custom software 3D renderer, chiptune audio, zero dependencies.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "saga-vn-engine",
@@ -1029,25 +916,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/saga-vn-engine/",
     "landingPage": "https://drsamonline.github.io/saga-vn-engine/",
-    "image": "images/saga-vn-engine.webp",
+    "image": "https://drsamonline.github.io/assets/shots/saga-vn-engine.webp",
     "sourceRepo": "drsamonline/saga-vn-engine",
     "license": "NOASSERTION",
     "tagline": "Saga — a small, dependency-free visual-novel engine for the browser.",
     "description": "Saga — a small, dependency-free visual-novel engine for the browser. Plain JavaScript, one stylesheet, no build step. Engine only; the games it powers live in drsamonline/aethelgard-games.",
     "tags": [
-      "HTML Apps"
+      "game-engine",
+      "games",
+      "visual-novel",
+      "zero-dependency"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Saga — a small, dependency-free visual-novel engine for the browser.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "seance",
@@ -1057,25 +942,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/seance/",
     "landingPage": "https://drsamonline.github.io/seance/",
-    "image": "images/seance.webp",
+    "image": "https://drsamonline.github.io/assets/shots/seance.webp",
     "sourceRepo": "drsamonline/seance",
     "license": "MIT",
     "tagline": "Strongbox (master-list app) - sealed notes, opened once: seal a note with a passphrase, it opens once.",
     "description": "Strongbox (master-list app) - sealed notes, opened once: seal a note with a passphrase, it opens once. Offline, no accounts. Built with crypto-kit + web-kit. (Fold-in of the working name 'seance'.)",
     "tags": [
-      "HTML Apps"
+      "encryption",
+      "notes",
+      "offline-first",
+      "productivity"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Strongbox (master-list app) - sealed notes, opened once: seal a note with a passphrase, it opens once.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "skin-case-tracker",
@@ -1085,25 +968,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/skin-case-tracker/",
     "landingPage": "https://drsamonline.github.io/skin-case-tracker/",
-    "image": "images/skin-case-tracker.webp",
+    "image": "https://drsamonline.github.io/assets/shots/skin-case-tracker.webp",
     "sourceRepo": "drsamonline/skin-case-tracker",
     "license": "NOASSERTION",
     "tagline": "Companion app to the book \"The Skin Is a Liar\" by Dr.",
     "description": "Companion app to the book \"The Skin Is a Liar\" by Dr. Sohil Momin — a private, offline HHMS skin-case tracker (History, Habits, Mapping, Symptoms) with a 90-day pattern engine. Free to use; all rights reserved.",
     "tags": [
-      "Homeopathy"
+      "case-management",
+      "clinical",
+      "homeopathy",
+      "offline-first"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Companion app to the book \"The Skin Is a Liar\" by Dr.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "smartbill-app",
@@ -1113,25 +994,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/smartbill-app/",
     "landingPage": "https://drsamonline.github.io/smartbill-app/",
-    "image": "images/smartbill-app.webp",
+    "image": "https://drsamonline.github.io/assets/shots/smartbill-app.webp",
     "sourceRepo": "drsamonline/smartbill-app",
     "license": "NOASSERTION",
     "tagline": "A fast, serverless, single-page billing and invoicing application built with Vue.js, tailored for Indian businesses.",
     "description": "A fast, serverless, single-page billing and invoicing application built with Vue.js, tailored for Indian businesses. Features local IndexedDB storage and GST support.",
     "tags": [
-      "Utilities"
+      "billing",
+      "india",
+      "invoicing",
+      "offline-first"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "A fast, serverless, single-page billing and invoicing application built with Vue.js, tailored for Indian businesses.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "smartnotes",
@@ -1141,25 +1020,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/SmartNotes/",
     "landingPage": "https://drsamonline.github.io/SmartNotes/",
-    "image": "images/smartnotes.webp",
+    "image": "https://drsamonline.github.io/assets/shots/SmartNotes.webp",
     "sourceRepo": "drsamonline/SmartNotes",
     "license": "NOASSERTION",
     "tagline": "Turn raw thoughts into organized action.",
     "description": "Turn raw thoughts into organized action.",
     "tags": [
-      "Utilities"
+      "notes",
+      "offline-first",
+      "productivity",
+      "pwa"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Turn raw thoughts into organized action.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "the-symphony-companion",
@@ -1169,28 +1046,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/the-symphony-companion/",
     "landingPage": "https://drsamonline.github.io/the-symphony-companion/",
-    "image": "images/the-symphony-companion.webp",
+    "image": "https://drsamonline.github.io/assets/shots/the-symphony-companion.webp",
     "sourceRepo": "drsamonline/the-symphony-companion",
     "license": "NOASSERTION",
     "tagline": "A pocket companion web app to The Symphony of the Present by Dr.",
     "description": "A pocket companion web app to The Symphony of the Present by Dr. Sohil Momin. Installable PWA, works offline. Copyrighted; free for personal, non-commercial use.",
     "tags": [
-      "alan-watts",
-      "companion-app",
-      "css-only",
-      "github-pages"
+      "github-pages",
+      "mindfulness",
+      "offline-first",
+      "philosophy"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "A pocket companion web app to The Symphony of the Present by Dr.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "the_browser",
@@ -1200,25 +1072,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/The_Browser/",
     "landingPage": "https://drsamonline.github.io/The_Browser/",
-    "image": "images/the_browser.webp",
+    "image": "https://drsamonline.github.io/assets/shots/The_Browser.webp",
     "sourceRepo": "drsamonline/The_Browser",
     "license": "NOASSERTION",
     "tagline": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived).",
     "description": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived). Not production-ready.",
     "tags": [
-      "Utilities"
+      "browser",
+      "cpp",
+      "rendering-engine",
+      "zero-dependency"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived).",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "ttb",
@@ -1228,25 +1098,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/TTB/",
     "landingPage": "https://drsamonline.github.io/TTB/",
-    "image": "images/ttb.webp",
+    "image": "https://drsamonline.github.io/assets/shots/TTB.webp",
     "sourceRepo": "drsamonline/TTB",
     "license": "MIT",
     "tagline": "TinyToolBox with 590 functionalities in one small extension for chrome",
     "description": "TinyToolBox with 590 functionalities in one small extension for chrome",
     "tags": [
-      "Utilities"
+      "browser-extension",
+      "offline-first",
+      "productivity",
+      "toolbox"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "TinyToolBox with 590 functionalities in one small extension for chrome",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "ultimate-windows-optimizer",
@@ -1256,25 +1124,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/ULTIMATE-WINDOWS-OPTIMIZER/",
     "landingPage": "https://drsamonline.github.io/ULTIMATE-WINDOWS-OPTIMIZER/",
-    "image": "images/ultimate-windows-optimizer.webp",
+    "image": "https://drsamonline.github.io/assets/shots/ULTIMATE-WINDOWS-OPTIMIZER.webp",
     "sourceRepo": "drsamonline/ULTIMATE-WINDOWS-OPTIMIZER",
     "license": "NOASSERTION",
     "tagline": "OPTIMIZE DEBLOAT TWEAK TO THE LEVEL PHYSICALLY POSSIBLE ANY WINDOWS 10/11 INSTALLATION",
     "description": "OPTIMIZE DEBLOAT TWEAK TO THE LEVEL PHYSICALLY POSSIBLE ANY WINDOWS 10/11 INSTALLATION",
     "tags": [
-      "Utilities"
+      "debloat",
+      "optimization",
+      "powershell",
+      "productivity"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "OPTIMIZE DEBLOAT TWEAK TO THE LEVEL PHYSICALLY POSSIBLE ANY WINDOWS 10/11 INSTALLATION",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "unstoppable-mind-companion",
@@ -1284,28 +1150,23 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/unstoppable-mind-companion/",
     "landingPage": "https://drsamonline.github.io/unstoppable-mind-companion/",
-    "image": "images/unstoppable-mind-companion.webp",
+    "image": "https://drsamonline.github.io/assets/shots/unstoppable-mind-companion.webp",
     "sourceRepo": "drsamonline/unstoppable-mind-companion",
     "license": "NOASSERTION",
     "tagline": "Offline companion app to the book The Unstoppable Mind by Dr.",
     "description": "Offline companion app to the book The Unstoppable Mind by Dr. Sohil Momin - key points, exercises, a 7-day challenge and flashcards. Free to use.",
     "tags": [
-      "book",
-      "companion-app",
-      "confidence",
-      "github-pages"
+      "education",
+      "github-pages",
+      "offline-first",
+      "psychology"
     ],
     "buyLinks": [],
     "rating": {
       "avg": 0,
       "count": 0
     },
-    "featured": false,
-    "imageWidth": 1200,
-    "imageHeight": 630,
-    "imageAlt": "Offline companion app to the book The Unstoppable Mind by Dr.",
-    "imageLoading": "lazy",
-    "imageCaptured": "2026-10-24"
+    "featured": false
   },
   {
     "id": "whispering-body-first-aid",
@@ -1321,10 +1182,10 @@
     "tagline": "Companion app for the book 'The Whispering Body' by Dr.",
     "description": "Companion app for the book 'The Whispering Body' by Dr. Sohil Momin — a home homeopathic first-aid box (30 remedies). Free to use; source code and book content are copyrighted.",
     "tags": [
-      "companion-app",
+      "clinical",
       "first-aid",
-      "first-aid-box",
-      "gujarati"
+      "homeopathy",
+      "offline-first"
     ],
     "buyLinks": [],
     "rating": {
