@@ -48,6 +48,9 @@ jobs:
       - name: Install the tools
         run: |
           python -m pip install --quiet --upgrade pip shot-scraper pillow
+          # shot-scraper drives its OWN Chromium; without this the capture
+          # step fails with a browser-not-found error nobody would guess
+          shot-scraper install
       - name: Capture each product's live page, deterministically
         run: |
           set -uo pipefail
