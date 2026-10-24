@@ -56,25 +56,26 @@ jobs:
           set -uo pipefail
           mkdir -p shots
           python3 - <<'PY'
-          import json, pathlib, subprocess
-          prods = []
-          for name in ("products.json", "data.json"):
-              p = pathlib.Path(name)
-              if not p.exists(): continue
-              try: d = json.loads(p.read_text(encoding="utf-8"))
-              except Exception: continue
-              items = d if isinstance(d, list) else (d.get("products") or d.get("repos") or [])
-              for it in items:
-                  if not isinstance(it, dict): continue
-                  url = it.get("url") or it.get("demo") or it.get("landing")
-                  key = it.get("slug") or it.get("name") or it.get("key")
-                  if url and key: prods.append((key, url))
-              if prods: break
-          seen, out = set(), []
-          for k, u in prods:
-              if k in seen: continue
-              seen.add(k); out.append((k, u))
-          print(f"{len(out)} product(s) with a live URL")
+          import json, pathlib
+          # THE STORE'S OWN DATA FILE. The first version of this looked for products.json
+          # at the repo root, which does not exist - so it found no products, captured
+          # nothing, and reported success. The list is docs/data/products.json, and each
+          # entry carries `link` / `landingPage` and an `image` field to fill.
+          p = pathlib.Path("docs/data/products.json")
+          if not p.exists():
+              print("::warning::docs/data/products.json not found - nothing to capture")
+              pathlib.Path("capture-list.txt").write_text("", encoding="utf-8")
+              raise SystemExit(0)
+          items = json.loads(p.read_text(encoding="utf-8"))
+          if isinstance(items, dict):
+              items = items.get("products") or items.get("items") or []
+          out = []
+          for it in items:
+              if not isinstance(it, dict): continue
+              key = it.get("id") or it.get("slug")
+              url = it.get("landingPage") or it.get("link")
+              if key and url: out.append((key, url))
+          print(f"{len(out)} product(s) with a live URL, of {len(items)} in the store")
           pathlib.Path("capture-list.txt").write_text(
               "\n".join(f"{k}\t{u}" for k, u in out), encoding="utf-8")
           PY
@@ -101,6 +102,36 @@ jobs:
             echo "::warning::no manifest - nothing was generated"; exit 0
           fi
           python3 tools/store-images.py --check --out images
+      - name: Point each product at its generated image
+        run: |
+          set -uo pipefail
+          [ -f images/manifest.json ] || { echo "no manifest - nothing to wire"; exit 0; }
+          python3 - <<'PY'
+          import json, pathlib
+          mf = pathlib.Path("images/manifest.json")
+          man = json.loads(mf.read_text(encoding="utf-8"))
+          have = {k: v for k, v in (man.get("products") or {}).items() if v}
+          if not have:
+              print("no generated images to wire"); raise SystemExit(0)
+          p = pathlib.Path("docs/data/products.json")
+          items = json.loads(p.read_text(encoding="utf-8"))
+          n = 0
+          for it in items:
+              if not isinstance(it, dict): continue
+              e = have.get(it.get("id") or "")
+              if not e: continue
+              src = "images/" + e["card"]["file"]
+              # the store's own image path, and the captured date so staleness is visible
+              if it.get("image") != src:
+                  it["image"] = src; n += 1
+              it["imageWidth"] = 1200
+              it["imageHeight"] = 630
+              it["imageAlt"] = e.get("alt") or it.get("title") or ""
+              it["imageLoading"] = e.get("loading", "lazy")
+              it["imageCaptured"] = e.get("captured")
+          p.write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
+          print(f"wired {n} product image path(s)")
+          PY
       - name: Commit if changed
         run: |
           if git diff --quiet; then echo "no change"; exit 0; fi
