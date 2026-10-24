@@ -1,0 +1,1178 @@
+{
+  "generated": "2026-10-24T04:31:33Z",
+  "budget_kb": 120,
+  "products": {
+    "aethelgard-games": {
+      "card": {
+        "file": "aethelgard-games.webp",
+        "bytes": 28554,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "aethelgard-games-480.webp",
+          "bytes": 8194,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "aethelgard-games-960.webp",
+          "bytes": 21300,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "aethelgard-games-lqip.webp",
+        "bytes": 80
+      },
+      "alt": "Aethelgard Games",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "aethelgard-rpg-engine": {
+      "card": {
+        "file": "aethelgard-rpg-engine.webp",
+        "bytes": 49276,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "aethelgard-rpg-engine-480.webp",
+          "bytes": 14064,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "aethelgard-rpg-engine-960.webp",
+          "bytes": 38020,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "aethelgard-rpg-engine-lqip.webp",
+        "bytes": 78
+      },
+      "alt": "Aethelgard Rpg Engine",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "all4one": {
+      "card": {
+        "file": "all4one.webp",
+        "bytes": 41266,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "all4one-480.webp",
+          "bytes": 13004,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "all4one-960.webp",
+          "bytes": 31540,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "all4one-lqip.webp",
+        "bytes": 90
+      },
+      "alt": "All4One",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "ambient-sound-studio": {
+      "card": {
+        "file": "ambient-sound-studio.webp",
+        "bytes": 34800,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "ambient-sound-studio-480.webp",
+          "bytes": 10184,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "ambient-sound-studio-960.webp",
+          "bytes": 26030,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "ambient-sound-studio-lqip.webp",
+        "bytes": 88
+      },
+      "alt": "Ambient Sound Studio",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "app-companion-forge": {
+      "card": {
+        "file": "app-companion-forge.webp",
+        "bytes": 32356,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "app-companion-forge-480.webp",
+          "bytes": 8278,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "app-companion-forge-960.webp",
+          "bytes": 24058,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "app-companion-forge-lqip.webp",
+        "bytes": 74
+      },
+      "alt": "App Companion Forge",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "app-panchang": {
+      "card": {
+        "file": "app-panchang.webp",
+        "bytes": 30890,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "app-panchang-480.webp",
+          "bytes": 7502,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "app-panchang-960.webp",
+          "bytes": 23036,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "app-panchang-lqip.webp",
+        "bytes": 72
+      },
+      "alt": "App Panchang",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "blinkcode-ai": {
+      "card": {
+        "file": "blinkcode-ai.webp",
+        "bytes": 28954,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "blinkcode-ai-480.webp",
+          "bytes": 7994,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "blinkcode-ai-960.webp",
+          "bytes": 21508,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "blinkcode-ai-lqip.webp",
+        "bytes": 76
+      },
+      "alt": "Blinkcode Ai",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "blinktransfer": {
+      "card": {
+        "file": "blinktransfer.webp",
+        "bytes": 30536,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "blinktransfer-480.webp",
+          "bytes": 8296,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "blinktransfer-960.webp",
+          "bytes": 22624,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "blinktransfer-lqip.webp",
+        "bytes": 78
+      },
+      "alt": "Blinktransfer",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "bmi-bmr-tdee-macros-fluid-calculator": {
+      "card": {
+        "file": "bmi-bmr-tdee-macros-fluid-calculator.webp",
+        "bytes": 43952,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "bmi-bmr-tdee-macros-fluid-calculator-480.webp",
+          "bytes": 12564,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "bmi-bmr-tdee-macros-fluid-calculator-960.webp",
+          "bytes": 33616,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "bmi-bmr-tdee-macros-fluid-calculator-lqip.webp",
+        "bytes": 84
+      },
+      "alt": "Bmi Bmr Tdee Macros Fluid Calculator",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "boericke-repertory": {
+      "card": {
+        "file": "boericke-repertory.webp",
+        "bytes": 39832,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "boericke-repertory-480.webp",
+          "bytes": 11482,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "boericke-repertory-960.webp",
+          "bytes": 30812,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "boericke-repertory-lqip.webp",
+        "bytes": 86
+      },
+      "alt": "Boericke Repertory",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "canteen-lan": {
+      "card": {
+        "file": "canteen-lan.webp",
+        "bytes": 34430,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "canteen-lan-480.webp",
+          "bytes": 8346,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "canteen-lan-960.webp",
+          "bytes": 25264,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "canteen-lan-lqip.webp",
+        "bytes": 72
+      },
+      "alt": "Canteen Lan",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "chalk-lan": {
+      "card": {
+        "file": "chalk-lan.webp",
+        "bytes": 31558,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "chalk-lan-480.webp",
+          "bytes": 7550,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "chalk-lan-960.webp",
+          "bytes": 22894,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "chalk-lan-lqip.webp",
+        "bytes": 72
+      },
+      "alt": "Chalk Lan",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "cldr": {
+      "card": {
+        "file": "cldr.webp",
+        "bytes": 43868,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "cldr-480.webp",
+          "bytes": 12360,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "cldr-960.webp",
+          "bytes": 32964,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "cldr-lqip.webp",
+        "bytes": 78
+      },
+      "alt": "Cldr",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "conqueror-os": {
+      "card": {
+        "file": "conqueror-os.webp",
+        "bytes": 36786,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "conqueror-os-480.webp",
+          "bytes": 10852,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "conqueror-os-960.webp",
+          "bytes": 27838,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "conqueror-os-lqip.webp",
+        "bytes": 94
+      },
+      "alt": "Conqueror Os",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "dance-fight": {
+      "card": {
+        "file": "dance-fight.webp",
+        "bytes": 24430,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "dance-fight-480.webp",
+          "bytes": 8960,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "dance-fight-960.webp",
+          "bytes": 19150,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "dance-fight-lqip.webp",
+        "bytes": 94
+      },
+      "alt": "Dance Fight",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "gentle-pediatrics-companion": {
+      "card": {
+        "file": "gentle-pediatrics-companion.webp",
+        "bytes": 44224,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "gentle-pediatrics-companion-480.webp",
+          "bytes": 12030,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "gentle-pediatrics-companion-960.webp",
+          "bytes": 32822,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "gentle-pediatrics-companion-lqip.webp",
+        "bytes": 84
+      },
+      "alt": "Gentle Pediatrics Companion",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "helioprism": {
+      "card": {
+        "file": "helioprism.webp",
+        "bytes": 27756,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "helioprism-480.webp",
+          "bytes": 7942,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "helioprism-960.webp",
+          "bytes": 20952,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "helioprism-lqip.webp",
+        "bytes": 74
+      },
+      "alt": "Helioprism",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "hms": {
+      "card": {
+        "file": "hms.webp",
+        "bytes": 56050,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "hms-480.webp",
+          "bytes": 14076,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "hms-960.webp",
+          "bytes": 39556,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "hms-lqip.webp",
+        "bytes": 80
+      },
+      "alt": "Hms",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "homoeopathic-materia-medica-repertory-json": {
+      "card": {
+        "file": "homoeopathic-materia-medica-repertory-json.webp",
+        "bytes": 37230,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "homoeopathic-materia-medica-repertory-json-480.webp",
+          "bytes": 10888,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "homoeopathic-materia-medica-repertory-json-960.webp",
+          "bytes": 28450,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "homoeopathic-materia-medica-repertory-json-lqip.webp",
+        "bytes": 76
+      },
+      "alt": "Homoeopathic Materia Medica Repertory Json",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "idle-city-ages-of-growth": {
+      "card": {
+        "file": "idle-city-ages-of-growth.webp",
+        "bytes": 39912,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "idle-city-ages-of-growth-480.webp",
+          "bytes": 11634,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "idle-city-ages-of-growth-960.webp",
+          "bytes": 29436,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "idle-city-ages-of-growth-lqip.webp",
+        "bytes": 86
+      },
+      "alt": "Idle City Ages Of Growth",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "kent-repertory-explorer": {
+      "card": {
+        "file": "kent-repertory-explorer.webp",
+        "bytes": 30388,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "kent-repertory-explorer-480.webp",
+          "bytes": 8378,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "kent-repertory-explorer-960.webp",
+          "bytes": 22948,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "kent-repertory-explorer-lqip.webp",
+        "bytes": 82
+      },
+      "alt": "Kent Repertory Explorer",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "lexora": {
+      "card": {
+        "file": "lexora.webp",
+        "bytes": 42554,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "lexora-480.webp",
+          "bytes": 11038,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "lexora-960.webp",
+          "bytes": 31518,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "lexora-lqip.webp",
+        "bytes": 78
+      },
+      "alt": "Lexora",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "lockhtml": {
+      "card": {
+        "file": "lockhtml.webp",
+        "bytes": 37182,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "lockhtml-480.webp",
+          "bytes": 11538,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "lockhtml-960.webp",
+          "bytes": 27930,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "lockhtml-lqip.webp",
+        "bytes": 92
+      },
+      "alt": "Lockhtml",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "materia-medica-builder": {
+      "card": {
+        "file": "materia-medica-builder.webp",
+        "bytes": 43392,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "materia-medica-builder-480.webp",
+          "bytes": 11406,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "materia-medica-builder-960.webp",
+          "bytes": 32456,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "materia-medica-builder-lqip.webp",
+        "bytes": 82
+      },
+      "alt": "Materia Medica Builder",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "mnemosyne-companion": {
+      "card": {
+        "file": "mnemosyne-companion.webp",
+        "bytes": 43630,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "mnemosyne-companion-480.webp",
+          "bytes": 11890,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "mnemosyne-companion-960.webp",
+          "bytes": 31956,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "mnemosyne-companion-lqip.webp",
+        "bytes": 84
+      },
+      "alt": "Mnemosyne Companion",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "neo": {
+      "card": {
+        "file": "neo.webp",
+        "bytes": 17160,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "neo-480.webp",
+          "bytes": 4838,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "neo-960.webp",
+          "bytes": 12514,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "neo-lqip.webp",
+        "bytes": 68
+      },
+      "alt": "Neo",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "neon-engine": {
+      "card": {
+        "file": "neon-engine.webp",
+        "bytes": 35606,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "neon-engine-480.webp",
+          "bytes": 12040,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "neon-engine-960.webp",
+          "bytes": 27738,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "neon-engine-lqip.webp",
+        "bytes": 78
+      },
+      "alt": "Neon Engine",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "neon-games": {
+      "card": {
+        "file": "neon-games.webp",
+        "bytes": 35748,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "neon-games-480.webp",
+          "bytes": 11258,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "neon-games-960.webp",
+          "bytes": 26730,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "neon-games-lqip.webp",
+        "bytes": 84
+      },
+      "alt": "Neon Games",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "neon-runner": {
+      "card": {
+        "file": "neon-runner.webp",
+        "bytes": 39866,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "neon-runner-480.webp",
+          "bytes": 9452,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "neon-runner-960.webp",
+          "bytes": 28032,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "neon-runner-lqip.webp",
+        "bytes": 90
+      },
+      "alt": "Neon Runner",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "offline-pdf-toolkit": {
+      "card": {
+        "file": "offline-pdf-toolkit.webp",
+        "bytes": 29918,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "offline-pdf-toolkit-480.webp",
+          "bytes": 8166,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "offline-pdf-toolkit-960.webp",
+          "bytes": 21106,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "offline-pdf-toolkit-lqip.webp",
+        "bytes": 84
+      },
+      "alt": "Offline Pdf Toolkit",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "open-materia-medica": {
+      "card": {
+        "file": "open-materia-medica.webp",
+        "bytes": 45456,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "open-materia-medica-480.webp",
+          "bytes": 11212,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "open-materia-medica-960.webp",
+          "bytes": 33500,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "open-materia-medica-lqip.webp",
+        "bytes": 90
+      },
+      "alt": "Open Materia Medica",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "read-live-transform-app": {
+      "card": {
+        "file": "read-live-transform-app.avif",
+        "bytes": 73177,
+        "format": "AVIF"
+      },
+      "widths": {
+        "480": {
+          "file": "read-live-transform-app-480.webp",
+          "bytes": 15982,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "read-live-transform-app-960.webp",
+          "bytes": 52448,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "read-live-transform-app-lqip.webp",
+        "bytes": 78
+      },
+      "alt": "Read Live Transform App",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "remedy-relationship-explorer": {
+      "card": {
+        "file": "remedy-relationship-explorer.webp",
+        "bytes": 33526,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "remedy-relationship-explorer-480.webp",
+          "bytes": 8920,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "remedy-relationship-explorer-960.webp",
+          "bytes": 25184,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "remedy-relationship-explorer-lqip.webp",
+        "bytes": 82
+      },
+      "alt": "Remedy Relationship Explorer",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "retro-strike": {
+      "card": {
+        "file": "retro-strike.webp",
+        "bytes": 56446,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "retro-strike-480.webp",
+          "bytes": 14152,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "retro-strike-960.webp",
+          "bytes": 39686,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "retro-strike-lqip.webp",
+        "bytes": 94
+      },
+      "alt": "Retro Strike",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "saga-vn-engine": {
+      "card": {
+        "file": "saga-vn-engine.webp",
+        "bytes": 32602,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "saga-vn-engine-480.webp",
+          "bytes": 8448,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "saga-vn-engine-960.webp",
+          "bytes": 23458,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "saga-vn-engine-lqip.webp",
+        "bytes": 88
+      },
+      "alt": "Saga Vn Engine",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "seance": {
+      "card": {
+        "file": "seance.webp",
+        "bytes": 15218,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "seance-480.webp",
+          "bytes": 3596,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "seance-960.webp",
+          "bytes": 10414,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "seance-lqip.webp",
+        "bytes": 78
+      },
+      "alt": "Seance",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "skin-case-tracker": {
+      "card": {
+        "file": "skin-case-tracker.webp",
+        "bytes": 42124,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "skin-case-tracker-480.webp",
+          "bytes": 12002,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "skin-case-tracker-960.webp",
+          "bytes": 30796,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "skin-case-tracker-lqip.webp",
+        "bytes": 82
+      },
+      "alt": "Skin Case Tracker",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "smartbill-app": {
+      "card": {
+        "file": "smartbill-app.webp",
+        "bytes": 46508,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "smartbill-app-480.webp",
+          "bytes": 12586,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "smartbill-app-960.webp",
+          "bytes": 33924,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "smartbill-app-lqip.webp",
+        "bytes": 84
+      },
+      "alt": "Smartbill App",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "smartnotes": {
+      "card": {
+        "file": "smartnotes.webp",
+        "bytes": 39030,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "smartnotes-480.webp",
+          "bytes": 10886,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "smartnotes-960.webp",
+          "bytes": 29478,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "smartnotes-lqip.webp",
+        "bytes": 82
+      },
+      "alt": "Smartnotes",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "the-symphony-companion": {
+      "card": {
+        "file": "the-symphony-companion.webp",
+        "bytes": 33202,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "the-symphony-companion-480.webp",
+          "bytes": 9358,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "the-symphony-companion-960.webp",
+          "bytes": 24698,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "the-symphony-companion-lqip.webp",
+        "bytes": 86
+      },
+      "alt": "The Symphony Companion",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "the_browser": {
+      "card": {
+        "file": "the_browser.webp",
+        "bytes": 43594,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "the_browser-480.webp",
+          "bytes": 11504,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "the_browser-960.webp",
+          "bytes": 32518,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "the_browser-lqip.webp",
+        "bytes": 78
+      },
+      "alt": "The_Browser",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "today-card": {
+      "card": {
+        "file": "today-card.webp",
+        "bytes": 13338,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "today-card-480.webp",
+          "bytes": 3304,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "today-card-960.webp",
+          "bytes": 9586,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "today-card-lqip.webp",
+        "bytes": 78
+      },
+      "alt": "Today Card",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "ttb": {
+      "card": {
+        "file": "ttb.webp",
+        "bytes": 43476,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "ttb-480.webp",
+          "bytes": 13054,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "ttb-960.webp",
+          "bytes": 32374,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "ttb-lqip.webp",
+        "bytes": 82
+      },
+      "alt": "Ttb",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "ultimate-windows-optimizer": {
+      "card": {
+        "file": "ultimate-windows-optimizer.webp",
+        "bytes": 60356,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "ultimate-windows-optimizer-480.webp",
+          "bytes": 15076,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "ultimate-windows-optimizer-960.webp",
+          "bytes": 44460,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "ultimate-windows-optimizer-lqip.webp",
+        "bytes": 76
+      },
+      "alt": "Ultimate Windows Optimizer",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    },
+    "unstoppable-mind-companion": {
+      "card": {
+        "file": "unstoppable-mind-companion.webp",
+        "bytes": 27374,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "unstoppable-mind-companion-480.webp",
+          "bytes": 9204,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "unstoppable-mind-companion-960.webp",
+          "bytes": 21388,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "unstoppable-mind-companion-lqip.webp",
+        "bytes": 86
+      },
+      "alt": "Unstoppable Mind Companion",
+      "loading": "lazy",
+      "captured": "2026-10-24"
+    }
+  },
+  "no_image": [],
+  "note": "A product with no live URL has no entry, or an entry of null. That is honest: no invented imagery, never a placeholder pretending to be a screenshot."
+}
