@@ -126,7 +126,10 @@ jobs:
                   it["image"] = src; n += 1
               it["imageWidth"] = 1200
               it["imageHeight"] = 630
-              it["imageAlt"] = e.get("alt") or it.get("title") or ""
+              # the product's OWN words, not a title-cased slug. Alt text is what a
+              # screen reader reads and what shows when an image fails, so a slug is
+              # the worst possible choice for it.
+              it["imageAlt"] = it.get("tagline") or it.get("title") or e.get("alt") or ""
               it["imageLoading"] = e.get("loading", "lazy")
               it["imageCaptured"] = e.get("captured")
           p.write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
