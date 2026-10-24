@@ -26,7 +26,7 @@
     "featured": true,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Bmi Bmr Tdee Macros Fluid Calculator",
+    "imageAlt": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -54,7 +54,7 @@
     "featured": true,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Kent Repertory Explorer",
+    "imageAlt": "Offline, single-file explorer for Kent's Repertory (1897) — 74,667 rubrics, 735,500 graded remedy links, case builder and grade-weighted repertorisation.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -82,7 +82,7 @@
     "featured": true,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Today Card",
+    "imageAlt": "Today Card - one card for the day: your date, one intention, one task, and a streak.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -110,7 +110,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Aethelgard Games",
+    "imageAlt": "Two free browser games by Dr.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -138,7 +138,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Aethelgard Rpg Engine",
+    "imageAlt": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -169,7 +169,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "All4One",
+    "imageAlt": "🧰 551 portable Windows tools in ONE free .exe — file ops, hashing, PDF/Office batch, image/video/audio, network diagnostics, registry helpers, disk cleaner, security audits.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -200,7 +200,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Ambient Sound Studio",
+    "imageAlt": "A private, offline ambient sound mixer that lives in a single HTML file.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -228,7 +228,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "App Companion Forge",
+    "imageAlt": "Forge tooling (not a product app): an offline pocket console for the Forge system.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -256,7 +256,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "App Panchang",
+    "imageAlt": "A daily Indian almanac — tithi, nakshatra, yoga, karana, rahu-kaal and muhurat, computed offline.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -284,7 +284,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Blinkcode Ai",
+    "imageAlt": "BlinkCode AI — single-shot optical file transfer PWA (compression -> SpectraCode -> camera -> restore)",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -312,7 +312,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Blinktransfer",
+    "imageAlt": "DATA TRANSFER IN BLINK OF EYE",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -340,7 +340,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Boericke Repertory",
+    "imageAlt": "Boericke's Repertory — a free, offline digital edition (single-file web app).",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -368,7 +368,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Canteen Lan",
+    "imageAlt": "Order from your table over the room's own Wi-Fi - a LAN canteen board for Forge",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -396,7 +396,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Chalk Lan",
+    "imageAlt": "A shared whiteboard for the room: everyone on the same Wi-Fi draws on the same board, live.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -424,7 +424,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Cldr",
+    "imageAlt": "Command Run Utility - Performance over Bloat",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -455,7 +455,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Conqueror Os",
+    "imageAlt": "A private, offline resilience workspace in a single HTML file — read, reflect, journal, track and review.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -483,7 +483,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Dance Fight",
+    "imageAlt": "A browser dance-fighting game where every fight move is a dance move.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -511,7 +511,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Gentle Pediatrics Companion",
+    "imageAlt": "A triage-first home companion app for a sick child, built from the book Gentle Pediatrics by Dr.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -539,7 +539,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Helioprism",
+    "imageAlt": "One app, two optical transports — send a file with light over QR or a colour matrix.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -567,7 +567,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Hms",
+    "imageAlt": "HHMS — Homeopathic Hospital Management System A LAN-based hospital management system purpose-built for homeopathic hospitals and clinics.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -598,7 +598,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Homoeopathic Materia Medica Repertory Json",
+    "imageAlt": "Open-domain homoeopathic Materia Medica and Repertory texts as app-ready JSON (13 books, ~108k rubrics).",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -629,7 +629,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Idle City Ages Of Growth",
+    "imageAlt": "A single-file idle city-builder that grows from a Stone Age village into a Fusion Age world-city.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -657,7 +657,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Lexora",
+    "imageAlt": "LEXORA — Layered Exact-text Repository & Adaptive Compression Architecture",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -688,7 +688,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Lockhtml",
+    "imageAlt": "PIN-protect and one-time-view any HTML file with AES-256-GCM.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -747,7 +747,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Mnemosyne Companion",
+    "imageAlt": "Companion study app for Mnemosyne Materia Medica — 100 polycrest homoeopathic remedies as poetic pearls, keynotes and spaced-repetition drills.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -775,7 +775,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Neo",
+    "imageAlt": "NOVA — a statically-typed, compiled systems programming language: C, JavaScript, Rust and WebAssembly backends, with a runtime, package manager, language server and debugger.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -806,7 +806,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Neon Engine",
+    "imageAlt": "A code-only open-world game engine for the browser.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -837,7 +837,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Neon Games",
+    "imageAlt": "Two free open-world browser games on the Neon Engine — Dead Zone (zombie survival) and Neon Police.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -868,7 +868,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Neon Runner",
+    "imageAlt": "Retro auto-fire side-scrolling shooter.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -896,7 +896,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Offline Pdf Toolkit",
+    "imageAlt": "Merge, split, rotate, reorder, watermark, number and compress PDFs entirely in your browser.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -924,7 +924,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Open Materia Medica",
+    "imageAlt": "Open Materia Medica — the classical homeopathic materia medica in plain language: 344 remedy portraits.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -955,7 +955,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Read Live Transform App",
+    "imageAlt": "The companion app to the book \"Read.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -986,7 +986,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Remedy Relationship Explorer",
+    "imageAlt": "Offline, single-file explorer for homeopathic remedy relationships — built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879).",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -1017,7 +1017,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Retro Strike",
+    "imageAlt": "🎮 A complete retro 3rd-person shooter in a single HTML file — custom software 3D renderer, chiptune audio, zero dependencies.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -1045,7 +1045,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Saga Vn Engine",
+    "imageAlt": "Saga — a small, dependency-free visual-novel engine for the browser.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -1073,7 +1073,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Seance",
+    "imageAlt": "Strongbox (master-list app) - sealed notes, opened once: seal a note with a passphrase, it opens once.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -1101,7 +1101,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Skin Case Tracker",
+    "imageAlt": "Companion app to the book \"The Skin Is a Liar\" by Dr.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -1129,7 +1129,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Smartbill App",
+    "imageAlt": "A fast, serverless, single-page billing and invoicing application built with Vue.js, tailored for Indian businesses.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -1157,7 +1157,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Smartnotes",
+    "imageAlt": "Turn raw thoughts into organized action.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -1188,7 +1188,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "The Symphony Companion",
+    "imageAlt": "A pocket companion web app to The Symphony of the Present by Dr.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -1216,7 +1216,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "The_Browser",
+    "imageAlt": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived).",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -1244,7 +1244,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Ttb",
+    "imageAlt": "TinyToolBox with 590 functionalities in one small extension for chrome",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -1272,7 +1272,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Ultimate Windows Optimizer",
+    "imageAlt": "OPTIMIZE DEBLOAT TWEAK TO THE LEVEL PHYSICALLY POSSIBLE ANY WINDOWS 10/11 INSTALLATION",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
@@ -1303,7 +1303,7 @@
     "featured": false,
     "imageWidth": 1200,
     "imageHeight": 630,
-    "imageAlt": "Unstoppable Mind Companion",
+    "imageAlt": "Offline companion app to the book The Unstoppable Mind by Dr.",
     "imageLoading": "lazy",
     "imageCaptured": "2026-10-24"
   },
