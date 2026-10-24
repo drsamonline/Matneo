@@ -13,17 +13,6 @@
       "kind": "update"
     },
     {
-      "title": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived).",
-      "repo": "The_Browser",
-      "category": "App update",
-      "date": "2026-10-24",
-      "summary": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived). Not production-ready.",
-      "url": "https://drsamonline.github.io/The_Browser/",
-      "source": "https://github.com/drsamonline/The_Browser",
-      "image": "https://drsamonline.github.io/assets/shots/The_Browser.webp",
-      "kind": "update"
-    },
-    {
       "title": "Command Run Utility - Performance over Bloat",
       "repo": "CLDR",
       "category": "App update",
@@ -43,6 +32,39 @@
       "url": "https://drsamonline.github.io/BLINKTRANSFER/",
       "source": "https://github.com/drsamonline/BLINKTRANSFER",
       "image": "https://drsamonline.github.io/assets/shots/BLINKTRANSFER.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI.",
+      "repo": "bmi-bmr-tdee-macros-fluid-calculator",
+      "category": "App update",
+      "date": "2026-10-24",
+      "summary": "Single-file clinical health calculator: BMI, BMR (Mifflin-St Jeor), TDEE, macros, fluid requirement and body composition, with Indian/WHO BMI cut-offs, saved entries, CSV export/import and EN/HI/GU UI. Offline-capable. By Dr. Sohil Momin.",
+      "url": "https://drsamonline.github.io/bmi-bmr-tdee-macros-fluid-calculator/",
+      "source": "https://github.com/drsamonline/bmi-bmr-tdee-macros-fluid-calculator",
+      "image": "https://drsamonline.github.io/assets/shots/bmi-bmr-tdee-macros-fluid-calculator.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Turn raw thoughts into organized action.",
+      "repo": "SmartNotes",
+      "category": "App update",
+      "date": "2026-10-24",
+      "summary": "Turn raw thoughts into organized action.",
+      "url": "https://drsamonline.github.io/SmartNotes/",
+      "source": "https://github.com/drsamonline/SmartNotes",
+      "image": "https://drsamonline.github.io/assets/shots/SmartNotes.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived).",
+      "repo": "The_Browser",
+      "category": "App update",
+      "date": "2026-10-24",
+      "summary": "Aetheris Browser — an experimental C++ browser engine with a dependency-free rendering foundation (Ladybird/SerenityOS-derived). Not production-ready.",
+      "url": "https://drsamonline.github.io/The_Browser/",
+      "source": "https://github.com/drsamonline/The_Browser",
+      "image": "https://drsamonline.github.io/assets/shots/The_Browser.webp",
       "kind": "update"
     },
     {
@@ -241,28 +263,6 @@
       "url": "https://drsamonline.github.io/retro-strike/",
       "source": "https://github.com/drsamonline/retro-strike",
       "image": "https://drsamonline.github.io/assets/shots/retro-strike.webp",
-      "kind": "update"
-    },
-    {
-      "title": "Offline, single-file explorer for homeopathic remedy relationships — built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879).",
-      "repo": "remedy-relationship-explorer",
-      "category": "App update",
-      "date": "2026-10-24",
-      "summary": "Offline, single-file explorer for homeopathic remedy relationships — built from public-domain materia medicas (Boericke 1927, Clarke 1900, Hering 1879). No server, no backend.",
-      "url": "https://drsamonline.github.io/remedy-relationship-explorer/",
-      "source": "https://github.com/drsamonline/remedy-relationship-explorer",
-      "image": "https://drsamonline.github.io/assets/shots/remedy-relationship-explorer.webp",
-      "kind": "update"
-    },
-    {
-      "title": "The companion app to the book \"Read.",
-      "repo": "read-live-transform-app",
-      "category": "App update",
-      "date": "2026-10-24",
-      "summary": "The companion app to the book \"Read. Live. Transform.: A Practical Reading of the Qur'an\" by Dr Sohil Momin. Read the verse, live the practice, keep the change. Offline PWA, no dependencies. © Dr Sohil Momin — all rights reserved; permission required to reuse.",
-      "url": "https://drsamonline.github.io/read-live-transform-app/",
-      "source": "https://github.com/drsamonline/read-live-transform-app",
-      "image": "https://drsamonline.github.io/assets/shots/read-live-transform-app.webp",
       "kind": "update"
     }
   ]
