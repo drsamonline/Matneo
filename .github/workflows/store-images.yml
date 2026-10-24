@@ -137,6 +137,11 @@ jobs:
           if git diff --quiet; then echo "no change"; exit 0; fi
           git config user.name  "forge-bot"
           git config user.email "bot@users.noreply.github.com"
-          for f in images; do [ -e "$f" ] && git add -- "$f"; done
+          # THE WIRING IS PART OF THE CHANGE. The first version added only `images`,
+          # so the step that points each product at its card ran, wrote the file, and
+          # the file was never committed - 45 images landed and 0 of 46 products were
+          # wired. Add both, and say what is being committed.
+          for f in images docs/data/products.json; do [ -e "$f" ] && git add -- "$f"; done
+          echo "staged: $(git diff --cached --name-only | wc -l) path(s)"
           git commit -m "chore(images): regenerate the product cards [skip ci]"
           git push
