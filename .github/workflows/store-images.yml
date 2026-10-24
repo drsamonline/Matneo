@@ -1,0 +1,108 @@
+# store-images — capture a real image per product, and check it.
+#
+# SPDX-FileCopyrightText: 2026 Dr Sohil Momin
+# SPDX-License-Identifier: LicenseRef-Forge-Proprietary
+#
+# THE OWNER REPORTED THIS AND IT WAS NEVER QUEUED:
+#   "matneo pages dont display card images of the repose, it should automatically"
+#   "the app pages on matneo are empty nothing shows on the pages"
+#
+# A demo is a REPRODUCIBLE SCRIPT, not a person with a screenshot tool
+# (charmbracelet/vhs makes the same argument for terminal GIFs). So: point
+# shot-scraper at each product's live page at a FIXED viewport, then turn each capture
+# into a small deterministic set - a few widths, the format chosen by MEASUREMENT
+# (encode in each candidate, keep the smallest that passes a quality bar), a blurred
+# LQIP so the card appears instantly, and a dated manifest.
+#
+# NO INVENTED IMAGERY. A product with no live URL gets no image and says so. Never a
+# placeholder pretending to be a screenshot.
+
+name: store-images
+
+on:
+  schedule:
+    - cron: "41 3 * * *"   # after the store refresh
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Capture at most this many products (0 = all)"
+        type: number
+        required: false
+        default: 0
+
+permissions:
+  contents: write
+
+concurrency:
+  group: store-images
+  cancel-in-progress: false
+
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the tools
+        run: |
+          python -m pip install --quiet --upgrade pip shot-scraper pillow
+      - name: Capture each product's live page, deterministically
+        run: |
+          set -uo pipefail
+          mkdir -p shots
+          python3 - <<'PY'
+          import json, pathlib, subprocess
+          prods = []
+          for name in ("products.json", "data.json"):
+              p = pathlib.Path(name)
+              if not p.exists(): continue
+              try: d = json.loads(p.read_text(encoding="utf-8"))
+              except Exception: continue
+              items = d if isinstance(d, list) else (d.get("products") or d.get("repos") or [])
+              for it in items:
+                  if not isinstance(it, dict): continue
+                  url = it.get("url") or it.get("demo") or it.get("landing")
+                  key = it.get("slug") or it.get("name") or it.get("key")
+                  if url and key: prods.append((key, url))
+              if prods: break
+          seen, out = set(), []
+          for k, u in prods:
+              if k in seen: continue
+              seen.add(k); out.append((k, u))
+          print(f"{len(out)} product(s) with a live URL")
+          pathlib.Path("capture-list.txt").write_text(
+              "\n".join(f"{k}\t{u}" for k, u in out), encoding="utf-8")
+          PY
+          n=0
+          while IFS=$'\t' read -r key url; do
+            [ -z "${key:-}" ] && continue
+            # a FIXED viewport and a fixed scroll position, so two runs agree
+            shot-scraper shot "$url" --width 1280 --height 2400 --wait 1200 \
+              --output "shots/${key}.png" 2>/dev/null || echo "  could not capture $key"
+            n=$((n+1))
+          done < capture-list.txt
+          echo "captured $n product(s)"
+          ls -la shots | head -20
+      - name: Generate the deterministic set
+        run: |
+          if [ -z "$(ls -A shots 2>/dev/null)" ]; then
+            echo "::warning::nothing captured - no images generated, and no placeholder invented"
+            exit 0
+          fi
+          python3 tools/store-images.py --source shots --out images
+      - name: Check the budget, the alt text and the loading
+        run: |
+          if [ ! -f images/manifest.json ]; then
+            echo "::warning::no manifest - nothing was generated"; exit 0
+          fi
+          python3 tools/store-images.py --check --out images
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then echo "no change"; exit 0; fi
+          git config user.name  "forge-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for f in images; do [ -e "$f" ] && git add -- "$f"; done
+          git commit -m "chore(images): regenerate the product cards [skip ci]"
+          git push
