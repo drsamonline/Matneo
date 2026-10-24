@@ -1,6 +1,17 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-10-24",
   "posts": [
+    {
+      "title": "The companion app to the book \"Read.",
+      "repo": "read-live-transform-app",
+      "category": "App update",
+      "date": "2026-10-24",
+      "summary": "The companion app to the book \"Read. Live. Transform.: A Practical Reading of the Qur'an\" by Dr Sohil Momin. Read the verse, live the practice, keep the change. Offline PWA, no dependencies. © Dr Sohil Momin — all rights reserved; permission required to reuse.",
+      "url": "https://drsamonline.github.io/read-live-transform-app/",
+      "source": "https://github.com/drsamonline/read-live-transform-app",
+      "image": "https://drsamonline.github.io/assets/shots/read-live-transform-app.webp",
+      "kind": "update"
+    },
     {
       "title": "A dependency-free, vanilla-JavaScript engine for deep, single-player browser RPGs.",
       "repo": "aethelgard-rpg-engine",
@@ -76,17 +87,6 @@
       "url": "https://drsamonline.github.io/BLINKTRANSFER/",
       "source": "https://github.com/drsamonline/BLINKTRANSFER",
       "image": "https://drsamonline.github.io/assets/shots/BLINKTRANSFER.webp",
-      "kind": "update"
-    },
-    {
-      "title": "The companion app to the book \"Read.",
-      "repo": "read-live-transform-app",
-      "category": "App update",
-      "date": "2026-10-23",
-      "summary": "The companion app to the book \"Read. Live. Transform.: A Practical Reading of the Qur'an\" by Dr Sohil Momin. Read the verse, live the practice, keep the change. Offline PWA, no dependencies. © Dr Sohil Momin — all rights reserved; permission required to reuse.",
-      "url": "https://drsamonline.github.io/read-live-transform-app/",
-      "source": "https://github.com/drsamonline/read-live-transform-app",
-      "image": "https://drsamonline.github.io/assets/shots/read-live-transform-app.webp",
       "kind": "update"
     },
     {
@@ -178,17 +178,6 @@
       "kind": "update"
     },
     {
-      "title": "Companion study app for Mnemosyne Materia Medica — 100 polycrest homoeopathic remedies as poetic pearls, keynotes and spaced-repetition drills.",
-      "repo": "mnemosyne-companion",
-      "category": "App update",
-      "date": "2026-10-23",
-      "summary": "Companion study app for Mnemosyne Materia Medica — 100 polycrest homoeopathic remedies as poetic pearls, keynotes and spaced-repetition drills. Single offline HTML file. Proprietary, all rights reserved.",
-      "url": "https://drsamonline.github.io/mnemosyne-companion/",
-      "source": "https://github.com/drsamonline/mnemosyne-companion",
-      "image": "https://drsamonline.github.io/assets/shots/mnemosyne-companion.webp",
-      "kind": "update"
-    },
-    {
       "title": "Offline companion app to the book The Unstoppable Mind by Dr.",
       "repo": "unstoppable-mind-companion",
       "category": "App update",
@@ -197,6 +186,17 @@
       "url": "https://drsamonline.github.io/unstoppable-mind-companion/",
       "source": "https://github.com/drsamonline/unstoppable-mind-companion",
       "image": "https://drsamonline.github.io/assets/shots/unstoppable-mind-companion.webp",
+      "kind": "update"
+    },
+    {
+      "title": "Companion study app for Mnemosyne Materia Medica — 100 polycrest homoeopathic remedies as poetic pearls, keynotes and spaced-repetition drills.",
+      "repo": "mnemosyne-companion",
+      "category": "App update",
+      "date": "2026-10-23",
+      "summary": "Companion study app for Mnemosyne Materia Medica — 100 polycrest homoeopathic remedies as poetic pearls, keynotes and spaced-repetition drills. Single offline HTML file. Proprietary, all rights reserved.",
+      "url": "https://drsamonline.github.io/mnemosyne-companion/",
+      "source": "https://github.com/drsamonline/mnemosyne-companion",
+      "image": "https://drsamonline.github.io/assets/shots/mnemosyne-companion.webp",
       "kind": "update"
     },
     {
