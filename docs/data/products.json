@@ -7,7 +7,7 @@
     "price": "Paid",
     "link": "https://drsamonline.github.io/",
     "landingPage": "https://drsamonline.github.io/",
-    "image": "",
+    "image": "images/forge-commercial.webp",
     "sourceRepo": "drsamonline/forge",
     "license": "Proprietary (EULA)",
     "tagline": "Use Forge in commercial work, for one entity.",
@@ -21,7 +21,12 @@
       "avg": 0,
       "count": 0
     },
-    "featured": true
+    "featured": true,
+    "imageWidth": 1200,
+    "imageHeight": 630,
+    "imageAlt": "Use Forge in commercial work, for one entity.",
+    "imageLoading": "lazy",
+    "imageCaptured": "2026-10-25"
   },
   {
     "id": "forge-personal",
@@ -31,7 +36,7 @@
     "price": "Free",
     "link": "https://drsamonline.github.io/",
     "landingPage": "https://drsamonline.github.io/",
-    "image": "",
+    "image": "images/forge-personal.webp",
     "sourceRepo": "drsamonline/forge",
     "license": "Proprietary (EULA)",
     "tagline": "Use Forge on your own non-commercial repos.",
@@ -45,7 +50,12 @@
       "avg": 0,
       "count": 0
     },
-    "featured": true
+    "featured": true,
+    "imageWidth": 1200,
+    "imageHeight": 630,
+    "imageAlt": "Use Forge on your own non-commercial repos.",
+    "imageLoading": "lazy",
+    "imageCaptured": "2026-10-25"
   },
   {
     "id": "forge-reseller",
