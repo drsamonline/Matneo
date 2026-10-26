@@ -1,22 +1,22 @@
 {
-  "generated": "2026-10-25T08:43:57Z",
+  "generated": "2026-10-26T09:22:25Z",
   "budget_kb": 120,
   "products": {
     "forge-commercial": {
       "card": {
         "file": "forge-commercial.webp",
-        "bytes": 40978,
+        "bytes": 40886,
         "format": "WEBP"
       },
       "widths": {
         "480": {
           "file": "forge-commercial-480.webp",
-          "bytes": 12224,
+          "bytes": 12240,
           "format": "WEBP"
         },
         "960": {
           "file": "forge-commercial-960.webp",
-          "bytes": 32032,
+          "bytes": 32018,
           "format": "WEBP"
         }
       },
@@ -26,23 +26,23 @@
       },
       "alt": "Forge Commercial",
       "loading": "lazy",
-      "captured": "2026-10-25"
+      "captured": "2026-10-26"
     },
     "forge-personal": {
       "card": {
         "file": "forge-personal.webp",
-        "bytes": 40978,
+        "bytes": 40886,
         "format": "WEBP"
       },
       "widths": {
         "480": {
           "file": "forge-personal-480.webp",
-          "bytes": 12224,
+          "bytes": 12240,
           "format": "WEBP"
         },
         "960": {
           "file": "forge-personal-960.webp",
-          "bytes": 32032,
+          "bytes": 32018,
           "format": "WEBP"
         }
       },
@@ -52,7 +52,7 @@
       },
       "alt": "Forge Personal",
       "loading": "lazy",
-      "captured": "2026-10-25"
+      "captured": "2026-10-26"
     }
   },
   "no_image": [],
