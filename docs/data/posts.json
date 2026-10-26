@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "posts": [
     {
       "title": "Forge — Commercial licence",
       "repo": "forge-commercial",
       "category": "For sale",
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "summary": "For companies, freelancers and client work: use Forge in commercial projects for one entity. Terms and pricing are in TERMS.md.",
       "url": "https://drsamonline.github.io/",
       "source": "drsamonline/forge",
@@ -17,7 +17,7 @@
       "title": "Forge — Reseller / OEM licence",
       "repo": "forge-reseller",
       "category": "For sale",
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "summary": "Embed Forge in something you ship and resell. A higher tier, with terms and pricing in TERMS.md.",
       "url": "https://drsamonline.github.io/",
       "source": "drsamonline/forge",
@@ -29,7 +29,7 @@
       "title": "Forge — Personal licence",
       "repo": "forge-personal",
       "category": "Licence",
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "summary": "Run the whole system — the workflows, the kits, the queue, the console — on your own non-commercial repositories. Attribution required; no resale.",
       "url": "https://drsamonline.github.io/",
       "source": "drsamonline/forge",
