@@ -148,7 +148,13 @@ jobs:
           for f in images docs/data/products.json; do [ -e "$f" ] && git add -- "$f"; done
           echo "staged: $(git diff --cached --name-only | wc -l) path(s)"
           git commit -m "chore(images): regenerate the product cards [skip ci]"
-          # retry: a bare `git push` loses the race when anything else commits first
+          # F-97: a push that exited 0 is not proof the change reached the branch.
+          # commit-and-verify.sh is NOT used here: this step stages a DIRECTORY, and the
+          # script hashes regular files - it would skip it and report that nothing was
+          # produced, which is a false red.
+          #
+          # The verdict compares the COMMIT TREE instead: if origin/main's tree is this
+          # commit's tree, everything staged is on the branch.
           BR="${GITHUB_REF_NAME:-main}"
           pushed=0
           for attempt in 1 2 3 4; do
@@ -158,4 +164,16 @@ jobs:
             echo "::warning::push rejected on attempt $attempt - the branch moved again"
             sleep 4
           done
-          [ "$pushed" = 1 ] || { echo "::error::could not push after 4 attempts - another workflow keeps moving the branch"; exit 1; }
+          if [ "$pushed" != 1 ]; then
+            echo "::error::could not push after 4 attempts - another workflow keeps moving the branch"
+            exit 1
+          fi
+          git fetch origin "$BR" --quiet
+          want="$(git rev-parse 'HEAD^{tree}')"
+          got="$(git rev-parse "origin/$BR^{tree}" 2>/dev/null || echo absent)"
+          if [ "$want" = "$got" ]; then
+            echo "VERIFIED: origin/$BR has this commit's tree - everything staged landed"
+            exit 0
+          fi
+          echo "::error::the branch tree does not match this commit (want $want, found $got)"
+          exit 1
