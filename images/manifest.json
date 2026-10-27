@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T09:22:25Z",
+  "generated": "2026-10-27T09:21:09Z",
   "budget_kb": 120,
   "products": {
     "forge-commercial": {
@@ -26,7 +26,7 @@
       },
       "alt": "Forge Commercial",
       "loading": "lazy",
-      "captured": "2026-10-26"
+      "captured": "2026-10-27"
     },
     "forge-personal": {
       "card": {
@@ -52,7 +52,7 @@
       },
       "alt": "Forge Personal",
       "loading": "lazy",
-      "captured": "2026-10-26"
+      "captured": "2026-10-27"
     }
   },
   "no_image": [],
