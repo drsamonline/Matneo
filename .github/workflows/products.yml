@@ -1,7 +1,10 @@
 # Validate the Matneo catalogue on every change.
 #
-# Checks that data/products.json is well-formed, that every product has a unique
-# id and the required fields, and that each product is typed paid or open-source.
+# Checks that docs/data/products.json is well-formed, that every product has a
+# unique id and the required fields, and that each product is typed paid,
+# open-source or licence. F-29: the validator used to accept only the first two
+# and the store's own generator (`.drsoam/drsoam.py store`) emits `licence` for
+# the three Forge licences, so this workflow failed on every run.
 # The Forge agent regenerates the open-source catalogue from the registry and
 # appends ratings; this workflow guards the result.
 name: products
@@ -9,7 +12,6 @@ on:
   push:
     paths:
       - "docs/data/products.json"
-      - "data/products.json"
       - ".github/workflows/products.yml"
   workflow_dispatch: {}
 permissions:
@@ -25,7 +27,7 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262   # was @v4
-      - name: Validate data/products.json
+      - name: Validate docs/data/products.json
         run: |
           python3 - <<'PY'
           import json, sys
@@ -39,8 +41,8 @@ jobs:
               elif pid in ids: problems.append(f"duplicate id: {pid}")
               ids.add(pid)
               if not p.get("title"): problems.append(f"{pid}: missing title")
-              if p.get("type") not in ("paid", "open-source"):
-                  problems.append(f"{pid}: type must be 'paid' or 'open-source'")
+              if p.get("type") not in ("paid", "open-source", "licence"):
+                  problems.append(f"{pid}: type must be 'paid', 'open-source' or 'licence'")
               for l in (p.get("buyLinks") or []):
                   if not l.get("url"): problems.append(f"{pid}: buyLink without url")
           print(f"products: {len(data)} | paid: {sum(1 for p in data if p.get('type')=='paid')} | open-source: {sum(1 for p in data if p.get('type')=='open-source')}")
