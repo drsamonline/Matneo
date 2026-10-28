@@ -5,7 +5,7 @@ name: Refresh blog posts
 
 on:
   schedule:
-    - cron: "12 4 * * 2"
+    - cron: "12 4 * * 2"   # weekly, Tuesday 04:12 UTC
   push:
     branches: [ main ]
     paths: [ .github/workflows/blog.yml ]
