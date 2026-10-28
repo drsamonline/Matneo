@@ -75,7 +75,9 @@
         var priceNote = document.createElement('span');
         priceNote.textContent = product.type === 'open-source'
           ? 'free · open source · direct download'
-          : 'one-time · instant digital delivery';
+          : (product.link && product.link.indexOf('mailto:') === 0)
+            ? 'enquire by email · licence issued manually'
+            : 'one-time · instant digital delivery';
         priceRow.append(price, priceNote);
         info.appendChild(priceRow);
 
@@ -104,7 +106,11 @@
           var buy = document.createElement('a');
           buy.className = 'btn btn--primary';
           buy.href = (product.link && product.link !== '#') ? product.link : '#';
-          buy.textContent = product.type === 'open-source' ? 'Open the app' : 'Get this product';
+          buy.textContent = product.type === 'open-source'
+            ? 'Open the app'
+            : ((product.link && product.link.indexOf('mailto:') === 0)
+                ? 'Enquire by email'
+                : 'Get this product');
           actions.appendChild(buy);
         }
 
