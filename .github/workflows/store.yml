@@ -5,7 +5,7 @@ name: Refresh store catalogue
 
 on:
   schedule:
-    - cron: "22 4 * * *"
+    - cron: "22 4 * * 2"
   push:
     branches: [ main ]
     paths: [ .github/workflows/store.yml ]

@@ -21,7 +21,7 @@ name: store-images
 
 on:
   schedule:
-    - cron: "41 3 * * *"   # after the store refresh
+    - cron: "0 3 1,16 * *"   # after the store refresh
   workflow_dispatch:
     inputs:
       limit:
