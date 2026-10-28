@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 <h1 align="center">Matneo</h1>
 
 <p align="center"><b>AI-powered digital products and automation platform</b><br>
