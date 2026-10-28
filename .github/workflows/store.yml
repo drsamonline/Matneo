@@ -29,7 +29,6 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262   # was @v4
         with:
           fetch-depth: 1
-        with:
           repository: drsamonline/app-builder
           path: .drsoam
       - name: Regenerate
