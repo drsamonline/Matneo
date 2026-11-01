@@ -1,58 +1,58 @@
 {
-  "generated": "2026-10-27T09:21:09Z",
+  "generated": "2026-11-01T09:53:37Z",
   "budget_kb": 120,
   "products": {
     "forge-commercial": {
       "card": {
         "file": "forge-commercial.webp",
-        "bytes": 40886,
+        "bytes": 30468,
         "format": "WEBP"
       },
       "widths": {
         "480": {
           "file": "forge-commercial-480.webp",
-          "bytes": 12240,
+          "bytes": 8784,
           "format": "WEBP"
         },
         "960": {
           "file": "forge-commercial-960.webp",
-          "bytes": 32018,
+          "bytes": 22712,
           "format": "WEBP"
         }
       },
       "lqip": {
         "file": "forge-commercial-lqip.webp",
-        "bytes": 78
+        "bytes": 80
       },
       "alt": "Forge Commercial",
       "loading": "lazy",
-      "captured": "2026-10-27"
+      "captured": "2026-11-01"
     },
     "forge-personal": {
       "card": {
         "file": "forge-personal.webp",
-        "bytes": 40886,
+        "bytes": 29976,
         "format": "WEBP"
       },
       "widths": {
         "480": {
           "file": "forge-personal-480.webp",
-          "bytes": 12240,
+          "bytes": 8464,
           "format": "WEBP"
         },
         "960": {
           "file": "forge-personal-960.webp",
-          "bytes": 32018,
+          "bytes": 22820,
           "format": "WEBP"
         }
       },
       "lqip": {
         "file": "forge-personal-lqip.webp",
-        "bytes": 78
+        "bytes": 80
       },
       "alt": "Forge Personal",
       "loading": "lazy",
-      "captured": "2026-10-27"
+      "captured": "2026-11-01"
     }
   },
   "no_image": [],
