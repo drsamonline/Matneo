@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "locked": false,
+  "files": {
+    "docs/data/products.json": {
+      "sha": "94ab8de4222db70f9879e6495e80787b734e679d",
+      "producer": "drsoam@a5a6a97",
+      "class": "generated",
+      "at": "2026-11-04T18:44:13Z"
+    },
+    "docs/data/posts.json": {
+      "sha": "e6d02e3f237c2663ad77da86ac2498fa4acb21c3",
+      "producer": "drsoam@a5a6a97",
+      "class": "generated",
+      "at": "2026-11-04T18:44:14Z"
+    },
+    "data/products.json": {
+      "sha": "94ab8de4222db70f9879e6495e80787b734e679d",
+      "producer": "drsoam@a5a6a97",
+      "class": "generated",
+      "at": "2026-11-04T18:44:13Z"
+    }
+  },
+  "updated": "2026-11-04T18:44:14Z"
+}
