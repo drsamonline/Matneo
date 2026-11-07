@@ -25,7 +25,12 @@ jobs:
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262   # was @v4
         with:
-          fetch-depth: 1
+          # fetch-depth 0, not 1: commit-and-verify.sh retries by rebasing onto
+          # origin/main, and a depth-1 clone has no merge base, so every rebase
+          # failed and the retry loop was dead code - exactly when it was needed.
+          # 2026-11-06: the blog run lost six rebases to this and went red while the
+          # store run beside it committed fine.
+          fetch-depth: 0
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262   # was @v4
         with:
           fetch-depth: 1
