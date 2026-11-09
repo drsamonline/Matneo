@@ -9,10 +9,10 @@
       "at": "2026-11-04T19:38:57Z"
     },
     "docs/index.html": {
-      "sha": "8d55e14531273d4ee95ac0a737711ec667a92c94",
-      "producer": "bootstrap@2026-11-04",
-      "class": "generated",
-      "at": "2026-11-04T19:38:57Z"
+      "sha": "67254b1b5cef07499dde1e0a51e5154f38dc69e5",
+      "producer": "human",
+      "class": "hand",
+      "at": "2026-11-09T14:00:35Z"
     },
     "data/products.json": {
       "sha": "94ab8de4222db70f9879e6495e80787b734e679d",
@@ -33,5 +33,5 @@
       "at": "2026-11-05T12:45:25Z"
     }
   },
-  "updated": "2026-11-05T12:45:25Z"
+  "updated": "2026-11-09T14:00:35Z"
 }
