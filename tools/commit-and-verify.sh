@@ -97,28 +97,58 @@ else
   git commit -q -m "$MSG" || { echo "::error::git commit failed"; rm -f "$MANIFEST"; exit 1; }
   echo "committed: $MSG"
 
-  # ---- 2. push, retrying when the branch moves under us -------------------------
-  # CV_BACKOFF exists so the retry path can be TESTED without spending 88 seconds
-  # waiting. Production leaves it unset; the default is the real schedule.
+  # ---- 2. land the bytes on the branch, retrying when it moves under us ---------
+  # A rebase CANNOT fix this one. The file is generated on both sides, so a rebase
+  # conflicts on docs/data/posts.json every single time - which is exactly what
+  # happened: six attempts, six identical failures, red for days. Retrying a
+  # conflict is not a retry strategy.
+  #
+  # The generated file is ours to write, so the branch is reset to the remote tip
+  # and our bytes are laid back on top of it. There is nothing left to conflict
+  # with, and if a concurrent run already landed identical bytes the commit is
+  # empty and the verdict below says so without a push.
+  STAGE="$(mktemp -d)"
+  for f in "${PATHS[@]}"; do
+    if [ -f "$f" ]; then
+      mkdir -p "$STAGE/$(dirname "$f")"
+      cp -p "$f" "$STAGE/$f"
+    fi
+  done
+
   pushed=0
   attempt=0
   for wait in ${CV_BACKOFF:-0 4 8 16 30 30}; do
     attempt=$((attempt+1))
     [ "$wait" = "0" ] || sleep "$wait"
-    git fetch origin "$BR" --quiet 2>/dev/null || true
-    if ! git rebase "origin/$BR" --quiet 2>/dev/null; then
-      echo "::warning::rebase onto origin/$BR failed on attempt $attempt"
-      git rebase --abort 2>/dev/null || true
+    if ! git fetch origin "$BR" --quiet 2>/dev/null; then
+      echo "::warning::fetch of origin/$BR failed on attempt $attempt"
       continue
     fi
-    if git push --quiet origin "HEAD:$BR" 2>/dev/null; then
+    if ! git reset --hard "origin/$BR" >/dev/null 2>&1; then
+      echo "::warning::could not reset onto origin/$BR on attempt $attempt"
+      continue
+    fi
+    for f in "${PATHS[@]}"; do
+      if [ -f "$STAGE/$f" ]; then
+        mkdir -p "$(dirname "$f")"
+        cp -p "$STAGE/$f" "$f"
+      fi
+    done
+    git add -- "${PATHS[@]}" 2>/dev/null || true
+    if git diff --staged --quiet; then
+      echo "attempt $attempt: origin/$BR already carries these bytes - nothing to push"
+      pushed=1
+      break
+    fi
+    git commit -q -m "$MSG" || { echo "::warning::commit failed on attempt $attempt"; continue; }
+    if git push origin "HEAD:$BR" 2>&1 | tail -3; then
       echo "pushed on attempt $attempt"
       pushed=1
       break
     fi
     echo "::warning::push rejected on attempt $attempt - the branch moved again"
   done
-  git rebase --abort 2>/dev/null || true
+  rm -rf "$STAGE"
   if [ "$pushed" -ne 1 ]; then
     echo "::warning::could not push after $attempt attempts. Not failing yet -"
     echo "::warning::the data may still be on the branch, committed by a concurrent run. Checking."

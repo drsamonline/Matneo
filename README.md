@@ -27,3 +27,17 @@ Practical planners, templates, AI resources and offline browser-based tools for 
 AI-powered digital products and automation platform.
 
 The whole site is the shop — a static storefront (plain HTML, CSS and JavaScript, no build step) served from <code>docs/</code> via GitHub Pages. Browse products, open a product page, read the blog and grab free resources. The catalogue is driven by a single data file, <code>docs/data/products.json</code>, so new products are added by editing that file.
+
+## Support
+
+Matneo is one person's work: no company, no ads, no tracking. If something here saved you an
+afternoon, a contribution keeps the next one coming — any amount, or none.
+
+| | |
+|---|---|
+| **UPI** | `drsohilboi@ybl` |
+| **Ko-fi** | [ko-fi.com/matneo](https://ko-fi.com/matneo) |
+| **PayPal** | [paypal.me/drsohilmomin](https://paypal.me/drsohilmomin?locale.x=en_GB&country.x=IN) |
+| **Books** | [the author's other work](https://www.amazon.com/stores/author/B08ZT331LY/allbooks) |
+| **Elsewhere** | [all projects](https://drsamonline.github.io/) |
+| **Email** | [sohilmomin2000@gmail.com](mailto:sohilmomin2000@gmail.com) — bugs, corrections, requests |

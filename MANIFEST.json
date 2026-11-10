@@ -3,16 +3,16 @@
   "locked": false,
   "files": {
     "README.md": {
-      "sha": "518eac9af51ce636c43ed9d14a86c82cceb1eb95",
-      "producer": "bootstrap@2026-11-04",
-      "class": "generated",
-      "at": "2026-11-04T19:38:57Z"
+      "sha": "5a969de48b46895a13fe5cbff107f32bfcc968d1",
+      "producer": "audit-2026-11-10",
+      "class": "agent",
+      "at": "2026-11-10T12:53:51Z"
     },
     "docs/index.html": {
-      "sha": "8d55e14531273d4ee95ac0a737711ec667a92c94",
-      "producer": "bootstrap@2026-11-04",
-      "class": "generated",
-      "at": "2026-11-04T19:38:57Z"
+      "sha": "3b4d3aceaef8d642eab3a35534429a9ac0f75057",
+      "producer": "audit-2026-11-10",
+      "class": "agent",
+      "at": "2026-11-10T12:53:51Z"
     },
     "data/products.json": {
       "sha": "94ab8de4222db70f9879e6495e80787b734e679d",
@@ -31,7 +31,25 @@
       "producer": "drsoam@46510a1",
       "class": "generated",
       "at": "2026-11-05T12:45:25Z"
+    },
+    "VERSION": {
+      "sha": "9084fa2f716a7117829f3f32a5f4cef400e02903",
+      "producer": "audit-2026-11-10",
+      "class": "agent",
+      "at": "2026-11-10T12:53:51Z"
+    },
+    "CHANGELOG.md": {
+      "sha": "d171593ebbc208d6cd73f1400545d67f48bb19cf",
+      "producer": "audit-2026-11-10",
+      "class": "agent",
+      "at": "2026-11-10T12:53:51Z"
+    },
+    "tools/commit-and-verify.sh": {
+      "sha": "2bc6fc4e3f142d32d2d109ff538efa88c5aeee04",
+      "producer": "audit-2026-11-10",
+      "class": "agent",
+      "at": "2026-11-10T12:53:51Z"
     }
   },
-  "updated": "2026-11-05T12:45:25Z"
+  "updated": "2026-11-10T12:53:51Z"
 }
