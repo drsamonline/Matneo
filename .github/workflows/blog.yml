@@ -40,6 +40,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 .drsoam/drsoam.py posts
+      # The landing is done by commit-and-verify.sh, which no longer rebases: the
+      # file is generated on both sides, so a rebase conflicted on it every time and
+      # the six-attempt retry loop re-ran a doomed rebase. It now resets to
+      # origin/main and lays this run's bytes back on top. Full history is still
+      # fetched because the fetch/reset path wants the ref, not because of rebase.
       - name: Commit if changed
         run: |
           # F-97: the verdict is "did posts.json land", not "did git exit 0".
