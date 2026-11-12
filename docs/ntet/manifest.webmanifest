@@ -1,0 +1,36 @@
+{
+  "name": "NTET 2026 Homoeopathy \u2014 Course & CBT Simulator",
+  "short_name": "NTET Course",
+  "description": "Offline NTET (Homoeopathy) course: 15-day plain-English plan, glossary, 200-question bank, full 100-question paper, diagnostics.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f5f0",
+  "theme_color": "#0d6b62",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
