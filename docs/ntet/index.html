@@ -167,32 +167,49 @@
       <div class="card">
         <div class="pay">
           <div>
-            <img id="qrImg" src="assets/qr-total-999.png" alt="UPI QR code for Dr Sohil Momin" style="width:130px;height:130px;border:1px solid var(--line2);border-radius:10px;background:#fff;padding:5px" />
-            <div style="font-size:12px;color:var(--muted);text-align:center;margin-top:6px" id="qrAmt">₹999</div>
+            <img id="qrImg" src="assets/qr-open.png" alt="UPI QR code for Dr Sohil Momin" style="width:140px;height:140px;border:1px solid var(--line2);border-radius:10px;background:#fff;padding:6px" />
+            <div style="font-size:12px;color:var(--muted);text-align:center;margin-top:6px">Open amount QR<br>type the total in your app</div>
           </div>
           <div style="min-width:0">
-            <div class="k">Choose your rate, then scan</div>
-            <div class="amt-chips" id="amtChips">
-              <button type="button" data-tier="1" aria-pressed="true">₹999 · 1 person</button>
-              <button type="button" data-tier="2" aria-pressed="false">₹899 each · 2–4</button>
-              <button type="button" data-tier="5" aria-pressed="false">₹799 each · 5–9</button>
-              <button type="button" data-tier="10" aria-pressed="false">₹699 each · 10–30</button>
-              <button type="button" data-tier="500" aria-pressed="false">₹500 · concession</button>
-              <button type="button" data-tier="0" aria-pressed="false">Other amount</button>
-            </div>
+            <div class="k">Pay the total for your number of licences</div>
+            <div class="upi" style="margin-top:8px"><code id="upiId">drsohilboi@ybl</code>
+              <button class="btn btn-sm" id="copyUpi" type="button">Copy UPI ID</button></div>
+            <div style="font-size:12.5px;color:var(--muted);margin-top:8px">Payee: Dr Sohil Momin · any UPI app</div>
+            <a class="btn btn-primary btn-sm" id="upiLink" href="upi://pay?pa=drsohilboi@ybl&pn=Dr%20Sohil%20Momin&cu=INR&tn=NTET%20Course%20licence" style="margin-top:10px;width:100%">Open in UPI app</a>
+            <div class="xs muted" style="margin-top:8px">The QR carries no amount. Enter the exact total yourself — the table below tells you what it is.</div>
+          </div>
+        </div>
 
-            <div id="countRow" class="count-row" hidden>
-              <span class="muted">People</span>
-              <button type="button" id="cntMinus" aria-label="One fewer">−</button>
-              <span id="cntValue">2</span>
-              <button type="button" id="cntPlus" aria-label="One more">+</button>
-              <span class="xs muted" id="cntHint"></span>
-            </div>
-
-            <div class="upi" style="margin-top:10px"><code id="upiId">drsohilboi@ybl</code>
-              <button class="btn btn-sm" id="copyUpi" type="button">Copy</button></div>
-            <div style="font-size:12.5px;color:var(--muted);margin-top:6px">Payee: Dr Sohil Momin · <span id="payLine">₹999 · 1 person</span></div>
-            <a class="btn btn-primary btn-sm" id="upiLink" href="#" style="margin-top:10px;width:100%">Open in UPI app</a>
+        <div class="card" style="margin-top:14px">
+          <div class="k">Price per person, and what you actually pay</div>
+          <table style="width:100%;border-collapse:collapse;margin-top:8px;font-size:13.5px">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)">People</th>
+                <th style="text-align:right;padding:8px 6px;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)">Rate per person</th>
+                <th style="text-align:right;padding:8px 6px;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)">Total you pay</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">1 person</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹999</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹999</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">2 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹899</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹1,798</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">3 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹899</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹2,697</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">4 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹899</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹3,596</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">5 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹799</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹3,995</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">6 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹799</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹4,794</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">7 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹799</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹5,593</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">8 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹799</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹6,392</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">9 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹799</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹7,191</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">10 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹699</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹6,990</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">15 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹699</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹10,485</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">20 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹699</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹13,980</strong></td></tr>
+              <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">30 people</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right">₹699</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹20,970</strong></td></tr>
+              <tr><td style="padding:8px 6px">Divyang or retired armed forces</td><td style="padding:8px 6px;text-align:right">₹500</td><td style="padding:8px 6px;text-align:right"><strong>₹500</strong> (one licence)</td></tr>
+            </tbody>
+          </table>
+          <div style="font-size:12.5px;color:var(--muted);margin-top:8px">
+            The rate is <strong>per person</strong>, not for the group. Three people pay 3 × ₹899 = <strong>₹2,697</strong>, not ₹899.
+            Each person gets their own HTML file, their own key .txt and their own PIN, delivered as one ZIP.
           </div>
         </div>
         <div class="note" style="margin-top:14px">
@@ -201,33 +218,10 @@
         </div>
       </div>
       <div class="steps">
-        <div class="step"><div><strong>Scan the QR</strong> and pay <span id="stepAmt">₹999</span> by UPI.</div></div>
+        <div class="step"><div><strong>Scan the QR</strong> and pay the total shown in the table above, by UPI.</div></div>
         <div class="step"><div><strong>Send the screenshot</strong> with name, email and phone number. For a group, send every person's name and email.</div></div>
         <div class="step"><div><strong>Receive</strong> a ZIP: one HTML file and one key .txt per person, each with its own 4-digit PIN.</div></div>
         <div class="step"><div><strong>Open the file, enter the PIN.</strong> Your 365 days start at that moment.</div></div>
-      </div>
-    </div>
-
-    <div class="card" style="margin-top:14px">
-      <div class="k">Group and bulk pricing</div>
-      <table style="width:100%;border-collapse:collapse;margin-top:8px;font-size:13.5px">
-        <thead>
-          <tr>
-            <th style="text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)">People</th>
-            <th style="text-align:right;padding:8px 6px;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)">Each</th>
-            <th style="text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)">Who pays</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">1 person</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹999</strong></td><td style="padding:8px 6px;border-bottom:1px solid var(--line)">the buyer</td></tr>
-          <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">2 to 4 together</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹899</strong></td><td style="padding:8px 6px;border-bottom:1px solid var(--line)">one person pays for the group</td></tr>
-          <tr><td style="padding:8px 6px;border-bottom:1px solid var(--line)">5 to 9 together</td><td style="padding:8px 6px;border-bottom:1px solid var(--line);text-align:right"><strong>₹799</strong></td><td style="padding:8px 6px;border-bottom:1px solid var(--line)">one person pays for the group</td></tr>
-          <tr><td style="padding:8px 6px">10 or more</td><td style="padding:8px 6px;text-align:right"><strong>₹699</strong></td><td style="padding:8px 6px">bulk licence, one invoice</td></tr>
-        </tbody>
-      </table>
-      <div style="font-size:12.5px;color:var(--muted);margin-top:8px">
-        Each person gets their own HTML file and their own PIN, packed in one ZIP with a key .txt per name.
-        Two ways to order: send me every person's name and email, or take 10 copies under one name and hand them out yourself.
       </div>
     </div>
 
@@ -325,68 +319,6 @@
   const msg = encodeURIComponent(
     "NTET course payment\nName:\nEmail:\nPhone:\nUTR / reference:\n\nScreenshot attached."
   );
-
-  const TIERS = { 1: [1, 1, 999], 2: [2, 4, 899], 5: [5, 9, 799], 10: [10, 30, 699] };
-  let tier = 1, people = 1;
-
-  function totalFor() {
-    if (tier === 0) return 0;
-    if (tier === 500) return 500;
-    const t = TIERS[tier];
-    return t[2] * people;
-  }
-
-  function render() {
-    const total = totalFor();
-    const qs = total ? "&am=" + total : "";
-    document.getElementById("upiLink").href =
-      "upi://pay?pa=" + UPI + "&pn=Dr%20Sohil%20Momin" + qs + "&cu=INR&tn=NTET%20Course%20licence";
-    document.getElementById("qrImg").src = total ? "assets/qr-total-" + total + ".png" : "assets/qr-open.png";
-    document.getElementById("qrAmt").textContent = total ? "₹" + total : "you choose";
-
-    const row = document.getElementById("countRow");
-    const t = TIERS[tier];
-    row.hidden = !t;
-    if (t) {
-      people = Math.min(Math.max(people, t[0]), t[1]);
-      document.getElementById("cntValue").textContent = people;
-      document.getElementById("cntHint").textContent = "₹" + t[2] + " each · " + people + " " + (people === 1 ? "licence" : "licences");
-      document.getElementById("payLine").textContent = "₹" + total + " total · ₹" + t[2] + " each";
-    } else if (tier === 500) {
-      document.getElementById("payLine").textContent = "₹500 · concession, one licence";
-    } else {
-      document.getElementById("payLine").textContent = "custom amount";
-    }
-
-    const step = document.getElementById("stepAmt");
-    if (step) step.textContent = total ? "₹" + total : "the agreed amount";
-
-    document.querySelectorAll("#amtChips button").forEach(b =>
-      b.setAttribute("aria-pressed", Number(b.dataset.tier) === tier));
-  }
-
-  document.querySelectorAll("#amtChips button").forEach(b => {
-    b.addEventListener("click", () => {
-      tier = Number(b.dataset.tier);
-      if (TIERS[tier]) people = TIERS[tier][0];
-      render();
-    });
-  });
-
-  document.getElementById("cntMinus").addEventListener("click", () => {
-    const t = TIERS[tier]; if (!t) return;
-    people = Math.max(t[0], people - 1); render();
-  });
-  document.getElementById("cntPlus").addEventListener("click", () => {
-    const t = TIERS[tier]; if (!t) return;
-    people = Math.min(t[1], people + 1); render();
-  });
-
-  render();
-
-
-  document.querySelectorAll("#amtChips button").forEach(b => {
-  });
 
   document.getElementById("copyUpi").onclick = async () => {
     const b = document.getElementById("copyUpi");
