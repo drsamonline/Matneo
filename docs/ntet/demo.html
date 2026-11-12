@@ -1138,9 +1138,11 @@ dialog .field input { font-family: var(--mono); font-size: 12px; }
       <div class="divider"></div>
       <div class="stack-sm">
         <div class="row-between"><span class="switch-label">Licence</span><span class="xs muted" id="licenceStatus">Not activated</span></div>
-        <div class="field"><label for="licenceKey">Licence key</label><input type="text" id="licenceKey" placeholder="NTET1.…" autocomplete="off" spellcheck="false" /></div>
-        <button class="btn btn-sm btn-primary" id="activateBtn">Activate</button>
-        <div class="xs" id="licenceMsg" style="min-height:16px;color:var(--amber)"></div>
+        <div id="licenceActivate">
+          <div class="field"><label for="licenceKey">Licence key</label><input type="text" id="licenceKey" placeholder="NTET1.…" autocomplete="off" spellcheck="false" /></div>
+          <button class="btn btn-sm btn-primary btn-block" id="activateBtn" style="margin-top:6px">Activate</button>
+          <div class="xs" id="licenceMsg" style="min-height:16px;color:var(--amber);margin-top:6px"></div>
+        </div>
       </div>
       <div class="divider"></div>
       <div class="row" style="gap:8px">
@@ -1992,8 +1994,9 @@ dialog .field input { font-family: var(--mono); font-size: 12px; }
     $("#shuffleToggle2").checked = !!state.settings.shuffle;
     $("#licenceStatus").textContent = licensed() ? (lic().org ? lic().org + " · " + lic().name : lic().name) + " · " + daysLeft() + " days left (until " + fmtDate(state.licenceExp) + ")"
       : trialActive() ? "Trial · " + trialDaysLeft() + " days and " + trialQLeft() + " questions remaining"
-      : licenceExpired() ? "Licence expired on " + fmtDate(lic().exp) : "Not activated";
+      : licenceExpired() ? "Licence ended " + fmtDate(state.licenceExp || (lic() && lic().exp)) : "Not activated";
     $("#licenceKey").value = "";
+    if ($("#licenceActivate")) $("#licenceActivate").classList.toggle("hidden", licensed());
     $("#settingsDialog").showModal();
   }
 
