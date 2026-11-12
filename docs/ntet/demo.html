@@ -699,6 +699,7 @@ dialog .field input { font-family: var(--mono); font-size: 12px; }
       <div class="row" style="gap:6px">
         <button class="btn btn-sm" id="themeBtn" aria-label="Toggle theme" style="flex:1"><svg><use href="#i-moon"/></svg><span id="themeLabel">Dark</span></button>
         <button class="btn btn-sm btn-icon" id="settingsBtn" aria-label="Settings"><svg><use href="#i-settings"/></svg></button>
+        <button class="btn btn-sm btn-icon" id="aboutBtn" aria-label="About this copy"><svg><use href="#i-info"/></svg></button>
       </div>
       <div class="xs muted" style="line-height:1.4">Offline. English only. Data stays in this browser.</div>
     </div>
@@ -1070,6 +1071,48 @@ dialog .field input { font-family: var(--mono); font-size: 12px; }
     <button class="btn btn-primary btn-block" id="sheetSubmit" style="margin-top:12px">Submit attempt</button>
   </div>
 </div>
+
+<dialog id="aboutDialog">
+  <div class="dialog-body">
+    <h2 class="dialog-title">About this copy</h2>
+    <p class="dialog-text">NTET 2026 Homoeopathy — 15-Day Course &amp; CBT Simulator. Offline. English only. 400 questions, 9 papers, 112 terms.</p>
+
+    <div class="stack" style="margin-top:14px">
+      <div class="note-block small">
+        <div class="row-between"><span class="muted">Licensed to</span><strong id="aboutName">—</strong></div>
+        <div class="row-between" style="margin-top:4px"><span class="muted">Started</span><span id="aboutStart">—</span></div>
+        <div class="row-between" style="margin-top:4px"><span class="muted">Ends</span><span id="aboutEnd">—</span></div>
+        <div class="row-between" style="margin-top:4px"><span class="muted">Days left</span><strong id="aboutDays">—</strong></div>
+      </div>
+
+      <div>
+        <div class="xs muted" style="text-transform:uppercase;letter-spacing:.06em;font-weight:700;margin-bottom:5px">Author</div>
+        <div class="small"><strong>Dr Sohil Momin</strong></div>
+        <div class="small"><a href="mailto:sohilmomin2000@gmail.com">sohilmomin2000@gmail.com</a></div>
+        <div class="small"><a href="https://wa.me/919913806010" target="_blank" rel="noopener">WhatsApp +91 99138 06010</a></div>
+        <div class="small"><a href="https://drsamonline.github.io/Matneo/ntet/" target="_blank" rel="noopener">Course page and updates</a></div>
+      </div>
+
+      <div>
+        <div class="xs muted" style="text-transform:uppercase;letter-spacing:.06em;font-weight:700;margin-bottom:5px">Concessions</div>
+        <ul class="small" style="display:flex;flex-direction:column;gap:3px;color:var(--ink-2)">
+          <li>50% off for persons with disability (divyang) on production of a valid disability certificate.</li>
+          <li>50% off for retired armed forces officers and personnel.</li>
+          <li>These two concessions do not combine with group or bulk rates.</li>
+          <li>Educational institutions needing more than 30 licences: contact directly.</li>
+          <li>Any other special case: contact directly for a custom concession.</li>
+        </ul>
+      </div>
+
+      <div class="xs muted" style="line-height:1.5">
+        Independent study aid. Not affiliated with the National Commission for Homoeopathy, the National Testing Agency or any university.
+        Verify the current syllabus and pattern with the issuing body.
+      </div>
+    </div>
+
+    <div class="dialog-actions"><button class="btn" id="closeAbout">Close</button></div>
+  </div>
+</dialog>
 
 <dialog id="settingsDialog">
   <div class="dialog-body">
@@ -1913,6 +1956,15 @@ dialog .field input { font-family: var(--mono); font-size: 12px; }
   }
   function toggleTheme() { state.theme = state.theme === "dark" ? "light" : "dark"; save(); applyTheme(); }
 
+  function openAbout() {
+    const l = lic();
+    $("#aboutName").textContent = l ? (l.org ? l.org + " · " + l.name : l.name) : "Unlicensed copy";
+    $("#aboutStart").textContent = state.licenceStart ? fmtDate(state.licenceStart) : "—";
+    $("#aboutEnd").textContent = state.licenceExp ? fmtDate(state.licenceExp) : "—";
+    $("#aboutDays").textContent = licensed() ? daysLeft() + " days" : (licenceExpired() ? "expired" : "—");
+    $("#aboutDialog").showModal();
+  }
+
   function openSettings() {
     $("#examDate").value = state.examDate || "";
     $("#instantToggle2").checked = !!state.settings.instant;
@@ -1980,6 +2032,8 @@ dialog .field input { font-family: var(--mono); font-size: 12px; }
     $("#themeBtn").onclick = toggleTheme;
     $("#themeBtnM").onclick = toggleTheme;
     $("#settingsBtn").onclick = openSettings;
+    $("#aboutBtn").onclick = openAbout;
+    $("#closeAbout").onclick = () => $("#aboutDialog").close();
     $("#settingsBtnM").onclick = openSettings;
     $("#closeSettings").onclick = () => $("#settingsDialog").close();
     $("#examDate").onchange = e => { state.examDate = e.target.value; save(); renderOverview(); };
