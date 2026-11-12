@@ -74,6 +74,9 @@
   @media (max-width:520px){.pay{grid-template-columns:1fr;justify-items:center;text-align:center}}
   .pay img{width:130px;height:130px;border:1px solid var(--line2);border-radius:10px;background:#fff;padding:5px}
   .upi{display:flex;gap:6px;align-items:center;margin-top:5px;flex-wrap:wrap}
+  .amt-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+  .amt-chips button{font:inherit;font-size:11.5px;font-weight:600;padding:6px 10px;border-radius:999px;border:1px solid var(--line2);background:var(--surface);color:var(--ink2);cursor:pointer}
+  .amt-chips button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
   .upi code{font-family:var(--mono);font-size:14px;font-weight:700;background:var(--surface2);border:1px solid var(--line2);border-radius:7px;padding:5px 9px}
   .note{border-left:3px solid var(--accent);background:var(--soft);padding:11px 13px;border-radius:0 9px 9px 0;font-size:13px;color:#3b1478}
   .note.warn{border-left-color:var(--rose);background:#fdeef1;color:#7a1027}
@@ -160,11 +163,23 @@
     <div class="grid g2">
       <div class="card">
         <div class="pay">
-          <img src="assets/upi-qr-320.png" alt="UPI QR code for Dr Sohil Momin">
+          <div>
+            <img id="qrImg" src="assets/qr-999.png" alt="UPI QR code for Dr Sohil Momin" style="width:130px;height:130px;border:1px solid var(--line2);border-radius:10px;background:#fff;padding:5px" />
+            <div style="font-size:12px;color:var(--muted);text-align:center;margin-top:6px" id="qrAmt">₹999</div>
+          </div>
           <div style="min-width:0">
-            <div class="k">Scan and pay ₹999</div>
-            <div class="upi"><code id="upiId">drsohilboi@ybl</code><button class="btn btn-sm" id="copyUpi" type="button">Copy</button></div>
-            <div style="font-size:12.5px;color:var(--muted);margin-top:6px">Payee: Dr Sohil Momin · amount ₹999 · any UPI app</div>
+            <div class="k">Choose your amount, then scan</div>
+            <div class="amt-chips" id="amtChips">
+              <button type="button" data-amt="999" aria-pressed="true">₹999 · 1 person</button>
+              <button type="button" data-amt="899" aria-pressed="false">₹899 · 2–4</button>
+              <button type="button" data-amt="799" aria-pressed="false">₹799 · 5–9</button>
+              <button type="button" data-amt="699" aria-pressed="false">₹699 · 10+</button>
+              <button type="button" data-amt="500" aria-pressed="false">₹500 · concession</button>
+              <button type="button" data-amt="" aria-pressed="false">Other amount</button>
+            </div>
+            <div class="upi" style="margin-top:10px"><code id="upiId">drsohilboi@ybl</code>
+              <button class="btn btn-sm" id="copyUpi" type="button">Copy</button></div>
+            <div style="font-size:12.5px;color:var(--muted);margin-top:6px">Payee: Dr Sohil Momin · <span id="payLine">₹999 · 1 person</span></div>
             <a class="btn btn-primary btn-sm" id="upiLink" href="#" style="margin-top:10px;width:100%">Open in UPI app</a>
           </div>
         </div>
@@ -174,7 +189,7 @@
         </div>
       </div>
       <div class="steps">
-        <div class="step"><div><strong>Scan the QR</strong> and pay ₹999 by UPI.</div></div>
+        <div class="step"><div><strong>Scan the QR</strong> and pay <span id="stepAmt">₹999</span> by UPI.</div></div>
         <div class="step"><div><strong>Send the screenshot</strong> with name, email and phone number. For a group, send every person's name and email.</div></div>
         <div class="step"><div><strong>Receive</strong> a ZIP: one HTML file and one key .txt per person, each with its own 4-digit PIN.</div></div>
         <div class="step"><div><strong>Open the file, enter the PIN.</strong> Your 365 days start at that moment.</div></div>
@@ -299,8 +314,24 @@
     "NTET course payment\nName:\nEmail:\nPhone:\nUTR / reference:\n\nScreenshot attached."
   );
 
-  document.getElementById("upiLink").href =
-    "upi://pay?pa=" + UPI + "&pn=Dr%20Sohil%20Momin&am=" + PRICE + "&cu=INR&tn=NTET%20Course%20licence";
+  const LABELS = {"999":"₹999 · 1 person","899":"₹899 · 2–4 together","799":"₹799 · 5–9 together","699":"₹699 · 10 or more","500":"₹500 · concession","":"custom amount"};
+
+  function setAmount(amt) {
+    const qs = amt ? "&am=" + amt : "";
+    document.getElementById("upiLink").href =
+      "upi://pay?pa=" + UPI + "&pn=Dr%20Sohil%20Momin" + qs + "&cu=INR&tn=NTET%20Course%20licence";
+    document.getElementById("qrImg").src = "assets/qr-" + (amt || "open") + ".png";
+    document.getElementById("qrAmt").textContent = amt ? "₹" + amt : "you choose";
+    document.getElementById("payLine").textContent = LABELS[amt] || "custom amount";
+    const st = document.getElementById("stepAmt");
+    if (st) st.textContent = amt ? "₹" + amt : "the agreed amount";
+    document.querySelectorAll("#amtChips button").forEach(b => b.setAttribute("aria-pressed", b.dataset.amt === String(amt)));
+  }
+
+  document.querySelectorAll("#amtChips button").forEach(b => {
+    b.addEventListener("click", () => setAmount(b.dataset.amt));
+  });
+  setAmount(PRICE);
 
   document.getElementById("copyUpi").onclick = async () => {
     const b = document.getElementById("copyUpi");
