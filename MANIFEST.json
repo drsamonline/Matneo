@@ -1,55 +1,55 @@
 {
-  "schema": 1,
-  "locked": false,
   "files": {
+    "CHANGELOG.md": {
+      "at": "2026-11-10T12:53:51Z",
+      "class": "agent",
+      "producer": "audit-2026-11-10",
+      "sha": "d171593ebbc208d6cd73f1400545d67f48bb19cf"
+    },
     "README.md": {
-      "sha": "5a969de48b46895a13fe5cbff107f32bfcc968d1",
-      "producer": "audit-2026-11-10",
+      "at": "2026-11-10T12:53:51Z",
       "class": "agent",
-      "at": "2026-11-10T12:53:51Z"
-    },
-    "docs/index.html": {
-      "sha": "3b4d3aceaef8d642eab3a35534429a9ac0f75057",
       "producer": "audit-2026-11-10",
-      "class": "agent",
-      "at": "2026-11-10T12:53:51Z"
-    },
-    "data/products.json": {
-      "sha": "94ab8de4222db70f9879e6495e80787b734e679d",
-      "producer": "drsoam@46510a1",
-      "class": "generated",
-      "at": "2026-11-05T12:44:50Z"
-    },
-    "docs/data/products.json": {
-      "sha": "e6e143671e09567ca9ef07f030bf406bd4be8818",
-      "producer": "drsoam@a9b6c79",
-      "class": "generated",
-      "at": "2026-11-14T07:08:43Z"
-    },
-    "docs/data/posts.json": {
-      "sha": "62c10063fd46b3e6fc3a191e9cef328065d994ec",
-      "producer": "drsoam@8b076aa",
-      "class": "generated",
-      "at": "2026-11-14T07:04:44Z"
+      "sha": "5a969de48b46895a13fe5cbff107f32bfcc968d1"
     },
     "VERSION": {
-      "sha": "9084fa2f716a7117829f3f32a5f4cef400e02903",
-      "producer": "audit-2026-11-10",
+      "at": "2026-11-10T12:53:51Z",
       "class": "agent",
-      "at": "2026-11-10T12:53:51Z"
+      "producer": "audit-2026-11-10",
+      "sha": "9084fa2f716a7117829f3f32a5f4cef400e02903"
     },
-    "CHANGELOG.md": {
-      "sha": "d171593ebbc208d6cd73f1400545d67f48bb19cf",
-      "producer": "audit-2026-11-10",
+    "data/products.json": {
+      "at": "2026-11-05T12:44:50Z",
+      "class": "generated",
+      "producer": "drsoam@46510a1",
+      "sha": "94ab8de4222db70f9879e6495e80787b734e679d"
+    },
+    "docs/data/posts.json": {
+      "at": "2026-11-14T07:09:03Z",
+      "class": "generated",
+      "producer": "drsoam@8b076aa",
+      "sha": "62c10063fd46b3e6fc3a191e9cef328065d994ec"
+    },
+    "docs/data/products.json": {
+      "at": "2026-11-14T07:08:43Z",
+      "class": "generated",
+      "producer": "drsoam@a9b6c79",
+      "sha": "e6e143671e09567ca9ef07f030bf406bd4be8818"
+    },
+    "docs/index.html": {
+      "at": "2026-11-10T12:53:51Z",
       "class": "agent",
-      "at": "2026-11-10T12:53:51Z"
+      "producer": "audit-2026-11-10",
+      "sha": "3b4d3aceaef8d642eab3a35534429a9ac0f75057"
     },
     "tools/commit-and-verify.sh": {
-      "sha": "2bc6fc4e3f142d32d2d109ff538efa88c5aeee04",
-      "producer": "audit-2026-11-10",
+      "at": "2026-11-10T12:53:51Z",
       "class": "agent",
-      "at": "2026-11-10T12:53:51Z"
+      "producer": "audit-2026-11-10",
+      "sha": "2bc6fc4e3f142d32d2d109ff538efa88c5aeee04"
     }
   },
-  "updated": "2026-11-14T07:08:43Z"
+  "locked": false,
+  "schema": 1,
+  "updated": "2026-11-14T07:09:03Z"
 }
