@@ -48,4 +48,8 @@ jobs:
       - name: Commit if changed
         run: |
           # F-97: the verdict is "did posts.json land", not "did git exit 0".
-          bash tools/commit-and-verify.sh "chore: refresh blog posts [skip ci]" main -- docs/data/posts.json
+          # MANIFEST.json travels with the file it describes. The blog refresh landed at
+          # 12:54:36 on 2026-11-10, 45 seconds AFTER the manifest record was committed at
+          # 12:53:51 - and because only the JSON was staged, the record never caught up
+          # and every later run was refused as "committed-drift".
+          bash tools/commit-and-verify.sh "chore: refresh blog posts [skip ci]" main -- docs/data/posts.json MANIFEST.json

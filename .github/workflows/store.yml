@@ -43,4 +43,9 @@ jobs:
       - name: Commit if changed
         run: |
           # F-97: the verdict is "did products.json land", not "did git exit 0".
-          bash tools/commit-and-verify.sh "chore: refresh store catalogue [skip ci]" main -- docs/data/products.json
+          # MANIFEST.json is part of the output. drsoam.py RECORDS the hash of what it
+          # wrote, and if that record is not committed with the file the next run sees
+          # "committed-drift" and refuses to write - forever. That is exactly what froze
+          # the catalogue: the record was made in the runner and thrown away, so the
+          # committed hash could never catch up with the committed file.
+          bash tools/commit-and-verify.sh "chore: refresh store catalogue [skip ci]" main -- docs/data/products.json MANIFEST.json
