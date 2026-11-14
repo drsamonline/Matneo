@@ -97,7 +97,21 @@ else
   git commit -q -m "$MSG" || { echo "::error::git commit failed"; rm -f "$MANIFEST"; exit 1; }
   echo "committed: $MSG"
 
-  # ---- 2. land the bytes on the branch, retrying when it moves under us ---------
+  # Recompute the expected blob sha for one path, after this run deliberately wrote
+# something other than the bytes it first recorded (the manifest merge below).
+set_expected() {
+  local p="$1" sha tmp
+  sha="$(git hash-object -- "$p")" || return 1
+  tmp="$(mktemp)"
+  while read -r w q; do
+    [ -n "${q:-}" ] || continue
+    if [ "$q" = "$p" ]; then printf '%s %s\n' "$sha" "$q" >> "$tmp"
+    else printf '%s %s\n' "$w" "$q" >> "$tmp"; fi
+  done < "$MANIFEST"
+  mv "$tmp" "$MANIFEST"
+}
+
+# ---- 2. land the bytes on the branch, retrying when it moves under us ---------
   # A rebase CANNOT fix this one. The file is generated on both sides, so a rebase
   # conflicts on docs/data/posts.json every single time - which is exactly what
   # happened: six attempts, six identical failures, red for days. Retrying a
@@ -155,6 +169,11 @@ else
             if git show "origin/$BR:$f" > "$BASE" 2>/dev/null && [ -s "$BASE" ] \
                && ! cmp -s "$BASE" "$STAGE/$f"; then
               if python3 tools/manifest-merge.py "$BASE" "$STAGE/$f" "$f"; then
+                # The merged file is deliberately NOT the bytes this run computed, so
+                # the verdict must expect the merged bytes - otherwise a successful
+                # merge reads as "the data never landed" and the run goes red for
+                # doing the right thing. (It did exactly that at 07:14 on 2026-11-14.)
+                set_expected "$f" || echo "::warning::could not re-record the expected sha for $f"
                 echo "merged $f with the branch's copy (per path, newest record wins)"
               else
                 echo "::warning::manifest merge failed - keeping this run's copy of $f"
