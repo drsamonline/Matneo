@@ -21,10 +21,10 @@
       "at": "2026-11-05T12:44:50Z"
     },
     "docs/data/products.json": {
-      "sha": "d627977cb3791be31b62479b7b181575d69c131a",
+      "sha": "e6e143671e09567ca9ef07f030bf406bd4be8818",
       "producer": "drsoam@a9b6c79",
       "class": "generated",
-      "at": "2026-11-14T07:04:12Z"
+      "at": "2026-11-14T07:08:43Z"
     },
     "docs/data/posts.json": {
       "sha": "62c10063fd46b3e6fc3a191e9cef328065d994ec",
@@ -51,5 +51,5 @@
       "at": "2026-11-10T12:53:51Z"
     }
   },
-  "updated": "2026-11-14T07:04:44Z"
+  "updated": "2026-11-14T07:08:43Z"
 }
