@@ -27,6 +27,8 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262   # was @v4
+      - name: The manifest merge cannot lose a record
+        run: python3 tools/manifest-merge.py --self-test
       - name: Validate docs/data/products.json
         run: |
           python3 - <<'PY'
