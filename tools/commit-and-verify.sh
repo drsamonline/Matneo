@@ -134,6 +134,37 @@ else
         cp -p "$STAGE/$f" "$f"
       fi
     done
+    # A SHARED REGISTER IS NOT A GENERATED FILE.
+    #
+    # Everything above is right for a file this run alone produces, and wrong for
+    # MANIFEST.json: every run carries a whole copy of it and records only its own
+    # paths, so laying one copy wholesale over another is a lost update. On
+    # 2026-11-14 a store run recorded docs/data/products.json as e6e1436 at
+    # 07:04:35 and landed it; the blog run beside it - started before, finished
+    # after - laid its older copy back on top and put d627977 (07:04:12) back. The
+    # drift two PRs had just fixed returned within the minute, and would have
+    # returned on every pair of overlapping runs.
+    #
+    # So for a manifest the two copies are MERGED, per path, newest record wins.
+    # Nothing is deleted: a path only the branch knows about is kept.
+    for f in "${PATHS[@]}"; do
+      case "$f" in
+        *MANIFEST.json)
+          if [ -f "$STAGE/$f" ]; then
+            BASE="$(mktemp)"
+            if git show "origin/$BR:$f" > "$BASE" 2>/dev/null && [ -s "$BASE" ] \
+               && ! cmp -s "$BASE" "$STAGE/$f"; then
+              if python3 tools/manifest-merge.py "$BASE" "$STAGE/$f" "$f"; then
+                echo "merged $f with the branch's copy (per path, newest record wins)"
+              else
+                echo "::warning::manifest merge failed - keeping this run's copy of $f"
+                cp -p "$STAGE/$f" "$f"
+              fi
+            fi
+            rm -f "$BASE"
+          fi ;;
+      esac
+    done
     git add -- "${PATHS[@]}" 2>/dev/null || true
     if git diff --staged --quiet; then
       echo "attempt $attempt: origin/$BR already carries these bytes - nothing to push"
