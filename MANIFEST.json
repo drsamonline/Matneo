@@ -15,22 +15,22 @@
       "at": "2026-11-10T12:53:51Z"
     },
     "data/products.json": {
-      "sha": "e6e143671e09567ca9ef07f030bf406bd4be8818",
-      "producer": "drsoam@8b076aa",
+      "sha": "94ab8de4222db70f9879e6495e80787b734e679d",
+      "producer": "drsoam@46510a1",
       "class": "generated",
-      "at": "2026-11-14T07:04:35Z"
+      "at": "2026-11-05T12:44:50Z"
     },
     "docs/data/products.json": {
-      "sha": "e6e143671e09567ca9ef07f030bf406bd4be8818",
-      "producer": "drsoam@8b076aa",
+      "sha": "d627977cb3791be31b62479b7b181575d69c131a",
+      "producer": "drsoam@a9b6c79",
       "class": "generated",
-      "at": "2026-11-14T07:04:35Z"
+      "at": "2026-11-14T07:04:12Z"
     },
     "docs/data/posts.json": {
       "sha": "62c10063fd46b3e6fc3a191e9cef328065d994ec",
       "producer": "drsoam@8b076aa",
       "class": "generated",
-      "at": "2026-11-14T07:03:48Z"
+      "at": "2026-11-14T07:04:44Z"
     },
     "VERSION": {
       "sha": "9084fa2f716a7117829f3f32a5f4cef400e02903",
@@ -51,5 +51,5 @@
       "at": "2026-11-10T12:53:51Z"
     }
   },
-  "updated": "2026-11-14T07:04:35Z"
+  "updated": "2026-11-14T07:04:44Z"
 }
