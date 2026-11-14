@@ -1,32 +1,5 @@
 [
   {
-    "id": "ntet-homoeopathy-course",
-    "title": "NTET 2026 Homoeopathy — 15-Day Course & CBT Simulator",
-    "category": "Education",
-    "type": "paid",
-    "price": "₹999",
-    "link": "https://drsamonline.github.io/Matneo/ntet/",
-    "landingPage": "https://drsamonline.github.io/Matneo/ntet/",
-    "image": "ntet/assets/blueprint.png",
-    "license": "Proprietary (single user, 365 days)",
-    "tagline": "Offline course + 400-question CBT simulator for the NCH/NTA teaching test.",
-    "description": "15 study days in plain English, a 112-term glossary, 400 questions with rationales, a full 100-question paper, four mocks, a sprint, two exam-style sets and a 2026-pattern set. One HTML file, works offline, licensed for 365 days from first activation. UPI payment, file and PIN sent by email.",
-    "tags": [
-      "education",
-      "homoeopathy",
-      "ntet",
-      "exam",
-      "offline",
-      "cbt"
-    ],
-    "buyLinks": [],
-    "rating": {
-      "avg": 0,
-      "count": 0
-    },
-    "featured": true
-  },
-  {
     "id": "forge-commercial",
     "title": "Forge — Commercial licence",
     "category": "Licence",
@@ -64,6 +37,33 @@
     "tags": [
       "licence",
       "personal"
+    ],
+    "buyLinks": [],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": true
+  },
+  {
+    "id": "ntet-homoeopathy-course",
+    "title": "NTET 2026 Homoeopathy — 15-Day Course & CBT Simulator",
+    "category": "Education",
+    "type": "paid",
+    "price": "₹999",
+    "link": "https://drsamonline.github.io/Matneo/ntet/",
+    "landingPage": "https://drsamonline.github.io/Matneo/ntet/",
+    "image": "ntet/assets/blueprint.png",
+    "license": "Proprietary (single user, 365 days)",
+    "tagline": "Offline course + 400-question CBT simulator for the NCH/NTA teaching test.",
+    "description": "15 study days in plain English, a 112-term glossary, 400 questions with rationales, a full 100-question paper, four mocks, a sprint, two exam-style sets and a 2026-pattern set. One HTML file, works offline, licensed for 365 days from first activation. UPI payment, file and PIN sent by email.",
+    "tags": [
+      "education",
+      "homoeopathy",
+      "ntet",
+      "exam",
+      "offline",
+      "cbt"
     ],
     "buyLinks": [],
     "rating": {
