@@ -22,6 +22,14 @@ window.MATNEO = (function () {
       thumb: 'thumb--books',
       icon: '<svg viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>'
     },
+    'Publication — Ebooks': {
+      thumb: 'thumb--books',
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>'
+    },
+    'Publication — Paperbacks': {
+      thumb: 'thumb--books',
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="#7c3aed" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M8 7h8M8 11h5"/></svg>'
+    },
     'HTML Apps': {
       thumb: 'thumb--apps',
       icon: '<svg viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>'
@@ -62,6 +70,9 @@ window.MATNEO = (function () {
       img.src = product.image;
       img.alt = product.title || 'MATNEO product';
       img.loading = 'lazy';
+      // Book covers are served by the retailer's CDN, which refuses a referrer
+      // from another origin; without this the cover silently falls back to the icon.
+      img.referrerPolicy = 'no-referrer';
       // If the image is missing (a new repo the hub has not captured yet),
       // fall back to the category icon instead of a broken image.
       img.onerror = function () { img.remove(); thumb.innerHTML += meta.icon; };

@@ -55,6 +55,7 @@
           var im = document.createElement('img');
           im.src = product.image;
           im.alt = product.title;
+          im.referrerPolicy = 'no-referrer';
           gallery.appendChild(im);
         } else {
           gallery.innerHTML += meta.icon;
@@ -75,6 +76,8 @@
         var priceNote = document.createElement('span');
         priceNote.textContent = product.type === 'open-source'
           ? 'free · open source · direct download'
+          : product.type === 'book'
+            ? 'Kindle edition · priced in USD on Amazon'
           : (product.link && product.link.indexOf('mailto:') === 0)
             ? 'enquire by email · licence issued manually'
             : 'one-time · instant digital delivery';
@@ -165,7 +168,9 @@
         note.className = 'pd__note';
         note.textContent = product.type === 'open-source'
           ? 'Free and open source. Runs offline — no accounts, no telemetry.'
-          : 'This is a digital product. You get access as soon as your order is confirmed.';
+          : product.type === 'book'
+            ? 'Sold and delivered by Amazon. The price shown is the Kindle list price in US dollars and can change on the retailer\u2019s site.'
+            : 'This is a digital product. You get access as soon as your order is confirmed.';
         info.appendChild(note);
 
         detail.replaceChildren(gallery, info);

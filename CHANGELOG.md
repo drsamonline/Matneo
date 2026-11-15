@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.2.0 — 2026-11-15
+
+### Added — the books are in the store, as a publication section of their own
+
+The shop sold licences and one course; the books lived only behind a link to an Amazon author
+store, which is a page the reader has to leave to discover anything. All five titles are now
+catalogue entries like every other product: cover, price, description, format, page count, ASIN
+and a direct link to the edition on sale.
+
+They are filed under two categories rather than one, because a paperback and a Kindle edition are
+different products with different prices, and a reader filtering the shop wants one or the other:
+`Publication — Ebooks` and `Publication — Paperbacks`. Only the first has stock today — every
+title on the author's Amazon catalogue is Kindle-only — so the paperback category exists as an
+empty shelf and will fill the moment an edition is published, with no code change.
+
+Two rendering fixes came with it. Book covers are served by the retailer's image CDN, which
+refuses a referrer from another origin and answers with nothing, so the card fell back to its
+category icon; images now load with `referrerpolicy="no-referrer"`. And the product detail page
+used to tell every non-open-source visitor that they would get "one-time · instant digital
+delivery" — true for a licence, wrong for a book that Amazon ships, so a book now says what it is
+and notes that the price shown is the Kindle list price in US dollars.
+
 ## 1.1.0 — 2026-11-10
 
 ### Fixed — the blog refresh had been red for days, and the retry loop was the bug
