@@ -1,5 +1,20 @@
 # Changelog
 
+## 2.1.1 — 2026-11-15
+
+### Fixed — the paperback now has its own page on Amazon, and the entry says so
+
+The print edition's ASIN is `B0HRJTCD79`, found by running the search with Amazon's paperback binding
+filter rather than a keyword search: unfiltered, Amazon merges both formats onto the Kindle's
+identifier in a single result card, which is why the earlier passes kept returning `B0HQP2K44S`.
+The paperback entry now links straight to its own listing instead of to the shared page with a
+"choose Paperback" label.
+
+Checking the listing corrected three things the entry had wrong, all inherited from the Kindle page:
+the print edition is **750 pages**, not the ebook's 1,104; it was published **10 November 2026**,
+four days after the ebook; and it carries **ISBN 979-8140354640** at 6 × 1.69 × 9 in, 2.7 lb. The
+cover is the print artwork rather than the Kindle thumbnail.
+
 ## 2.1.0 — 2026-11-15
 
 ### Added — a front page with a point of view
