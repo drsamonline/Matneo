@@ -1,10 +1,9 @@
 # Matneo — shop guide
 
-**Version 1.1.0 · MIT**
+**Version 2.0.0 · MIT**
 
-A static storefront: AI-powered digital products, planners, templates and offline browser tools. The
-whole site is the shop — plain HTML, CSS and JavaScript, no build step, served from `docs/` on GitHub
-Pages.
+A static storefront: books, licences and a course. The whole site is the shop — plain HTML, CSS and
+JavaScript, no build step, served from `docs/` on GitHub Pages.
 
 - Shop: <https://drsamonline.github.io/Matneo/>
 - Products: <https://drsamonline.github.io/Matneo/products/>
@@ -17,6 +16,24 @@ why they cannot disagree.
 
 The blog is generated separately by `build_posts.py`; posts live under `docs/` and are rebuilt by the
 same push that publishes the site.
+
+## The design system
+
+`docs/css/style.css` holds one system with six identities. Type, spacing, radii and motion are
+shared; only the accent changes, set on `<body data-section="...">`:
+
+| `data-section` | Page | Accent |
+| :-- | :-- | :-- |
+| `home` | `index.html` | indigo → violet |
+| `store` | `products/` | teal → emerald |
+| `product` | `product.html` | copper |
+| `blog` | `blog/` | rose → amber |
+| `downloads` | `downloads/` | cyan → sky |
+| `notfound` | `404.html` | slate |
+
+One rule to remember when adding a section: a custom property is resolved on the element that
+**declares** it, not where it is used. `--acc-grad` was once declared on `:root` with `var(--acc)`
+inside and every section inherited the home gradient; each section now composes its own.
 
 ## Why static
 

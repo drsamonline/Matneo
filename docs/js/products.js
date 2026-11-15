@@ -56,6 +56,10 @@
           im.src = product.image;
           im.alt = product.title;
           im.referrerPolicy = 'no-referrer';
+          // A cover hosted by a retailer can refuse the request; the card falls back
+          // to its category icon, and the detail page must do the same rather than
+          // leave the browser's broken-image glyph in a 480px panel.
+          im.onerror = function () { im.remove(); gallery.innerHTML += meta.icon; };
           gallery.appendChild(im);
         } else {
           gallery.innerHTML += meta.icon;
@@ -129,8 +133,17 @@
 
         var back = document.createElement('a');
         back.className = 'btn btn--ghost';
-        back.href = product.type === 'open-source' ? 'free/' : 'products/';
-        back.textContent = product.type === 'open-source' ? 'All free apps' : 'Browse all products';
+        // docs/free/ was deleted in the 2026-11-05 audit, so this used to be a
+        // link to a 404. The free apps live on the hub, which is where it goes now.
+        if (product.type === 'open-source') {
+          back.href = 'https://drsamonline.github.io/';
+          back.target = '_blank';
+          back.rel = 'noopener';
+          back.textContent = 'All free apps — on the hub';
+        } else {
+          back.href = 'products/';
+          back.textContent = 'Browse all products';
+        }
         actions.appendChild(back);
         info.appendChild(actions);
 

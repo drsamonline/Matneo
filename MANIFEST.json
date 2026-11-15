@@ -1,10 +1,10 @@
 {
   "files": {
     "CHANGELOG.md": {
-      "at": "2026-11-15T14:32:05Z",
+      "at": "2026-11-15T14:40:26Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "6d92330c366c2d9d4c0c4cc7919a7adf2791cb15"
+      "sha": "974b9e2c1f7f5ac77599287ea15a7efbe83508f4"
     },
     "README.md": {
       "at": "2026-11-10T12:53:51Z",
@@ -13,10 +13,10 @@
       "sha": "5a969de48b46895a13fe5cbff107f32bfcc968d1"
     },
     "VERSION": {
-      "at": "2026-11-15T14:32:05Z",
+      "at": "2026-11-15T14:40:26Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "26aaba0e86632e4d537006e45b0ec918d780b3b4"
+      "sha": "227cea215648b1af34a87c9acf5b707fe02d2072"
     },
     "data/products.json": {
       "at": "2026-11-15T12:42:29Z",
@@ -31,16 +31,16 @@
       "sha": "2db6158f8277b5df0e7f9b926b115b0915cd01c4"
     },
     "docs/data/products.json": {
-      "at": "2026-11-15T14:32:05Z",
+      "at": "2026-11-15T14:40:26Z",
       "class": "generated",
       "producer": "agent-2026-11-15",
       "sha": "79f2a661cf0d78df012871f8c74cdef9a388bb22"
     },
     "docs/index.html": {
-      "at": "2026-11-10T12:53:51Z",
+      "at": "2026-11-15T14:40:26Z",
       "class": "agent",
-      "producer": "audit-2026-11-10",
-      "sha": "3b4d3aceaef8d642eab3a35534429a9ac0f75057"
+      "producer": "agent-2026-11-15",
+      "sha": "aef055020738a0212513feb74b1489a2878544d2"
     },
     "tools/commit-and-verify.sh": {
       "at": "2026-11-10T12:53:51Z",
@@ -49,19 +49,79 @@
       "sha": "2bc6fc4e3f142d32d2d109ff538efa88c5aeee04"
     },
     "docs/js/store.js": {
-      "at": "2026-11-15T14:32:05Z",
+      "at": "2026-11-15T14:40:26Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
       "sha": "af9ee50a9f4947ebea86db8c578c023600f73a91"
     },
     "docs/js/products.js": {
-      "at": "2026-11-15T14:32:05Z",
+      "at": "2026-11-15T14:40:26Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "033143082002547d1a0de5ccd21c56bfc6377500"
+      "sha": "c042ff904f5ec72996496bc67bbf408fc5f5e0a6"
+    },
+    "docs/404.html": {
+      "at": "2026-11-15T14:40:26Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "734d164178f8681ec4cd654bbb39fa777f95aecf"
+    },
+    "docs/GUIDE.md": {
+      "at": "2026-11-15T14:40:26Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "34f07234426c64ffddaaf42f5a5543dd5f298057"
+    },
+    "docs/blog/index.html": {
+      "at": "2026-11-15T14:40:26Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "7cf12de73c01732eeeeb727505320218ac1bd978"
+    },
+    "docs/css/style.css": {
+      "at": "2026-11-15T14:40:26Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "344c0b8002a14e8ae78ff4cfcc6733d6c7de2f8e"
+    },
+    "docs/downloads/index.html": {
+      "at": "2026-11-15T14:40:26Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "cc2097e9eca64f1ef5f03f5b3c41325b9b0b3037"
+    },
+    "docs/js/app.js": {
+      "at": "2026-11-15T14:40:26Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "90d78d1eb6982a27aa537deb060d549e461eb254"
+    },
+    "docs/ntet/index.html": {
+      "at": "2026-11-15T14:40:26Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "64c4910c513be613ab71ba73a8cb02f8cbc91137"
+    },
+    "docs/product.html": {
+      "at": "2026-11-15T14:40:26Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "529f9e8b75bb1edb0dd8df0ac10f521ac921ead9"
+    },
+    "docs/products/index.html": {
+      "at": "2026-11-15T14:40:26Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "eb5c7c2ab8ec53eb6c86e4e2f73f25ff6b5005f7"
+    },
+    "docs/sitemap.xml": {
+      "at": "2026-11-15T14:40:26Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "f1bc1a691cdec87b80de5d1f376d3b3081cb6173"
     }
   },
   "locked": false,
   "schema": 1,
-  "updated": "2026-11-15T14:32:05Z"
+  "updated": "2026-11-15T14:40:26Z"
 }

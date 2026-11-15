@@ -1,5 +1,53 @@
 # Changelog
 
+## 2.0.0 — 2026-11-15
+
+### Rebuilt — one design system, six identities
+
+The site had one palette (violet → blue) applied to every page, so the shop, the blog and the
+downloads page were the same design wearing the same colours. `docs/css/style.css` is now a token
+system — type scale, spacing, radii, depth, motion — with the accent set per section on
+`<body data-section="...">`: indigo for home, teal for the store, copper for a product page, rose
+for the blog, cyan for the free resources, slate for 404. The bones stay put; only the colour
+changes, which is what keeps six palettes reading as one shop. Headings moved to a display serif
+against a sans body, and the glassmorphism gave way to hairline borders and paper-toned surfaces.
+
+The course page at `ntet/` keeps its own layout — it is a product landing page, not a shop page —
+but moved from the shop's violet to an academic blue so a shared link reads as a course.
+
+### Fixed — the books were missing from the home page, and the reason was structural
+
+The home page listed six categories by hand — HTML Apps, Homeopathy, Health Tools, Games,
+Utilities, Data — every one of them at "0 products", while the three categories that actually had
+stock (licences, the course, the books) had no card at all. A hand-written list of categories goes
+stale the first time a product is added, so the grid is now generated from `data/products.json`:
+whatever is in the catalogue is what the home page offers, sorted by how much of it there is. The
+hero's product count is read from the same file instead of being the literal `6`.
+
+### Fixed — every link that pointed at nothing
+
+- `docs/free/` was deleted in the 2026-11-05 audit but the product page still linked to it as
+  "All free apps" for open-source products. It now goes to the hub, in a new tab.
+- Four footers linked to Templates, AI Resources and Printables — categories that no longer exist.
+  They now point at Books (ebooks), Books (paperbacks), Education and Licences.
+- The FAQ, the JSON-LD `FAQPage` block and the hero copy all described the old six categories, and
+  the hero's mock browser panel advertised three prices for products that are not for sale.
+- `404.html` referenced `/Matneo/…` for its icon and nothing at all for its stylesheet, so it
+  rendered as unstyled HTML whenever the base path moved. It is self-contained again.
+- `sitemap.xml` was missing the NTET page.
+
+### Fixed — three rendering bugs found while checking the work
+
+- **`--acc-grad` was resolved in the wrong place.** A custom property is computed on the element
+  that declares it, not where it is used, so the gradient declared once on `:root` with `var(--acc)`
+  inside baked in the home accent and every section inherited violet buttons. Each section now
+  composes its own gradient.
+- **The star rating had no styles at all.** `ratings.js` emits `.rating`, `.rating__star`,
+  `.rating-box` and friends; nothing ever targeted them, so five default browser buttons rendered
+  under every card. They are styled now.
+- **The theme button threw on load.** Four pages called `themeLabel.textContent` against an element
+  that does not exist, so the first `sync()` raised before it could set `aria-pressed`.
+
 ## 1.2.0 — 2026-11-15
 
 ### Added — the books are in the store, as a publication section of their own
