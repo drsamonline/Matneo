@@ -25,7 +25,7 @@
       "sha": "4a36342fcab700951adb18ae7adc930997f6c3f4"
     },
     "data/products.json": {
-      "at": "2026-11-15T12:42:29Z",
+      "at": "2026-11-15T18:45:44Z",
       "class": "generated",
       "producer": "drsoam@8b076aa",
       "sha": "e6e143671e09567ca9ef07f030bf406bd4be8818"
@@ -85,10 +85,10 @@
       "sha": "2db6158f8277b5df0e7f9b926b115b0915cd01c4"
     },
     "docs/data/products.json": {
-      "at": "2026-11-15T14:49:42Z",
+      "at": "2026-11-15T18:45:44Z",
       "class": "generated",
-      "producer": "agent-2026-11-15",
-      "sha": "8f3c1858c8bfcda6d38bf8d928589ce54a91fd43"
+      "producer": "drsoam@8b076aa",
+      "sha": "e6e143671e09567ca9ef07f030bf406bd4be8818"
     },
     "docs/downloads/index.html": {
       "at": "2026-11-15T14:58:46Z",
@@ -159,5 +159,5 @@
   },
   "locked": false,
   "schema": 1,
-  "updated": "2026-11-15T18:43:45Z"
+  "updated": "2026-11-15T18:45:44Z"
 }
