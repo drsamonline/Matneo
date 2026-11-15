@@ -113,7 +113,8 @@
       "344 remedies, in plain language",
       "Publisher: MatNeo · 1st edition",
       "Published 6 November 2026",
-      "ASIN B0HQP2K44S"
+      "ASIN B0HQP2K44S",
+      "Paperback edition also available ($39.00)"
     ],
     "tags": [
       "book",
@@ -293,5 +294,46 @@
       "count": 0
     },
     "featured": false
+  },
+  {
+    "id": "book-open-materia-medica-paperback",
+    "title": "Open Materia Medica — Paperback",
+    "category": "Publication — Paperbacks",
+    "type": "book",
+    "format": "paperback",
+    "price": "$39.00",
+    "link": "",
+    "landingPage": "https://drsamonline.github.io/Matneo/product.html?id=book-open-materia-medica-paperback",
+    "image": "https://m.media-amazon.com/images/I/41ECNIS3B6L._SL500_.jpg",
+    "license": "All rights reserved (sold on Amazon)",
+    "tagline": "The print edition of the 1,104-page reference — 344 classical remedy portraits in plain language.",
+    "description": "The physical edition of Open Materia Medica: a single-volume reference covering 344 homeopathic remedies, each portrait giving the core picture, the traditional symptoms, the historical origin and the actual pharmacology and toxicology of the source substance, with traditional claims kept visibly separate from unproven clinical evidence. Compiled from six public-domain masters: Boericke, Clarke, Kent, Allen, Nash and Farrington.",
+    "features": [
+      "Paperback — 1,104 pages",
+      "Publisher: MatNeo · 1st edition",
+      "Published 6 November 2026",
+      "Also available as a Kindle edition ($3.18)",
+      "Amazon lists both editions on one page — choose Paperback there"
+    ],
+    "tags": [
+      "book",
+      "paperback",
+      "print",
+      "materia medica",
+      "homoeopathy",
+      "reference"
+    ],
+    "asin": "B0HQP2K44S",
+    "buyLinks": [
+      {
+        "store": "Amazon (choose Paperback)",
+        "url": "https://www.amazon.com/dp/B0HQP2K44S"
+      }
+    ],
+    "rating": {
+      "avg": 0,
+      "count": 0
+    },
+    "featured": true
   }
 ]

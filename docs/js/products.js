@@ -169,7 +169,7 @@
         note.textContent = product.type === 'open-source'
           ? 'Free and open source. Runs offline — no accounts, no telemetry.'
           : product.type === 'book'
-            ? 'Sold and delivered by Amazon. The price shown is the Kindle list price in US dollars and can change on the retailer\u2019s site.'
+            ? 'Sold and delivered by Amazon. The price shown is the list price in US dollars and can change on the retailer\u2019s site.'
             : 'This is a digital product. You get access as soon as your order is confirmed.';
         info.appendChild(note);
 

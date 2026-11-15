@@ -11,16 +11,22 @@ and a direct link to the edition on sale.
 
 They are filed under two categories rather than one, because a paperback and a Kindle edition are
 different products with different prices, and a reader filtering the shop wants one or the other:
-`Publication — Ebooks` and `Publication — Paperbacks`. Only the first has stock today — every
-title on the author's Amazon catalogue is Kindle-only — so the paperback category exists as an
-empty shelf and will fill the moment an edition is published, with no code change.
+`Publication — Ebooks` and `Publication — Paperbacks`. Five of the six entries are Kindle today;
+Open Materia Medica exists in both, so it appears twice — $3.18 as a Kindle edition and $39.00
+in print. The two are separate catalogue entries, not one entry with two buttons, because a
+reader filtering for print should not have to open a Kindle listing to find the paperback.
 
 Two rendering fixes came with it. Book covers are served by the retailer's image CDN, which
 refuses a referrer from another origin and answers with nothing, so the card fell back to its
 category icon; images now load with `referrerpolicy="no-referrer"`. And the product detail page
 used to tell every non-open-source visitor that they would get "one-time · instant digital
 delivery" — true for a licence, wrong for a book that Amazon ships, so a book now says what it is
-and notes that the price shown is the Kindle list price in US dollars.
+and notes that the price shown is the list price in US dollars.
+
+One limitation is recorded here rather than hidden: Amazon does not expose the print edition's own
+ASIN to any of the scrapers used here — the search card carries both formats but only the Kindle
+ASIN — so the paperback entry links to the shared product page, where Paperback is the second
+option, and its button says so. Swap in the direct `/dp/` link when the ASIN is to hand.
 
 ## 1.1.0 — 2026-11-10
 
