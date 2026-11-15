@@ -33,7 +33,7 @@
 <link rel="icon" href="favcon.ico" sizes="any">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
-<link rel="stylesheet" href="css/style.css?v=7">
+<link rel="stylesheet" href="css/style.css?v=8">
 
 <script type="application/ld+json">
 {
@@ -139,68 +139,50 @@
 <main id="main">
 
 <!-- HERO -->
-<section class="hero hero--ink" aria-labelledby="hero-title">
-  <div class="hero__glow" aria-hidden="true"></div>
-
-  <div class="wrap hero__grid">
-    <div class="hero__copy">
-      <span class="pill pill--ink"><span class="dot"></span> Books · Licences · Courses</span>
-      <h1 id="hero-title">Written, built and sold<br><span class="grad-text">by one person</span></h1>
-      <p class="hero__lead">Clinical manuals, materia medica, poetry and a course for the NTET — the whole catalogue in one place. Ebooks and paperbacks sit on separate shelves, prices are the retailer's, and nothing here needs an account.</p>
+<section class="masthead" aria-labelledby="hero-title">
+  <div class="wrap masthead__grid">
+    <div class="masthead__copy">
+      <span class="pill"><span class="dot"></span> Books · Licences · Courses</span>
+      <h1 id="hero-title">Written, built and sold by <em>one person</em></h1>
+      <p class="hero__lead">Clinical manuals, materia medica, poetry, and a course for the NTET. Ebooks and paperbacks are shelved separately, every price is the retailer's, and nothing here needs an account.</p>
       <div class="hero__actions">
-        <a class="btn btn--light" href="products/">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M6 6 5 3H3"/></svg>
+        <a class="btn btn--primary" href="products/">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6h15l-1.5 9h-12z"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M6 6 5 3H3"/></svg>
           Browse the shop
         </a>
-        <a class="btn btn--outline-light" href="products/?category=Publication%20%E2%80%94%20Ebooks">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-          Read the books
-        </a>
-      </div>
-      <div class="hero__stats">
-        <div><strong data-stat="products">—</strong><span>Products in the catalogue</span></div>
-        <div><strong data-stat="books">—</strong><span>Titles published</span></div>
-        <div><strong>0</strong><span>Build steps</span></div>
+        <a class="btn btn--ghost" href="products/?category=Publication%20%E2%80%94%20Ebooks">Read the books</a>
       </div>
     </div>
 
-    <div class="stack" aria-hidden="true">
-      <article class="stack__card stack__card--c">
-        <span class="stack__kicker">Licence</span>
-        <h3>Forge</h3>
-      </article>
-      <article class="stack__card stack__card--b">
-        <span class="stack__kicker">Course</span>
-        <h3>NTET 2026</h3>
-      </article>
-      <article class="stack__card stack__card--a">
-        <span class="stack__kicker">Publication</span>
-        <h3>Open Materia Medica</h3>
-        <p>344 remedy portraits, in plain language.</p>
-        <span class="stack__price">$3.18 <em>/ $39 print</em></span>
-      </article>
+    <div class="index">
+      <div class="index__head"><span>The catalogue</span><span>Price</span></div>
+      <a class="index__row" href="products/?category=Publication%20%E2%80%94%20Ebooks">
+        <span class="index__no">01</span>
+        <span class="index__title">Open Materia Medica<em>344 remedy portraits · Kindle &amp; paperback</em></span>
+        <span class="index__price">$3.18</span>
+      </a>
+      <a class="index__row" href="products/?category=Publication%20%E2%80%94%20Paperbacks">
+        <span class="index__no">02</span>
+        <span class="index__title">The print edition<em>750 pages · ISBN 979-8140354640</em></span>
+        <span class="index__price">$39.00</span>
+      </a>
+      <a class="index__row" href="products/?category=Education">
+        <span class="index__no">03</span>
+        <span class="index__title">NTET 2026 Course<em>15-day plan · 400-question simulator</em></span>
+        <span class="index__price">₹999</span>
+      </a>
+      <a class="index__row" href="products/?category=Licence">
+        <span class="index__no">04</span>
+        <span class="index__title">Forge licences<em>Personal · commercial · reseller</em></span>
+        <span class="index__price">Free–Paid</span>
+      </a>
+      <div class="index__foot">
+        <span data-stat="products">—</span> products ·
+        <span data-stat="books">—</span> titles published
+      </div>
     </div>
   </div>
 </section>
-
-<div class="ticker" aria-hidden="true">
-  <div class="ticker__track">
-    <span>Open Materia Medica</span><span>·</span>
-    <span>Clinical Governance Manual</span><span>·</span>
-    <span>The Unbroken</span><span>·</span>
-    <span>Whispers in the Rain</span><span>·</span>
-    <span>9 Shorts</span><span>·</span>
-    <span>NTET 2026 Course</span><span>·</span>
-    <span>Forge Licences</span><span>·</span>
-    <span>Open Materia Medica</span><span>·</span>
-    <span>Clinical Governance Manual</span><span>·</span>
-    <span>The Unbroken</span><span>·</span>
-    <span>Whispers in the Rain</span><span>·</span>
-    <span>9 Shorts</span><span>·</span>
-    <span>NTET 2026 Course</span><span>·</span>
-    <span>Forge Licences</span><span>·</span>
-  </div>
-</div>
 
 <!-- CATEGORIES -->
 <section id="categories" aria-labelledby="categories-title">
@@ -452,9 +434,9 @@
   </div>
 </footer>
 
-<script src="js/store.js?v=7" defer></script>
-<script src="js/ratings.js?v=7" defer></script>
-<script src="js/app.js?v=7" defer></script>
+<script src="js/store.js?v=8" defer></script>
+<script src="js/ratings.js?v=8" defer></script>
+<script src="js/app.js?v=8" defer></script>
 <script>
 /* Latest posts on the home page — rendered from data/posts.json (refreshed by
    the blog workflow), so the blog is visible without leaving the home page. */

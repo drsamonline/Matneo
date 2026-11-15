@@ -1,5 +1,38 @@
 # Changelog
 
+## 3.0.0 — 2026-11-15
+
+### Replaced — the design, not a repaint
+
+v6 was a soft SaaS shop: glassy cards, gradient buttons, rounded corners, a violet wash behind
+everything. That reads as a template. The site sells books, a manual and a course, so it is now laid
+out like a printed catalogue: bone paper, black rules, sharp corners, no shadows, and one signal
+colour per section carrying the labels, rules and numbers rather than filling the buttons. Type does
+the work — a display serif at large sizes with tight tracking, mono for every label and figure, sans
+for body.
+
+The front page is a black masthead: one huge serif line with a single italic word in the accent, and
+the catalogue set as a printed index — number, title, price — instead of a card fan. Categories,
+products, articles and downloads are laid out on hairline grids rather than floating on shadows.
+
+### Fixed — why the last three deploys looked like they had not happened
+
+They had. GitHub Pages built every one of them, and the live stylesheet was the new one. The problem
+was caching on the reader's side, in two places at once: GitHub Pages serves HTML with a short but
+real max-age, and the browser had cached `style.css?v=7` and `data/products.json` against URLs that
+never change. A stale page therefore kept the old markup, the old stylesheet and the old catalogue —
+which is exactly the report: no books, no new theme.
+
+Two changes make it self-correcting. Every asset URL is bumped to `?v=8`, and `fetchProducts()` now
+appends a build stamp and sends `cache: 'no-cache'`, so the catalogue is re-fetched on each release
+instead of whenever the browser feels like it.
+
+### Fixed — CI was red on every push since the books landed
+
+`.github/workflows/products.yml` accepted `paid`, `open-source` and `licence`, so all six book
+entries failed validation on every push. It now accepts `book` and additionally requires an `asin`
+and a `format` of `ebook` or `paperback` for those entries — the fields the retailer links depend on.
+
 ## 2.1.1 — 2026-11-15
 
 ### Fixed — the paperback now has its own page on Amazon, and the entry says so

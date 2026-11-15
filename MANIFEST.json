@@ -1,10 +1,10 @@
 {
   "files": {
     "CHANGELOG.md": {
-      "at": "2026-11-15T14:49:42Z",
+      "at": "2026-11-15T14:58:46Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "6e408ebfdf4b9f907479612b7f3f4d0b06bd3b40"
+      "sha": "5a2000bacb54ca519caafbf3e758e62b64fb9a50"
     },
     "README.md": {
       "at": "2026-11-10T12:53:51Z",
@@ -13,10 +13,10 @@
       "sha": "5a969de48b46895a13fe5cbff107f32bfcc968d1"
     },
     "VERSION": {
-      "at": "2026-11-15T14:49:42Z",
+      "at": "2026-11-15T14:58:46Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "3e3c2f1e5edb083aab93646ac7b076daa38516dd"
+      "sha": "4a36342fcab700951adb18ae7adc930997f6c3f4"
     },
     "data/products.json": {
       "at": "2026-11-15T12:42:29Z",
@@ -37,10 +37,10 @@
       "sha": "8f3c1858c8bfcda6d38bf8d928589ce54a91fd43"
     },
     "docs/index.html": {
-      "at": "2026-11-15T14:48:02Z",
+      "at": "2026-11-15T14:58:46Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "b771303e2b96198799b7317948e2ca9b27c776ac"
+      "sha": "593960a1fe4b8225196146e7f06e450fba43e87f"
     },
     "tools/commit-and-verify.sh": {
       "at": "2026-11-10T12:53:51Z",
@@ -49,10 +49,10 @@
       "sha": "2bc6fc4e3f142d32d2d109ff538efa88c5aeee04"
     },
     "docs/js/store.js": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:58:46Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "af9ee50a9f4947ebea86db8c578c023600f73a91"
+      "sha": "a4be840523e93bbc90eeb9afa57065b9468c2463"
     },
     "docs/js/products.js": {
       "at": "2026-11-15T14:48:02Z",
@@ -73,22 +73,22 @@
       "sha": "34f07234426c64ffddaaf42f5a5543dd5f298057"
     },
     "docs/blog/index.html": {
-      "at": "2026-11-15T14:48:02Z",
+      "at": "2026-11-15T14:58:46Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "7d6df1b45f211f295777950d3454314534c87045"
+      "sha": "b8d4bb304fa3b7304b368d5f3f255e04ecb0fe09"
     },
     "docs/css/style.css": {
-      "at": "2026-11-15T14:48:02Z",
+      "at": "2026-11-15T14:58:46Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "105e9acc577cc743d71a10d752c5960196fd300c"
+      "sha": "834acb6022d9c3f5bd8c7912eaf19c8a9c8fed7b"
     },
     "docs/downloads/index.html": {
-      "at": "2026-11-15T14:48:02Z",
+      "at": "2026-11-15T14:58:46Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "7434cd317faebcbe4a34a295619728601460d632"
+      "sha": "fcfa20b457130680fd3f671e1bd14d5088eb8c8c"
     },
     "docs/js/app.js": {
       "at": "2026-11-15T14:48:02Z",
@@ -103,16 +103,16 @@
       "sha": "e09eddee10a7c9797bf6774c6eb609af09ec7e6c"
     },
     "docs/product.html": {
-      "at": "2026-11-15T14:48:02Z",
+      "at": "2026-11-15T14:58:46Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "c7997c3a8fe1ac52ae020ae707bf9e4b784f3473"
+      "sha": "430118d5f8f3aedea38c8840340cd9d367aa9abf"
     },
     "docs/products/index.html": {
-      "at": "2026-11-15T14:48:02Z",
+      "at": "2026-11-15T14:58:46Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "8acbdf8fcea20f06027f011e16bfc9a6cefb816b"
+      "sha": "aca569beb9de25d0a97f3b0a3026d6603e876782"
     },
     "docs/sitemap.xml": {
       "at": "2026-11-15T14:40:26Z",
@@ -149,9 +149,15 @@
       "class": "agent",
       "producer": "agent-2026-11-15",
       "sha": "37b1deb473ac2a9e7e84868117cdb94194d4b19c"
+    },
+    ".github/workflows/products.yml": {
+      "at": "2026-11-15T14:58:46Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "0dde5efa4c81e5d1fab18682d540b57dd5765126"
     }
   },
   "locked": false,
   "schema": 1,
-  "updated": "2026-11-15T14:49:42Z"
+  "updated": "2026-11-15T14:58:46Z"
 }

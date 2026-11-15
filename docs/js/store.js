@@ -70,14 +70,19 @@ window.MATNEO = (function () {
       img.src = product.image;
       img.alt = product.title || 'MATNEO product';
       img.loading = 'lazy';
+      // A card with a cover fills a 4:3 plate; a card without one would leave that
+      // plate empty, so the fallback gets a short band instead of a hole.
+      img.onerror = function () {
+        img.remove();
+        thumb.classList.add('product-card__thumb--empty');
+        thumb.innerHTML += meta.icon;
+      };
       // Book covers are served by the retailer's CDN, which refuses a referrer
       // from another origin; without this the cover silently falls back to the icon.
       img.referrerPolicy = 'no-referrer';
-      // If the image is missing (a new repo the hub has not captured yet),
-      // fall back to the category icon instead of a broken image.
-      img.onerror = function () { img.remove(); thumb.innerHTML += meta.icon; };
       thumb.appendChild(img);
     } else {
+      thumb.classList.add('product-card__thumb--empty');
       thumb.innerHTML = meta.icon;
     }
 
@@ -135,11 +140,20 @@ window.MATNEO = (function () {
     return card;
   }
 
+  /* The catalogue is the one file that changes between deploys while every page
+     that reads it keeps the same URL, so a browser is free to serve yesterday's
+     copy — which is exactly what happened: new products landed on main and the
+     shop kept showing the old list. The build stamp makes each release a new
+     resource without giving up on caching between releases. */
+  var BUILD = '2026-11-15d';
+
   function fetchProducts(url) {
-    return fetch(url).then(function (r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
-    });
+    var sep = url.indexOf('?') === -1 ? '?' : '&';
+    return fetch(url + sep + 'v=' + encodeURIComponent(BUILD), { cache: 'no-cache' })
+      .then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      });
   }
 
   function initNav() {

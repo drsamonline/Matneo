@@ -43,8 +43,16 @@ jobs:
               elif pid in ids: problems.append(f"duplicate id: {pid}")
               ids.add(pid)
               if not p.get("title"): problems.append(f"{pid}: missing title")
-              if p.get("type") not in ("paid", "open-source", "licence"):
-                  problems.append(f"{pid}: type must be 'paid', 'open-source' or 'licence'")
+              # "book" joined the vocabulary when the catalogue grew a Publication
+              # section: a book is sold through a retailer rather than delivered by
+              # this site, so it is neither a digital "paid" product nor a licence.
+              if p.get("type") not in ("paid", "open-source", "licence", "book"):
+                  problems.append(f"{pid}: type must be 'paid', 'open-source', 'licence' or 'book'")
+              if p.get("type") == "book":
+                  if not p.get("asin"):
+                      problems.append(f"{pid}: a book needs an asin")
+                  if p.get("format") not in ("ebook", "paperback"):
+                      problems.append(f"{pid}: a book needs format 'ebook' or 'paperback'")
               for l in (p.get("buyLinks") or []):
                   if not l.get("url"): problems.append(f"{pid}: buyLink without url")
           print(f"products: {len(data)} | paid: {sum(1 for p in data if p.get('type')=='paid')} | open-source: {sum(1 for p in data if p.get('type')=='open-source')}")
