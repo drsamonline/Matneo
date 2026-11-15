@@ -750,3 +750,142 @@ body[data-section="notfound"]{
   body::before{display:none}
   .product-card,.pd,.card{box-shadow:none;border-color:#ccc}
 }
+
+/* ==========================================================================
+   19. HOME HERO — the ink band
+   The front page is the one place allowed to break the light ground: a deep
+   indigo field, one oversized serif line, and a fanned stack of the three
+   things actually on sale. Everything below it returns to paper.
+   ========================================================================== */
+.hero--ink{
+  position:relative;overflow:hidden;color:#fff;
+  background:
+    radial-gradient(60rem 40rem at 78% -14%,rgba(124,58,237,.55),transparent 62%),
+    radial-gradient(44rem 30rem at 8% 108%,rgba(37,99,235,.45),transparent 60%),
+    linear-gradient(165deg,#080a14 0%,#0e1226 48%,#150f2e 100%);
+}
+.hero--ink::after{
+  /* a hairline of brand light along the bottom edge, so the band ends on purpose */
+  content:"";position:absolute;left:0;right:0;bottom:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(167,139,250,.7),transparent);
+}
+.hero__glow{
+  position:absolute;inset:auto -10% -40% auto;width:52rem;height:52rem;pointer-events:none;
+  background:radial-gradient(circle,rgba(217,70,239,.22),transparent 62%);
+  filter:blur(10px);
+}
+.hero--ink .hero__grid{position:relative;z-index:1;align-items:center}
+.hero--ink h1{
+  color:#fff;margin:1.2rem 0 0;max-width:15ch;
+  font-size:clamp(2.5rem,6vw,4.4rem);letter-spacing:-.035em;line-height:1.02;
+}
+.hero--ink .grad-text{
+  background:linear-gradient(115deg,#a5b4fc 0%,#c4b5fd 45%,#f0abfc 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero--ink .hero__lead{color:rgba(255,255,255,.72);max-width:46ch}
+.hero--ink .hero__stats{border-top-color:rgba(255,255,255,.14)}
+.hero--ink .hero__stats div strong{color:#fff}
+.hero--ink .hero__stats div span{color:rgba(255,255,255,.55)}
+.pill--ink{
+  background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.16);color:#e6e6ff;
+  box-shadow:none;backdrop-filter:blur(8px);
+}
+.pill--ink .dot{background:#a5b4fc;box-shadow:0 0 0 3px rgba(165,180,252,.22)}
+.hero--ink .btn--light{background:#fff;color:#12142a;box-shadow:0 16px 34px -18px rgba(0,0,0,.8)}
+.hero--ink .btn--outline-light{border-color:rgba(255,255,255,.28);color:#fff;background:rgba(255,255,255,.06)}
+.hero--ink .btn--outline-light:hover{background:rgba(255,255,255,.14)}
+
+/* fanned stack of what is for sale */
+.stack{position:relative;height:430px;min-width:0}
+.stack__card{
+  position:absolute;width:min(226px,50%);padding:1.15rem 1.2rem 1.3rem;border-radius:18px;
+  background:linear-gradient(180deg,#ffffff,#f3f1fb);color:#14161c;
+  border:1px solid rgba(255,255,255,.7);
+  box-shadow:0 30px 60px -28px rgba(0,0,0,.85),0 2px 0 rgba(255,255,255,.6) inset;
+  transition:transform .4s var(--ease);
+}
+.stack__card--a{left:0;top:132px;transform:rotate(-8deg);z-index:3}
+.stack__card--b{left:28%;top:64px;transform:rotate(1deg);z-index:2}
+.stack__card--c{left:56%;top:0;transform:rotate(9deg);z-index:1;opacity:.95}
+.stack:hover .stack__card--a{transform:rotate(-9deg) translateY(-6px)}
+.stack:hover .stack__card--c{transform:rotate(11deg) translateY(-4px)}
+.stack__kicker{
+  display:block;font-size:.62rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;
+  color:#6d28d9;margin-bottom:.4rem;
+}
+.stack__card h3{font-family:var(--font-display);font-size:1.08rem;font-weight:600;line-height:1.2;letter-spacing:-.015em}
+.stack__card p{margin:.35rem 0 .8rem;font-size:.76rem;line-height:1.45;color:#5c6172}
+.stack__price{
+  display:inline-block;font-family:var(--font-mono);font-size:.74rem;font-weight:700;
+  padding:.22rem .55rem;border-radius:999px;background:#14161c;color:#fff;
+}
+.stack__price em{font-style:normal;opacity:.6;font-weight:600}
+
+/* the ticker: a thin band of what is in the catalogue */
+.ticker{
+  border-block:1px solid var(--hairline);background:var(--surface);overflow:hidden;
+  position:relative;
+}
+.ticker::before,.ticker::after{
+  content:"";position:absolute;top:0;bottom:0;width:6rem;z-index:1;pointer-events:none;
+}
+.ticker::before{left:0;background:linear-gradient(90deg,var(--surface),transparent)}
+.ticker::after{right:0;background:linear-gradient(270deg,var(--surface),transparent)}
+.ticker__track{
+  display:flex;align-items:center;gap:1.6rem;padding:.85rem 0;width:max-content;
+  animation:ticker 42s linear infinite;
+  font-size:.74rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+}
+.ticker__track span:nth-child(even){color:var(--acc);opacity:.7}
+@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ticker:hover .ticker__track{animation-play-state:paused}
+
+/* ==========================================================================
+   20. PRODUCT TONES
+   A product page borrows the colour of the thing it is selling, so a book
+   does not look like a software licence. products.js sets data-tone.
+   ========================================================================== */
+body[data-tone="book"]{
+  --acc:#8a5a12; --acc-2:#b7791f; --acc-ink:#71480d;
+  --acc-soft:#fbf3e4; --acc-line:#f0e0c2;
+  --acc-grad:linear-gradient(135deg,#8a5a12 0%,#b7791f 100%);
+}
+body[data-tone="course"]{
+  --acc:#1e40af; --acc-2:#1d4ed8; --acc-ink:#1b3a9e;
+  --acc-soft:#eaf1fd; --acc-line:#cfdcf6;
+  --acc-grad:linear-gradient(135deg,#1e40af 0%,#1d4ed8 100%);
+}
+body[data-tone="licence"]{
+  --acc:#4f46e5; --acc-2:#7c3aed; --acc-ink:#3730a3;
+  --acc-soft:#eef0fe; --acc-line:#d9dbfb;
+  --acc-grad:linear-gradient(135deg,#4f46e5 0%,#7c3aed 100%);
+}
+:root[data-theme="dark"] body[data-tone="book"]{
+  --acc:#fbbf24; --acc-2:#fcd34d; --acc-ink:#fde68a;
+  --acc-soft:#2a2118; --acc-line:#453723;
+  --acc-grad:linear-gradient(135deg,#fbbf24 0%,#fcd34d 100%);
+}
+:root[data-theme="dark"] body[data-tone="course"]{
+  --acc:#93c5fd; --acc-2:#bfdbfe; --acc-ink:#dbeafe;
+  --acc-soft:#16233a; --acc-line:#26374f;
+  --acc-grad:linear-gradient(135deg,#93c5fd 0%,#bfdbfe 100%);
+}
+:root[data-theme="dark"] body[data-tone="licence"]{
+  --acc:#a5b4fc; --acc-2:#c4b5fd; --acc-ink:#c7d2fe;
+  --acc-soft:#1e2233; --acc-line:#333a55;
+  --acc-grad:linear-gradient(135deg,#a5b4fc 0%,#c4b5fd 100%);
+}
+
+@media (max-width:900px){
+  .stack{display:none}
+  .hero--ink{text-align:left}
+  .hero--ink h1{max-width:20ch}
+}
+@media (max-width:640px){
+  .ticker__track{font-size:.68rem;letter-spacing:.12em;gap:1.1rem}
+}
+@media (prefers-reduced-motion:reduce){
+  .ticker__track{animation:none}
+  .stack__card{transition:none}
+}

@@ -1,5 +1,37 @@
 # Changelog
 
+## 2.1.0 — 2026-11-15
+
+### Added — a front page with a point of view
+
+The home page opened with the same soft gradient every other page had. It now opens on an ink band:
+a deep indigo field, one oversized serif line — *Written, built and sold by one person* — and a
+fanned stack of the three things actually on sale, each carrying its own price. Below it a ticker
+runs the catalogue titles across the fold, then the page returns to paper for the categories and the
+featured products. The hero's counts are read from `products.json`, and "Titles published" counts
+distinct ASINs, so a book with two editions is one book rather than two.
+
+### Changed — a product page wears the colour of what it sells
+
+Every product page used one copper accent. A book, a course and a software licence are not the same
+kind of object, so the detail page now reads the product's category and sets `data-tone` on the body:
+books take amber, the NTET course takes academic blue, licences take indigo, and the copper stays as
+the fallback. Dark-mode counterparts are defined for each.
+
+### Changed — the mark and the favicon
+
+The old mark was a constellation of dots that turned to mush at 16px. The new one is a monogram: a
+gradient tile with an M drawn in a single stroked path, which survives being scaled down. It is
+applied everywhere the brand appears, and `favcon.ico` was rebuilt from it at 16/32/48/64 —
+it had been a 428 KB file, which is a strange weight for an icon nobody sees at full size. Now 4.9 KB.
+`assets/icon-192.png`, `icon-512.png` and `apple-touch-icon.png` are generated from the same source,
+and every page links the SVG, the ICO and the touch icon.
+
+### Fixed — the paperback said it was a Kindle edition
+
+The product page's price line keyed off `type: "book"` alone, so the $39.00 paperback was labelled
+"Kindle edition · priced in USD on Amazon". It now reads `format` and says Paperback.
+
 ## 2.0.0 — 2026-11-15
 
 ### Rebuilt — one design system, six identities

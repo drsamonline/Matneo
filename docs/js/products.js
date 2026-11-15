@@ -40,6 +40,18 @@
         if (metaDesc && product.tagline) metaDesc.setAttribute('content', product.tagline);
 
         var meta = M.categoryMeta(product.category);
+
+        /* A product page borrows the colour of the thing it sells: a book does not
+           get the same accent as a software licence. style.css carries the tones. */
+        var TONES = {
+          'Publication — Ebooks': 'book',
+          'Publication — Paperbacks': 'book',
+          'Education': 'course',
+          'Licence': 'licence'
+        };
+        var tone = TONES[product.category];
+        if (tone) document.body.setAttribute('data-tone', tone);
+
         var crumb = document.getElementById('crumb-current');
         if (crumb) crumb.textContent = product.title;
 
@@ -81,7 +93,9 @@
         priceNote.textContent = product.type === 'open-source'
           ? 'free · open source · direct download'
           : product.type === 'book'
-            ? 'Kindle edition · priced in USD on Amazon'
+            ? (product.format === 'paperback'
+                ? 'Paperback edition · priced in USD on Amazon'
+                : 'Kindle edition · priced in USD on Amazon')
           : (product.link && product.link.indexOf('mailto:') === 0)
             ? 'enquire by email · licence issued manually'
             : 'one-time · instant digital delivery';

@@ -88,6 +88,16 @@
       var stat = document.querySelector('[data-stat="products"]');
       if (stat) stat.textContent = String(products.length);
 
+      /* Titles, not entries: a book with a Kindle and a print edition is one book. */
+      var bookStat = document.querySelector('[data-stat="books"]');
+      if (bookStat) {
+        var seen = {};
+        products.forEach(function (p) {
+          if (p.type === 'book') seen[p.asin || p.title] = 1;
+        });
+        bookStat.textContent = String(Object.keys(seen).length);
+      }
+
       M.initReveal();
     })
     .catch(function () {

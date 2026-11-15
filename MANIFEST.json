@@ -1,10 +1,10 @@
 {
   "files": {
     "CHANGELOG.md": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "974b9e2c1f7f5ac77599287ea15a7efbe83508f4"
+      "sha": "ec26b830c16a14b153e8dba33b89a98fbc54bd82"
     },
     "README.md": {
       "at": "2026-11-10T12:53:51Z",
@@ -13,10 +13,10 @@
       "sha": "5a969de48b46895a13fe5cbff107f32bfcc968d1"
     },
     "VERSION": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "227cea215648b1af34a87c9acf5b707fe02d2072"
+      "sha": "7ec1d6db40877765247db18e7f9a4e36a0def4ad"
     },
     "data/products.json": {
       "at": "2026-11-15T12:42:29Z",
@@ -37,10 +37,10 @@
       "sha": "79f2a661cf0d78df012871f8c74cdef9a388bb22"
     },
     "docs/index.html": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "aef055020738a0212513feb74b1489a2878544d2"
+      "sha": "b771303e2b96198799b7317948e2ca9b27c776ac"
     },
     "tools/commit-and-verify.sh": {
       "at": "2026-11-10T12:53:51Z",
@@ -55,16 +55,16 @@
       "sha": "af9ee50a9f4947ebea86db8c578c023600f73a91"
     },
     "docs/js/products.js": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "c042ff904f5ec72996496bc67bbf408fc5f5e0a6"
+      "sha": "fa77f0c8a5035a045d4b45676c8944a6a4171f6d"
     },
     "docs/404.html": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "734d164178f8681ec4cd654bbb39fa777f95aecf"
+      "sha": "d033e18e56f7f0d0f4937556c3b97707860df47b"
     },
     "docs/GUIDE.md": {
       "at": "2026-11-15T14:40:26Z",
@@ -73,55 +73,85 @@
       "sha": "34f07234426c64ffddaaf42f5a5543dd5f298057"
     },
     "docs/blog/index.html": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "7cf12de73c01732eeeeb727505320218ac1bd978"
+      "sha": "7d6df1b45f211f295777950d3454314534c87045"
     },
     "docs/css/style.css": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "344c0b8002a14e8ae78ff4cfcc6733d6c7de2f8e"
+      "sha": "105e9acc577cc743d71a10d752c5960196fd300c"
     },
     "docs/downloads/index.html": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "cc2097e9eca64f1ef5f03f5b3c41325b9b0b3037"
+      "sha": "7434cd317faebcbe4a34a295619728601460d632"
     },
     "docs/js/app.js": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "90d78d1eb6982a27aa537deb060d549e461eb254"
+      "sha": "103d308c94b7f002fb57d8e75a48fd1b1ec06143"
     },
     "docs/ntet/index.html": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "64c4910c513be613ab71ba73a8cb02f8cbc91137"
+      "sha": "e09eddee10a7c9797bf6774c6eb609af09ec7e6c"
     },
     "docs/product.html": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "529f9e8b75bb1edb0dd8df0ac10f521ac921ead9"
+      "sha": "c7997c3a8fe1ac52ae020ae707bf9e4b784f3473"
     },
     "docs/products/index.html": {
-      "at": "2026-11-15T14:40:26Z",
+      "at": "2026-11-15T14:48:02Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
-      "sha": "eb5c7c2ab8ec53eb6c86e4e2f73f25ff6b5005f7"
+      "sha": "8acbdf8fcea20f06027f011e16bfc9a6cefb816b"
     },
     "docs/sitemap.xml": {
       "at": "2026-11-15T14:40:26Z",
       "class": "agent",
       "producer": "agent-2026-11-15",
       "sha": "f1bc1a691cdec87b80de5d1f376d3b3081cb6173"
+    },
+    "docs/assets/apple-touch-icon.png": {
+      "at": "2026-11-15T14:48:02Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "f3346850e55b392a48c99cb9bfe377f26c0c78cc"
+    },
+    "docs/assets/favicon.svg": {
+      "at": "2026-11-15T14:48:02Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "628960710b7a806beda8ae56e05ede0ebf9d5220"
+    },
+    "docs/assets/icon-192.png": {
+      "at": "2026-11-15T14:48:02Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "716986090e0dc3be45a834d3b578d89ac1a67543"
+    },
+    "docs/assets/icon-512.png": {
+      "at": "2026-11-15T14:48:02Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "43335fbe7139444b81b73ce6846f88f30b64ac0c"
+    },
+    "docs/favcon.ico": {
+      "at": "2026-11-15T14:48:02Z",
+      "class": "agent",
+      "producer": "agent-2026-11-15",
+      "sha": "37b1deb473ac2a9e7e84868117cdb94194d4b19c"
     }
   },
   "locked": false,
   "schema": 1,
-  "updated": "2026-11-15T14:40:26Z"
+  "updated": "2026-11-15T14:48:02Z"
 }
