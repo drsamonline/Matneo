@@ -664,6 +664,14 @@ dialog .field input { font-family: var(--mono); font-size: 12px; }
 .facts li::before { content: ""; position: absolute; left: 5px; top: 7px; width: 6px; height: 6px; border-radius: 2px; background: var(--accent); }
 
 </style>
+<style>
+/* ---- a11y: the rule each label needs, chosen against its measured surface -- */
+[data-theme="light"] button.nav-btn *{color:#0b1020!important}
+
+html body button.nav-btn{color:#0b1020!important}
+
+[data-theme="light"] button.nav-btn{color:#0b1020!important}
+</style>
 </head>
 <body>
 

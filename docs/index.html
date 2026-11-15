@@ -92,6 +92,11 @@
   } catch (e) { document.documentElement.setAttribute("data-theme", "light"); }
 })();
 </script>
+<style>
+/* ---- a11y: the rule each label needs, chosen against its measured surface -- */
+[data-theme="light"] button.nav-btn{color:#0b1020!important}   /* 4.28 -> 16.06:1 on rgb(223,240,236) */
+[data-theme="dark"] code{color:#ffffff!important}   /* 1.61 -> 17.66:1 on rgb(17,23,48) */
+</style>
 </head>
 <body>
 
