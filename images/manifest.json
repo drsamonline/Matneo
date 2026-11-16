@@ -1,22 +1,22 @@
 {
-  "generated": "2026-11-01T09:53:37Z",
+  "generated": "2026-11-16T10:31:57Z",
   "budget_kb": 120,
   "products": {
     "forge-commercial": {
       "card": {
         "file": "forge-commercial.webp",
-        "bytes": 30468,
+        "bytes": 23834,
         "format": "WEBP"
       },
       "widths": {
         "480": {
           "file": "forge-commercial-480.webp",
-          "bytes": 8784,
+          "bytes": 6986,
           "format": "WEBP"
         },
         "960": {
           "file": "forge-commercial-960.webp",
-          "bytes": 22712,
+          "bytes": 17962,
           "format": "WEBP"
         }
       },
@@ -26,23 +26,23 @@
       },
       "alt": "Forge Commercial",
       "loading": "lazy",
-      "captured": "2026-11-01"
+      "captured": "2026-11-16"
     },
     "forge-personal": {
       "card": {
         "file": "forge-personal.webp",
-        "bytes": 29976,
+        "bytes": 24448,
         "format": "WEBP"
       },
       "widths": {
         "480": {
           "file": "forge-personal-480.webp",
-          "bytes": 8464,
+          "bytes": 7242,
           "format": "WEBP"
         },
         "960": {
           "file": "forge-personal-960.webp",
-          "bytes": 22820,
+          "bytes": 18228,
           "format": "WEBP"
         }
       },
@@ -52,7 +52,33 @@
       },
       "alt": "Forge Personal",
       "loading": "lazy",
-      "captured": "2026-11-01"
+      "captured": "2026-11-16"
+    },
+    "ntet-homoeopathy-course": {
+      "card": {
+        "file": "ntet-homoeopathy-course.webp",
+        "bytes": 47756,
+        "format": "WEBP"
+      },
+      "widths": {
+        "480": {
+          "file": "ntet-homoeopathy-course-480.webp",
+          "bytes": 11812,
+          "format": "WEBP"
+        },
+        "960": {
+          "file": "ntet-homoeopathy-course-960.webp",
+          "bytes": 34648,
+          "format": "WEBP"
+        }
+      },
+      "lqip": {
+        "file": "ntet-homoeopathy-course-lqip.webp",
+        "bytes": 76
+      },
+      "alt": "Ntet Homoeopathy Course",
+      "loading": "lazy",
+      "captured": "2026-11-16"
     }
   },
   "no_image": [],
