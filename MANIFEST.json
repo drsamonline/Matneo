@@ -85,10 +85,10 @@
       "sha": "15e519b67de481dc9bbe1303dce50b7a2f4107cc"
     },
     "docs/data/products.json": {
-      "at": "2026-11-16T06:44:56Z",
-      "class": "generated",
-      "producer": "drsoam@8b076aa",
-      "sha": "e6e143671e09567ca9ef07f030bf406bd4be8818"
+      "at": "2026-11-16T13:46:08Z",
+      "class": "hand",
+      "producer": "human",
+      "sha": "9f16e4db933a4a61c85f5b4b2f6e377e0d714fcc"
     },
     "docs/downloads/index.html": {
       "at": "2026-11-15T14:58:46Z",
@@ -159,5 +159,5 @@
   },
   "locked": false,
   "schema": 1,
-  "updated": "2026-11-16T12:47:22Z"
+  "updated": "2026-11-16T13:46:08Z"
 }
