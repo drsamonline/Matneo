@@ -79,7 +79,7 @@
       "sha": "834acb6022d9c3f5bd8c7912eaf19c8a9c8fed7b"
     },
     "docs/data/posts.json": {
-      "at": "2026-11-17T00:40:18Z",
+      "at": "2026-11-17T06:38:24Z",
       "class": "generated",
       "producer": "drsoam@8b076aa",
       "sha": "0b411786eb608c88c006cdcef57d2d2057af40e2"
@@ -159,5 +159,5 @@
   },
   "locked": false,
   "schema": 1,
-  "updated": "2026-11-17T00:40:18Z"
+  "updated": "2026-11-17T06:38:24Z"
 }
