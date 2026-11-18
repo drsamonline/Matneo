@@ -1,0 +1,102 @@
+# book-covers — copy each book's cover into this repository, once.
+#
+# WHY THIS EXISTS
+#
+# The six book covers were hotlinked from Amazon's CDN (m.media-amazon.com). In the
+# owner's browser every one of them failed, so six book cards rendered as a generic
+# icon plate and the shop read as empty even though the catalogue was correct. A shop's
+# own product images should not depend on a third party agreeing to serve them, and a
+# refused hotlink is invisible from here — there is nothing in the page that says why.
+#
+# So the cover is copied once, committed, and served from our own Pages. The original
+# URL stays in the catalogue as `coverSource`, so the copy is traceable and can be
+# refreshed rather than being an unexplained binary in the repo.
+#
+# RULES
+#   * NO INVENTED IMAGERY (tools/store-images.py). The bytes are the retailer's own
+#     cover, unmodified. Nothing is drawn, generated or guessed.
+#   * A download that is not a real image is DELETED, not committed — a 403 page saved
+#     as .jpg is worse than no cover, because it fails silently in a way nobody checks.
+#   * The run reports every cover it copied and every one it could not, by id and byte
+#     count, so a missing cover is a line in a log rather than a blank card.
+
+name: book-covers
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 4 2 * *"   # monthly: a cover changed on the retailer is picked up
+
+permissions:
+  contents: write
+
+concurrency:
+  group: book-covers
+  cancel-in-progress: false
+
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262   # was @v4
+        with:
+          fetch-depth: 0
+
+      - name: Copy the covers from the catalogue's coverSource
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib, subprocess, sys
+
+          data = json.load(open("docs/data/products.json", encoding="utf-8"))
+          out = pathlib.Path("docs/images/covers")
+          out.mkdir(parents=True, exist_ok=True)
+
+          UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/124.0 Safari/537.36")
+          copied, failed, skipped = [], [], []
+
+          for p in data:
+              if p.get("type") != "book":
+                  continue
+              pid = p.get("id") or "?"
+              src = p.get("coverSource") or ""
+              if not src.startswith("http"):
+                  skipped.append(pid)
+                  continue
+              dest = out / (pid + ".jpg")
+              tmp = dest.with_suffix(".jpg.part")
+              r = subprocess.run(
+                  ["curl", "-sSL", "--max-time", "60", "-A", UA,
+                   "-w", "%{http_code}", "-o", str(tmp), src],
+                  capture_output=True, text=True)
+              code = (r.stdout or "").strip()[-3:]
+              size = tmp.stat().st_size if tmp.exists() else 0
+              head = tmp.open("rb").read(3) if size >= 3 else b""
+              if code == "200" and size > 2000 and head == b"\xff\xd8\xff":
+                  os.replace(tmp, dest)
+                  copied.append((pid, size))
+              else:
+                  # A 403 page or an HTML error is not a cover. Never commit it.
+                  if tmp.exists():
+                      tmp.unlink()
+                  failed.append((pid, code, size, head[:3]))
+
+          for pid, size in copied:
+              print(f"copied  {pid}: {size} bytes")
+          for pid, code, size, head in failed:
+              print(f"FAILED  {pid}: http={code} bytes={size} magic={head!r}")
+          for pid in skipped:
+              print(f"skipped {pid}: no coverSource")
+          print(f"\n{len(copied)} copied, {len(failed)} failed, {len(skipped)} skipped")
+          if failed and not copied:
+              sys.exit(1)      # nothing at all worked: that is a failure, not a no-op
+          PY
+
+      - name: Commit the covers
+        run: |
+          if [ -z "$(git status --porcelain docs/images/covers)" ]; then
+            echo "no cover changed"
+            exit 0
+          fi
+          bash tools/commit-and-verify.sh "chore(covers): copy the book covers into the repo [skip ci]" main -- docs/images/covers
