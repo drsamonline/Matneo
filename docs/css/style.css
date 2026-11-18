@@ -748,3 +748,6 @@ body[data-tone="licence"]{
 :root[data-theme="dark"] .foot__col h4{color:var(--muted)}
 :root[data-theme="dark"] .foot__col a:hover{color:var(--ink)}
 :root[data-theme="dark"] .foot__bottom{border-top-color:var(--rule)}
+
+/* the build stamp: which script this page actually loaded */
+.build{font-family:var(--font-mono);font-size:.62rem;letter-spacing:.08em;opacity:.55}

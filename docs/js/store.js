@@ -145,7 +145,7 @@ window.MATNEO = (function () {
      copy — which is exactly what happened: new products landed on main and the
      shop kept showing the old list. The build stamp makes each release a new
      resource without giving up on caching between releases. */
-  var BUILD = '2026-11-15d';
+  var BUILD = '2026-11-18a';
 
   function fetchProducts(url) {
     var sep = url.indexOf('?') === -1 ? '?' : '&';
@@ -176,6 +176,12 @@ window.MATNEO = (function () {
   function initYear() {
     var y = document.querySelector('[data-current-year]') || document.getElementById('year');
     if (y) y.textContent = new Date().getFullYear();
+    /* The build stamp. It is here because the owner twice reported a section "missing"
+       while the deployed page was correct: the browser had an older SCRIPT than the
+       HTML that asked for it, and nothing on the page said which one it was running.
+       A stamp written by the script answers that in one glance. */
+    var b = document.querySelector('[data-build]');
+    if (b) b.textContent = 'build ' + BUILD;
   }
 
   function initReveal() {
