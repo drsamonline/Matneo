@@ -199,6 +199,26 @@
   </div>
 </section>
 
+<!-- THE BOOKS -->
+<!-- Generated from the catalogue, like the category grid: a hand-written list of
+     books goes stale the first time a book is added, which is exactly what happened
+     to the category cards. Every book in data/products.json appears here. -->
+<section id="books" aria-labelledby="books-title">
+  <div class="wrap">
+    <div class="section__head">
+      <div>
+        <span class="eyebrow">Written by the shopkeeper</span>
+        <h2 id="books-title">The books</h2>
+      </div>
+      <a href="products/?category=Publication%20%E2%80%94%20Ebooks" class="text-link">All books →</a>
+    </div>
+    <p class="section__lead">Clinical manuals, materia medica and poetry — ebooks on Kindle and the Open Materia Medica in print. Sold and delivered by Amazon, so the price you pay is the retailer's.</p>
+    <div id="books-grid" class="product-grid" aria-live="polite">
+      <!-- filled from data/products.json by js/app.js -->
+    </div>
+  </div>
+</section>
+
 <!-- FEATURED PRODUCTS -->
 <!-- latest from the blog -->
 <section id="latest-posts" aria-labelledby="latest-title">
@@ -209,7 +229,7 @@
       <p class="section__lead center">Product updates and practical ideas from the MATNEO workshop.</p>
     </div>
     <div class="grid-3" id="blog-list" aria-live="polite"></div>
-    <p style="text-align:center;margin-top:1.6rem"><a class="text-link" href="blog/">Read the blog \u2192</a></p>
+    <p style="text-align:center;margin-top:1.6rem"><a class="text-link" href="blog/">Read the blog →</a></p>
   </div>
 </section>
 

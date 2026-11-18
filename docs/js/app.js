@@ -30,15 +30,41 @@
 
   var featured = document.getElementById('featured-products');
   var catsWrap = document.getElementById('category-grid');
+  var booksWrap = document.getElementById('books-grid');
 
   M.fetchProducts('data/products.json')
     .then(function (products) {
+      /* The books are what this shop is: a book leads, a licence follows. The old
+         rule took the first three featured products in file order, which put two
+         Forge licences above every book the owner wrote. */
       if (featured) {
-        var picks = products.filter(function (p) { return p.featured !== false; }).slice(0, 3);
+        var picks = products.filter(function (p) { return p.featured !== false; })
+          .sort(function (a, b) {
+            var ab = (a.category || '').indexOf('Publication') === 0 ? 0 : 1;
+            var bb = (b.category || '').indexOf('Publication') === 0 ? 0 : 1;
+            return ab - bb;
+          })
+          .slice(0, 3);
         if (!picks.length) picks = products.slice(0, 3);
         featured.replaceChildren.apply(featured, picks.map(function (p) {
           return M.productCard(p, 'product.html');
         }));
+      }
+
+      /* Every book in the catalogue, on the home page. Hand-written lists go stale
+         (the six dead category cards proved it); this one cannot. */
+      if (booksWrap) {
+        var books = products.filter(function (p) {
+          return (p.category || '').indexOf('Publication') === 0;
+        });
+        if (books.length) {
+          booksWrap.replaceChildren.apply(booksWrap, books.map(function (p) {
+            return M.productCard(p, 'product.html');
+          }));
+        } else {
+          var booksSection = document.getElementById('books');
+          if (booksSection) booksSection.hidden = true;
+        }
       }
 
       if (catsWrap) {
