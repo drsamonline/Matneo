@@ -94,9 +94,13 @@ jobs:
           PY
 
       - name: Commit the covers
+        # The files, not the directory: commit-and-verify.sh verifies the blob sha of
+        # every path it is given, and a directory has no blob — it answered "not a
+        # regular file (missing, or a directory) - not verified" and failed the run on
+        # the first attempt, AFTER all six covers had been copied successfully.
         run: |
           if [ -z "$(git status --porcelain docs/images/covers)" ]; then
             echo "no cover changed"
             exit 0
           fi
-          bash tools/commit-and-verify.sh "chore(covers): copy the book covers into the repo [skip ci]" main -- docs/images/covers
+          bash tools/commit-and-verify.sh "chore(covers): copy the book covers into the repo [skip ci]" main -- docs/images/covers/*.jpg
