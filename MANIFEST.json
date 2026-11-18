@@ -25,7 +25,7 @@
       "sha": "4a36342fcab700951adb18ae7adc930997f6c3f4"
     },
     "data/products.json": {
-      "at": "2026-11-17T18:41:58Z",
+      "at": "2026-11-18T00:52:52Z",
       "class": "generated",
       "producer": "drsoam@8b076aa",
       "sha": "e6e143671e09567ca9ef07f030bf406bd4be8818"
@@ -159,5 +159,5 @@
   },
   "locked": false,
   "schema": 1,
-  "updated": "2026-11-17T18:41:58Z"
+  "updated": "2026-11-18T00:52:52Z"
 }
