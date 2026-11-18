@@ -57,33 +57,54 @@ window.MATNEO = (function () {
     var card = document.createElement('article');
     card.className = 'product-card reveal';
 
-    var thumb = document.createElement('div');
-    thumb.className = 'product-card__thumb ' + meta.thumb;
-    if (product.badge) {
+    /* The plate: a 4:5 window with the cover held inside it. A product with no
+       cover — a licence, a course — gets a TYPOGRAPHIC plate instead: its own name
+       set in the display face on the tinted ground. That is not invented imagery
+       (tools/store-images.py forbids a fake screenshot); it is the product's own
+       title, and it fills the space the way a book spine does. A cover that fails
+       to load falls back to the same plate, so one 404 cannot leave a hole. */
+    var thumb = document.createElement('a');
+    thumb.className = 'product-card__media';
+    thumb.href = detailHref(detailBase, product);
+    thumb.setAttribute('aria-hidden', 'true');
+    thumb.tabIndex = -1;
+
+    function plate() {
+      thumb.classList.add('product-card__media--plate');
+      var inner = document.createElement('span');
+      inner.className = 'plate';
+      var name = document.createElement('span');
+      name.className = 'plate__title';
+      name.textContent = product.title || 'Product';
+      var kind = document.createElement('span');
+      kind.className = 'plate__cat';
+      kind.textContent = product.format === 'paperback' ? 'Paperback'
+        : product.format === 'ebook' ? 'Ebook'
+        : (product.category || '');
+      inner.append(name, kind);
+      thumb.replaceChildren(inner);
+    }
+
+    var badgeText = product.badge
+      || (product.format === 'paperback' ? 'Paperback'
+        : product.format === 'ebook' ? 'Ebook' : '');
+    if (badgeText && product.image) {
       var badge = document.createElement('span');
       badge.className = 'product-card__badge';
-      badge.textContent = product.badge;
+      badge.textContent = badgeText;
       thumb.appendChild(badge);
     }
     if (product.image) {
       var img = document.createElement('img');
-      img.src = product.image;
-      img.alt = product.title || 'MATNEO product';
+      img.alt = '';
       img.loading = 'lazy';
-      // A card with a cover fills a 4:3 plate; a card without one would leave that
-      // plate empty, so the fallback gets a short band instead of a hole.
-      img.onerror = function () {
-        img.remove();
-        thumb.classList.add('product-card__thumb--empty');
-        thumb.innerHTML += meta.icon;
-      };
-      // Book covers are served by the retailer's CDN, which refuses a referrer
-      // from another origin; without this the cover silently falls back to the icon.
+      img.decoding = 'async';
       img.referrerPolicy = 'no-referrer';
+      img.onerror = plate;
+      img.src = product.image;
       thumb.appendChild(img);
     } else {
-      thumb.classList.add('product-card__thumb--empty');
-      thumb.innerHTML = meta.icon;
+      plate();
     }
 
     var body = document.createElement('div');
@@ -122,19 +143,19 @@ window.MATNEO = (function () {
 
     body.appendChild(foot);
 
-    // A rating on EVERY card (aggregate + your own), via the shared ratings module.
-    var ratingRow = document.createElement('div');
-    ratingRow.className = 'product-card__rating';
-    if (window.MATNEO_RATINGS && window.MATNEO_RATINGS.mount) {
-      window.MATNEO_RATINGS.mount(ratingRow, product);
-    } else {
-      var agg = product.rating || {};
+    /* A rating row on EVERY card is noise: five empty stars under every price, in a
+       shop where nothing has been rated yet. The aggregate appears only when there
+       is one; the full rating control lives on the product page. */
+    var agg = product.rating || {};
+    if (agg.count) {
+      var ratingRow = document.createElement('div');
+      ratingRow.className = 'product-card__rating';
       var avg = document.createElement('span');
       avg.className = 'rating__avg';
-      avg.textContent = agg.count ? (agg.avg + '/5 from ' + agg.count) : 'Not rated yet';
+      avg.textContent = agg.avg + '/5 · ' + agg.count + (agg.count === 1 ? ' rating' : ' ratings');
       ratingRow.appendChild(avg);
+      body.appendChild(ratingRow);
     }
-    body.appendChild(ratingRow);
 
     card.append(thumb, body);
     return card;

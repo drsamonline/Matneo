@@ -78,6 +78,7 @@
         }
 
         var info = document.createElement('div');
+        info.className = 'pd__info';
         var cat = document.createElement('span');
         cat.className = 'pd__cat';
         cat.textContent = product.category || 'Digital product';

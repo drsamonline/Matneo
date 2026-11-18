@@ -31,20 +31,54 @@
   var featured = document.getElementById('featured-products');
   var catsWrap = document.getElementById('category-grid');
   var booksWrap = document.getElementById('books-grid');
+  var ledger = document.getElementById('ledger');
+
+  function isBook(p) {
+    return (p.category || '').indexOf('Publication') === 0;
+  }
 
   M.fetchProducts('data/products.json')
     .then(function (products) {
-      /* The books are what this shop is: a book leads, a licence follows. The old
-         rule took the first three featured products in file order, which put two
-         Forge licences above every book the owner wrote. */
+      /* The ledger: the shop's whole catalogue as a printed index — number, title,
+         price. It is generated rather than hand-written, because a hand-written list
+         of what the shop sells is a list that is wrong the first time something is
+         added. Books lead; the rest follow. */
+      if (ledger) {
+        var ordered = products.filter(function (p) { return p.featured !== false; })
+          .sort(function (a, b) { return (isBook(a) ? 0 : 1) - (isBook(b) ? 0 : 1); });
+        var shown = ordered.slice(0, 4);
+        var foot = ledger.querySelector('.ledger__foot');
+        shown.forEach(function (p, i) {
+          var row = document.createElement('a');
+          row.className = 'ledger__row';
+          row.href = M.detailHref('product.html', p);
+
+          var no = document.createElement('span');
+          no.className = 'ledger__no';
+          no.textContent = (i + 1 < 10 ? '0' : '') + (i + 1);
+
+          var title = document.createElement('span');
+          title.className = 'ledger__title';
+          title.textContent = p.title || 'Product';
+          var sub = document.createElement('em');
+          sub.textContent = p.format === 'paperback' ? 'Paperback'
+            : p.format === 'ebook' ? 'Kindle edition'
+            : (p.category || '');
+          title.appendChild(sub);
+
+          var price = document.createElement('span');
+          price.className = 'ledger__price';
+          price.textContent = p.price || '—';
+
+          row.append(no, title, price);
+          if (foot) ledger.insertBefore(row, foot); else ledger.appendChild(row);
+        });
+      }
+
+      /* "Courses and licences" — the things that are not books, so this section
+         never repeats the books grid above it. */
       if (featured) {
-        var picks = products.filter(function (p) { return p.featured !== false; })
-          .sort(function (a, b) {
-            var ab = (a.category || '').indexOf('Publication') === 0 ? 0 : 1;
-            var bb = (b.category || '').indexOf('Publication') === 0 ? 0 : 1;
-            return ab - bb;
-          })
-          .slice(0, 3);
+        var picks = products.filter(function (p) { return !isBook(p); }).slice(0, 3);
         if (!picks.length) picks = products.slice(0, 3);
         featured.replaceChildren.apply(featured, picks.map(function (p) {
           return M.productCard(p, 'product.html');
@@ -54,9 +88,7 @@
       /* Every book in the catalogue, on the home page. Hand-written lists go stale
          (the six dead category cards proved it); this one cannot. */
       if (booksWrap) {
-        var books = products.filter(function (p) {
-          return (p.category || '').indexOf('Publication') === 0;
-        });
+        var books = products.filter(isBook);
         if (books.length) {
           booksWrap.replaceChildren.apply(booksWrap, books.map(function (p) {
             return M.productCard(p, 'product.html');
@@ -93,18 +125,22 @@
           icon.innerHTML = M.categoryMeta(cat).icon;
           a.appendChild(icon);
 
+          /* The name and the description travel together in one cell, so the row
+             stays icon · text · count on one line at every width. */
+          var text = document.createElement('div');
+          text.className = 'cat-card__body';
           var h3 = document.createElement('h3');
           h3.textContent = cat;
-          a.appendChild(h3);
-
+          text.appendChild(h3);
           var p = document.createElement('p');
           p.textContent = COPY[cat] || ('Everything filed under ' + cat + '.');
-          a.appendChild(p);
+          text.appendChild(p);
 
           var count = document.createElement('span');
           count.className = 'cat-card__count';
           count.textContent = n === 1 ? '1 product' : n + ' products';
-          a.appendChild(count);
+
+          a.append(text, count);
 
           frag.appendChild(a);
         });
