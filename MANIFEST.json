@@ -79,10 +79,10 @@
       "sha": "834acb6022d9c3f5bd8c7912eaf19c8a9c8fed7b"
     },
     "docs/data/posts.json": {
-      "at": "2026-11-18T06:44:27Z",
+      "at": "2026-11-21T18:58:09Z",
       "class": "generated",
-      "producer": "drsoam@8b076aa",
-      "sha": "d0a9f014321769d6baba502cd1d2590ee959f2a6"
+      "producer": "drsoam@3938083",
+      "sha": "8b25e04a503daa83a7e7c5aafd1252b28f2b99ce"
     },
     "docs/data/products.json": {
       "at": "2026-11-21T18:57:59Z",
@@ -159,5 +159,5 @@
   },
   "locked": false,
   "schema": 1,
-  "updated": "2026-11-21T18:57:59Z"
+  "updated": "2026-11-21T18:58:09Z"
 }
