@@ -25,10 +25,10 @@
       "sha": "4a36342fcab700951adb18ae7adc930997f6c3f4"
     },
     "data/products.json": {
-      "at": "2026-11-18T15:07:35Z",
+      "at": "2026-11-21T18:57:59Z",
       "class": "generated",
-      "producer": "drsoam@f449de7",
-      "sha": "0605567ac8d2ca341fc05189732593f73a90b99d"
+      "producer": "drsoam@3938083",
+      "sha": "9ea4c3604756a4bbe2554cc3dafc04e28ed8b5ee"
     },
     "docs/404.html": {
       "at": "2026-11-15T14:48:02Z",
@@ -85,10 +85,10 @@
       "sha": "d0a9f014321769d6baba502cd1d2590ee959f2a6"
     },
     "docs/data/products.json": {
-      "sha": "9ea4c3604756a4bbe2554cc3dafc04e28ed8b5ee",
-      "producer": "drsoam@3938083",
+      "at": "2026-11-21T18:57:59Z",
       "class": "generated",
-      "at": "2026-11-18T15:44:13Z"
+      "producer": "drsoam@3938083",
+      "sha": "9ea4c3604756a4bbe2554cc3dafc04e28ed8b5ee"
     },
     "docs/downloads/index.html": {
       "at": "2026-11-15T14:58:46Z",
@@ -159,5 +159,5 @@
   },
   "locked": false,
   "schema": 1,
-  "updated": "2026-11-18T15:44:13Z"
+  "updated": "2026-11-21T18:57:59Z"
 }
