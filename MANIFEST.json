@@ -25,7 +25,7 @@
       "sha": "4a36342fcab700951adb18ae7adc930997f6c3f4"
     },
     "data/products.json": {
-      "at": "2026-11-21T18:57:59Z",
+      "at": "2026-11-24T15:00:01Z",
       "class": "generated",
       "producer": "drsoam@3938083",
       "sha": "9ea4c3604756a4bbe2554cc3dafc04e28ed8b5ee"
@@ -85,7 +85,7 @@
       "sha": "792d90537a5af53d627cee7f2f35a0b141f1fe0d"
     },
     "docs/data/products.json": {
-      "at": "2026-11-21T18:57:59Z",
+      "at": "2026-11-24T15:00:01Z",
       "class": "generated",
       "producer": "drsoam@3938083",
       "sha": "9ea4c3604756a4bbe2554cc3dafc04e28ed8b5ee"
@@ -159,5 +159,5 @@
   },
   "locked": false,
   "schema": 1,
-  "updated": "2026-11-24T14:45:56Z"
+  "updated": "2026-11-24T15:00:01Z"
 }
